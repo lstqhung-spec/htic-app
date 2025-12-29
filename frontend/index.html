@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTIC Legal - Cap Nhat Phap Ly</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header p { opacity: 0.9; font-size: 16px; }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 25px 20px;
+        }
+        
+        .section-title {
+            font-size: 20px;
+            color: #1a365d;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #2c5282;
+        }
+        
+        .articles-section { margin-bottom: 40px; }
+        
+        .article-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #2c5282;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .article-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+        }
+        
+        .article-card h3 { color: #1a365d; font-size: 18px; margin-bottom: 10px; }
+        .article-card p { color: #555; font-size: 15px; margin-bottom: 12px; }
+        .article-card .meta { font-size: 13px; color: #888; }
+        
+        .loading { text-align: center; padding: 40px; color: #666; }
+        .empty { text-align: center; padding: 40px; color: #888; background: white; border-radius: 10px; }
+        
+        .contact-section {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-bottom: 40px;
+        }
+        
+        .contact-section .section-title { margin-top: 0; }
+        
+        .form-row { display: flex; gap: 15px; margin-bottom: 15px; }
+        .form-group { flex: 1; }
+        .form-group.full { width: 100%; }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 600;
+            color: #333;
+            font-size: 14px;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #2c5282;
+        }
+        
+        .form-group textarea { height: 100px; resize: vertical; }
+        
+        .btn-submit {
+            background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+            color: white;
+            border: none;
+            padding: 14px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        .btn-submit:hover { opacity: 0.9; }
+        .btn-submit:disabled { background: #ccc; cursor: not-allowed; }
+        
+        .alert {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+        }
+        
+        .alert.success {
+            display: block;
+            background: #d1fae5;
+            color: #065f46;
+        }
+        
+        .alert.error {
+            display: block;
+            background: #fee2e2;
+            color: #991b1b;
+        }
+        
+        .footer {
+            background: #1a365d;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        
+        .footer p { margin: 5px 0; font-size: 14px; }
+        .footer a { color: #90cdf4; text-decoration: none; }
+        
+        @media (max-width: 600px) {
+            .form-row { flex-direction: column; gap: 0; }
+            .header h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>HTIC Legal Update</h1>
+        <p>Cap nhat thong tin phap ly hang ngay tu HTIC Law Company</p>
+    </div>
+    
+    <div class="container">
+        
+        <div class="articles-section">
+            <h2 class="section-title">Tin Tuc Phap Ly Moi Nhat</h2>
+            <div id="articlesList">
+                <div class="loading">Dang tai bai viet...</div>
+            </div>
+        </div>
+        
+        <div class="contact-section">
+            <h2 class="section-title">Dang Ky Nhan Tu Van</h2>
+            <p style="margin-bottom: 20px; color: #666;">
+                De lai thong tin, chung toi se lien he tu van mien phi cho ban.
+            </p>
+            
+            <div id="contactAlert" class="alert"></div>
+            
+            <form id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Ho va ten *</label>
+                        <input type="text" id="contactName" placeholder="Nguyen Van A" required>
+                    </div>
+                    <div class="form-group">
+                        <label>So dien thoai *</label>
+                        <input type="tel" id="contactPhone" placeholder="0901234567" required>
+                    </div>
+                </div>
+                
+                <div class="form-group full">
+                    <label>Email</label>
+                    <input type="email" id="contactEmail" placeholder="email@example.com">
+                </div>
+                
+                <div class="form-group full">
+                    <label>Noi dung can tu van *</label>
+                    <textarea id="contactMessage" placeholder="Mo ta van de ban can tu van..." required></textarea>
+                </div>
+                
+                <button type="submit" class="btn-submit" id="submitBtn">
+                    Gui Yeu Cau Tu Van
+                </button>
+            </form>
+        </div>
+        
+    </div>
+    
+    <div class="footer">
+        <p><strong>HTIC LAW COMPANY</strong></p>
+        <p>Honesty - Trust - Integrity - Clarity</p>
+        <p><a href="https://htic.com.vn" target="_blank">htic.com.vn</a></p>
+        <p style="margin-top: 15px; opacity: 0.7;">2025 HTIC Law Company</p>
+    </div>
+
+    <script>
+        const API = 'http://localhost:3000/api';
+        
+        async function loadArticles() {
+            const container = document.getElementById('articlesList');
+            
+            try {
+                const response = await fetch(API + '/articles');
+                const articles = await response.json();
+                
+                if (articles.length === 0) {
+                    container.innerHTML = '<div class="empty">Chua co bai viet nao.</div>';
+                    return;
+                }
+                
+                let html = '';
+                articles.forEach(article => {
+                    html += `
+                        <div class="article-card">
+                            <h3>${article.title}</h3>
+                            <p>${article.content}</p>
+                            <div class="meta">Ngay: ${article.created_at || 'N/A'}</div>
+                        </div>
+                    `;
+                });
+                
+                container.innerHTML = html;
+                
+            } catch (error) {
+                container.innerHTML = `
+                    <div class="empty" style="color: #991b1b;">
+                        Khong the tai bai viet.<br>
+                        Kiem tra xem server da chay chua.
+                    </div>
+                `;
+            }
+        }
+        
+        document.getElementById('contactForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const submitBtn = document.getElementById('submitBtn');
+            const alertBox = document.getElementById('contactAlert');
+            
+            const data = {
+                name: document.getElementById('contactName').value,
+                phone: document.getElementById('contactPhone').value,
+                email: document.getElementById('contactEmail').value,
+                message: document.getElementById('contactMessage').value
+            };
+            
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Dang gui...';
+            
+            try {
+                const response = await fetch(API + '/contacts', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    alertBox.className = 'alert success';
+                    alertBox.textContent = result.message;
+                    document.getElementById('contactForm').reset();
+                } else {
+                    alertBox.className = 'alert error';
+                    alertBox.textContent = 'Co loi xay ra!';
+                }
+                
+            } catch (error) {
+                alertBox.className = 'alert error';
+                alertBox.textContent = 'Khong the gui. Kiem tra ket noi!';
+            }
+            
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Gui Yeu Cau Tu Van';
+            
+            setTimeout(() => {
+                alertBox.className = 'alert';
+            }, 5000);
+        });
+        
+        loadArticles();
+        setInterval(loadArticles, 60000);
+    </script>
+</body>
+</html>

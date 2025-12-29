@@ -1,0 +1,20 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Nguyen Van A",
+      "phone": "0901234567",
+      "email": "nguyenvana@email.com",
+      "message": "Toi muon duoc tu van ve thanh lap cong ty TNHH",
+      "created_at": "2025-01-15"
+    },
+    {
+      "id": 2,
+      "name": "hung",
+      "phone": "0918787878",
+      "email": "hungtran@htic.com.vn",
+      "message": "gadfasdfasdf",
+      "created_at": "2025-12-28"
+    }
+  ]
+}

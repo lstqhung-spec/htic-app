@@ -1,0 +1,12 @@
+{
+  "name": "htic-legal-app",
+  "version": "3.0.0",
+  "description": "HTIC Legal App voi JSON Database",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "init-db": "node init-database.js"
+  },
+  "author": "HTIC Law Company",
+  "license": "MIT"
+}
