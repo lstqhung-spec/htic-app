@@ -2,12 +2,75 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const DATA_DIR = path.join(__dirname, 'data');
 const ARTICLES_FILE = path.join(DATA_DIR, 'articles.json');
 const CONTACTS_FILE = path.join(DATA_DIR, 'contacts.json');
 const ADMINS_FILE = path.join(DATA_DIR, 'admins.json');
 const FRONTEND_DIR = path.join(__dirname, '..', 'frontend');
+
+// === TU DONG TAO DATABASE NEU CHUA CO ===
+
+function initDatabase() {
+    // Tao thu muc data neu chua co
+    if (!fs.existsSync(DATA_DIR)) {
+        fs.mkdirSync(DATA_DIR, { recursive: true });
+        console.log('Da tao thu muc data/');
+    }
+
+    // Tao file articles.json neu chua co
+    if (!fs.existsSync(ARTICLES_FILE)) {
+        const articles = {
+            articles: [
+                {
+                    id: 1,
+                    title: 'Luat Doanh nghiep 2020 - Nhung diem moi quan trong',
+                    content: 'Luat Doanh nghiep so 59/2020/QH14 co hieu luc tu ngay 01/01/2021, thay the Luat Doanh nghiep 2014.',
+                    created_at: '2025-01-15'
+                },
+                {
+                    id: 2,
+                    title: 'Quy dinh moi ve thue TNCN nam 2025',
+                    content: 'Muc giam tru gia canh cho nguoi nop thue la 11 trieu dong/thang va 4,4 trieu dong/thang cho moi nguoi phu thuoc.',
+                    created_at: '2025-01-14'
+                },
+                {
+                    id: 3,
+                    title: 'Huong dan dang ky BHXH cho doanh nghiep moi',
+                    content: 'Doanh nghiep moi thanh lap phai dang ky tham gia BHXH trong vong 30 ngay ke tu ngay ky hop dong lao dong dau tien.',
+                    created_at: '2025-01-13'
+                }
+            ]
+        };
+        fs.writeFileSync(ARTICLES_FILE, JSON.stringify(articles, null, 2));
+        console.log('Da tao file articles.json');
+    }
+
+    // Tao file contacts.json neu chua co
+    if (!fs.existsSync(CONTACTS_FILE)) {
+        const contacts = { contacts: [] };
+        fs.writeFileSync(CONTACTS_FILE, JSON.stringify(contacts, null, 2));
+        console.log('Da tao file contacts.json');
+    }
+
+    // Tao file admins.json neu chua co
+    if (!fs.existsSync(ADMINS_FILE)) {
+        const admins = {
+            admins: [
+                {
+                    id: 1,
+                    username: 'admin',
+                    password: 'htic2025',
+                    name: 'Administrator'
+                }
+            ]
+        };
+        fs.writeFileSync(ADMINS_FILE, JSON.stringify(admins, null, 2));
+        console.log('Da tao file admins.json');
+    }
+
+    console.log('Database san sang!');
+}
 
 // === DOC/GHI FILE JSON ===
 
@@ -22,17 +85,6 @@ function readJSON(filePath) {
 
 function writeJSON(filePath, data) {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
-}
-
-// === KIEM TRA DATABASE ===
-
-function checkDatabase() {
-    if (!fs.existsSync(ARTICLES_FILE)) {
-        console.log('LOI: Chua co database!');
-        console.log('Hay chay lenh: npm run init-db');
-        process.exit(1);
-    }
-    console.log('Da ket noi database JSON');
 }
 
 // === CAC HAM XU LY ARTICLES ===
@@ -300,7 +352,8 @@ const server = http.createServer(async (req, res) => {
 
 // === KHOI DONG ===
 
-checkDatabase();
+// Tu dong tao database neu chua co
+initDatabase();
 
 server.listen(PORT, () => {
     console.log('');
@@ -308,13 +361,10 @@ server.listen(PORT, () => {
     console.log('   HTIC LEGAL APP - JSON DATABASE');
     console.log('==============================================');
     console.log('');
-    console.log('   Trang nguoi dung: http://localhost:' + PORT);
-    console.log('   Trang Admin:      http://localhost:' + PORT + '/admin');
+    console.log('   Server dang chay tren port: ' + PORT);
     console.log('');
     console.log('   Tai khoan: admin / htic2025');
     console.log('');
-    console.log('==============================================');
-    console.log('   Nhan Ctrl+C de dung server');
     console.log('==============================================');
     console.log('');
 });
