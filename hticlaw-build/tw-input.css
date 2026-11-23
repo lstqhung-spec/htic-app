@@ -1,0 +1,3 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html,body{font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+details>summary::-webkit-details-marker{display:none}
