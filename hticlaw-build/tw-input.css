@@ -1,3 +1,55 @@
 @tailwind base;@tailwind components;@tailwind utilities;
 html,body{font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
 details>summary::-webkit-details-marker{display:none}
+/* ---- chuyen dong nhe ---- */
+@view-transition{navigation:auto}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.28s;animation-timing-function:cubic-bezier(.2,.7,.2,1)}
+html{scroll-padding-top:136px}
+.js-motion .rv{opacity:0;transform:translate3d(0,22px,0);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0ms);will-change:opacity,transform}
+.js-motion .rv.in{opacity:1;transform:none;will-change:auto}
+.js-motion .hero-in>*{opacity:0;transform:translate3d(0,18px,0);animation:htic-up .8s cubic-bezier(.2,.7,.2,1) forwards}
+.js-motion .hero-in>*:nth-child(2){animation-delay:.08s}.js-motion .hero-in>*:nth-child(3){animation-delay:.16s}.js-motion .hero-in>*:nth-child(4){animation-delay:.24s}.js-motion .hero-in>*:nth-child(5){animation-delay:.32s}
+@keyframes htic-up{to{opacity:1;transform:none}}
+.js-motion img.lz{opacity:0;transition:opacity .6s ease}
+.js-motion img.lz.ld{opacity:1}
+#site-header.scrolled{box-shadow:0 8px 28px rgba(22,40,92,.14)}
+.dd{animation:htic-dd .22s cubic-bezier(.2,.7,.2,1)}
+@keyframes htic-dd{from{opacity:0;translate:0 8px}to{opacity:1;translate:0 0}}
+a,button{-webkit-tap-highlight-color:transparent}
+@media (prefers-reduced-motion:reduce){
+  @view-transition{navigation:none}
+  html{scroll-behavior:auto}
+  .js-motion .rv,.js-motion .hero-in>*,.js-motion img.lz{opacity:1!important;transform:none!important;animation:none!important;transition:none!important}
+  .dd{animation:none}
+  *,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}
+}
+/* ---- noi dung bai viet WordPress ---- */
+.htic-prose{color:#334155;font-size:17px;line-height:1.8;overflow-wrap:break-word}
+.htic-prose>*+*{margin-top:1.1em}
+.htic-prose h2{font-size:26px;line-height:1.3;font-weight:800;color:#16285c;margin-top:1.9em;padding-top:.2em;scroll-margin-top:140px}
+.htic-prose h3{font-size:21px;line-height:1.35;font-weight:700;color:#243e8f;margin-top:1.6em;scroll-margin-top:140px}
+.htic-prose h4{font-size:18px;font-weight:700;color:#16285c;margin-top:1.4em}
+.htic-prose h2+*,.htic-prose h3+*,.htic-prose h4+*{margin-top:.6em}
+.htic-prose a{color:#0f71b9;font-weight:600;text-decoration:underline;text-decoration-color:rgba(15,113,185,.35);text-underline-offset:3px}
+.htic-prose a:hover{text-decoration-color:#0f71b9}
+.htic-prose strong,.htic-prose b{color:#16285c;font-weight:700}
+.htic-prose ul{list-style:disc;padding-left:1.4em}
+.htic-prose ol{list-style:decimal;padding-left:1.5em}
+.htic-prose li{margin-top:.4em}
+.htic-prose li::marker{color:#0f71b9;font-weight:700}
+.htic-prose blockquote{border-left:4px solid #0f71b9;background:#f2f6fb;padding:1em 1.25em;border-radius:0 12px 12px 0;color:#1e3a6e;font-style:normal}
+.htic-prose blockquote p{margin:0}
+.htic-prose img{max-width:100%;height:auto;border-radius:14px}
+.htic-prose figure{margin-top:1.6em;margin-bottom:1.6em}
+.htic-prose figcaption{font-size:14px;color:#64748b;text-align:center;margin-top:.6em}
+.htic-prose table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.55;display:block;overflow-x:auto}
+.htic-prose th,.htic-prose td{border:1px solid #e2e8f0;padding:.65em .8em;text-align:left;vertical-align:top}
+.htic-prose th,.htic-prose thead td{background:#eef2f8;color:#16285c;font-weight:700}
+.htic-prose hr{border:0;border-top:1px solid #e2e8f0;margin:2em 0}
+.htic-prose code{background:#f1f5f9;padding:.1em .35em;border-radius:6px;font-size:.9em}
+.htic-prose .wp-block-button__link,.htic-prose .btn-primary{display:inline-block;background:#243e8f;color:#fff;text-decoration:none;padding:.7em 1.3em;border-radius:10px}
+.htic-prose iframe,.htic-prose video{max-width:100%;border-radius:12px}
+@media (max-width:767px){.htic-prose{font-size:16px}.htic-prose h2{font-size:22px}.htic-prose h3{font-size:19px}}
+.htic-pages .page-numbers{min-width:44px;height:44px;padding:0 .9em;display:inline-flex;align-items:center;justify-content:center;border-radius:10px;border:1px solid #e2e8f0;background:#fff;font-weight:700;color:#243e8f}
+.htic-pages .page-numbers.current{background:#243e8f;color:#fff;border-color:#243e8f}
+.htic-pages a.page-numbers:hover{border-color:#243e8f}

@@ -197,20 +197,20 @@ SERVICES = [
 ]
 
 TEAM_LAWYERS = [
-    ("LS. Trần Quốc Hưng", "Giám đốc", "/wp-content/uploads/2026/05/01_ls_tran_quoc_hung.jpg"),
-    ("LS. Nguyễn Đăng Hợp", "Phó Giám đốc", "/wp-content/uploads/2026/05/02_ls_nguyen_dang_hop.jpg"),
-    ("LS. Hoàng Giang Tử Lăng", "Luật sư cấp cao · Bảo hiểm & Đầu tư", "/wp-content/uploads/2026/05/03_ls_hoang_giang_tu_lang.jpg"),
-    ("LS. Dương Anh Khoa", "Luật sư · Tranh tụng & Đại diện", "/wp-content/uploads/2026/05/06_ls_duong_anh_khoa.jpg"),
-    ("LS. Tống Thị Bích Nguyệt", "Luật sư · BĐS & Hợp đồng thương mại", "/wp-content/uploads/2026/05/07_ls_tong_thi_bich_nguyet.jpg"),
+    ("LS. Trần Quốc Hưng", "Giám đốc", "/anh/chan-dung/01_ls_tran_quoc_hung.webp"),
+    ("LS. Nguyễn Đăng Hợp", "Phó Giám đốc", "/anh/chan-dung/02_ls_nguyen_dang_hop.webp"),
+    ("LS. Hoàng Giang Tử Lăng", "Luật sư cấp cao · Bảo hiểm & Đầu tư", "/anh/chan-dung/03_ls_hoang_giang_tu_lang.webp"),
+    ("LS. Dương Anh Khoa", "Luật sư · Tranh tụng & Đại diện", "/anh/chan-dung/06_ls_duong_anh_khoa.webp"),
+    ("LS. Tống Thị Bích Nguyệt", "Luật sư · BĐS & Hợp đồng thương mại", "/anh/chan-dung/07_ls_tong_thi_bich_nguyet.webp"),
 ]
 TEAM_EXPERTS = [
-    ("Nguyễn Phương Thuỳ Trang", "Trưởng phòng Khách hàng Nhật Bản", "/wp-content/uploads/2026/05/04_nguyen_phuong_thuy_trang.jpg"),
-    ("Morita Shoki", "Cố vấn thị trường Nhật Bản", "/wp-content/uploads/2026/05/05_morita_shoki.jpg"),
-    ("Trần Thị Thu Hiền", "Chuyên gia Kế toán – Thuế", "/wp-content/uploads/2026/05/08_tran_thi_thu_hien.jpg"),
-    ("Trương Thanh Hải", "Trưởng phòng Đối ngoại", "/wp-content/uploads/2026/05/09_truong_thanh_hai.jpg"),
-    ("Nguyễn Thị Kim Ngọc", "Chuyên viên Pháp chế", "/wp-content/uploads/2026/05/10_nguyen_thi_kim_ngoc.png"),
-    ("Cao Ý Mỹ", "Chuyên viên Pháp chế", "/wp-content/uploads/2026/05/11_cao_y_my.jpg"),
-    ("Nguyễn Thị Thu Trang", "Chuyên viên Pháp chế", "/wp-content/uploads/2026/05/12_nguyen_thi_thu_trang.jpg"),
+    ("Nguyễn Phương Thuỳ Trang", "Trưởng phòng Khách hàng Nhật Bản", "/anh/chan-dung/04_nguyen_phuong_thuy_trang.webp"),
+    ("Morita Shoki", "Cố vấn thị trường Nhật Bản", "/anh/chan-dung/05_morita_shoki.webp"),
+    ("Trần Thị Thu Hiền", "Chuyên gia Kế toán – Thuế", "/anh/chan-dung/08_tran_thi_thu_hien.webp"),
+    ("Trương Thanh Hải", "Trưởng phòng Đối ngoại", "/anh/chan-dung/09_truong_thanh_hai.webp"),
+    ("Nguyễn Thị Kim Ngọc", "Chuyên viên Pháp chế", "/anh/chan-dung/10_nguyen_thi_kim_ngoc.webp"),
+    ("Cao Ý Mỹ", "Chuyên viên Pháp chế", "/anh/chan-dung/11_cao_y_my.webp"),
+    ("Nguyễn Thị Thu Trang", "Chuyên viên Pháp chế", "/anh/chan-dung/12_nguyen_thi_thu_trang.webp"),
 ]
 
 VALUES = [

@@ -25,11 +25,21 @@ def fix_ld(m):
             g['openingHoursSpecification'] = [{"@type": "OpeningHoursSpecification", "dayOfWeek": S['days'], "opens": S['opens'], "closes": S['closes']}]
     return '<script type="application/ld+json">' + json.dumps(j, ensure_ascii=False) + '</script>'
 h = re.sub(r'<script type="application/ld\+json">(.*?)</script>', fix_ld, h, count=1, flags=re.S)
+mot = open(os.path.join(B, '_motion.html'), encoding='utf-8').read()
+mh, mj = mot.split('\n', 1)
+h = re.sub(r'<script id="htic-motion-head">.*?</script>\n?', '', h, flags=re.S)
+h = re.sub(r'<script id="htic-motion">.*?</script>\s*<script type="speculationrules">.*?</script>\n?', '', h, flags=re.S)
+h = h.replace('</head>', mh + '\n</head>', 1).replace('</body>', mj + '\n</body>', 1)
 open(idx, 'w', encoding='utf-8').write(h)
 pages = [idx] + glob.glob(os.path.join(R, '*/index.html')) + glob.glob(os.path.join(R, '*/*/index.html'))
 pages = [p for p in pages if '/anh/' not in p]
 icons = set()
 for p in pages:
+    icons |= set(re.findall(r'material-symbols-outlined[^"]*"[^>]*>\s*([a-z_0-9]+)\s*<', open(p, encoding='utf-8').read()))
+WP = os.path.join(B, '..', 'hticlaw-wp')
+for p in glob.glob(os.path.join(WP, '**', '*.php'), recursive=True):
+    icons |= set(re.findall(r"htic26_i\(\s*'([a-z_0-9]+)'", open(p, encoding='utf-8').read()))
+for p in glob.glob(os.path.join(R, 'assets', 'wp', '*.html')):
     icons |= set(re.findall(r'material-symbols-outlined[^"]*"[^>]*>\s*([a-z_0-9]+)\s*<', open(p, encoding='utf-8').read()))
 ic = ','.join(sorted(icons))
 link = f'<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0..1,0&amp;icon_names={ic}&amp;display=block" rel="stylesheet"/>'
@@ -48,3 +58,10 @@ for p in pages:
         t = re.sub(r'<style>\*,::backdrop.*?</style>', lambda m: '<style>' + c + '</style>', t, count=1, flags=re.S)
     open(p, 'w', encoding='utf-8').write(t)
 print(len(pages), 'pages;', len(icons), 'icons;', len(c), 'css bytes')
+# head dung chung cho trang WordPress
+open(os.path.join(R, 'assets', 'wp', 'head.html'), 'w', encoding='utf-8').write(
+    '<link rel="icon" href="/anh/brand/favicon-48.png" sizes="48x48" type="image/png"/>\n'
+    '<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>\n'
+    '<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap" rel="stylesheet"/>\n'
+    + link + '\n<link rel="stylesheet" href="/assets/htic.css?v=' + VER + '"/>\n' + mh + '\n')
+print('wp head ok')
