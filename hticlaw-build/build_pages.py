@@ -549,5 +549,6 @@ if __name__ == '__main__':
     # bo khung dung chung cho cac trang WordPress (theme doc tu /assets/wp/)
     write('assets/wp/header.html', header())
     write('assets/wp/header-news.html', header('tin-tuc'))
-    write('assets/wp/footer.html', footer() + '\n' + MOTION_JS)
+    LAZY_FIX = """<script id="htic-lazyfix">(function(){[].forEach.call(document.querySelectorAll('img[data-src]'),function(i){if(i.src&&i.src.indexOf('data:')!==0)return;if(!i.closest('#site-header,.hero-in')&&i.getBoundingClientRect().top>innerHeight)i.loading='lazy';if(i.dataset.srcset)i.srcset=i.dataset.srcset;if(i.dataset.sizes)i.sizes=i.dataset.sizes;i.src=i.dataset.src;i.removeAttribute('data-src');i.classList.remove('litespeed-lazy')});[].forEach.call(document.querySelectorAll('iframe[data-src]'),function(f){if(!f.src||f.src.indexOf('about:')===0){f.loading='lazy';f.src=f.dataset.src}})})();</script>"""
+    write('assets/wp/footer.html', footer() + '\n' + LAZY_FIX + '\n' + MOTION_JS)
     print('\n'.join(out))
