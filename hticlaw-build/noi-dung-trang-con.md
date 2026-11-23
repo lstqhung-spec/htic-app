@@ -1,11 +1,180 @@
-# Nội dung 14 trang con hticlaw.vn (bản đang đăng, 23/11/2026 06:46)
+# Toàn văn 14 trang hticlaw.vn (trang chủ + 13 trang con), bản đang đăng 23/11/2026 07:05 UTC
 
+
+=====================
+URL: https://hticlaw.vn/
+TITLE: Công ty Luật HTIC | Tư vấn doanh nghiệp, M&A, FDI tại TP.HCM
+META: Công ty Luật HTIC: hơn 10 năm tư vấn pháp lý doanh nghiệp, hợp đồng, M&A, đầu tư nước ngoài (FDI), thuế, sở hữu trí tuệ và tranh tụng tại TP.HCM. Đặt lịch tư vấn với luật sư.
+---------------------
+Hỏi: 
+CÔNG TY LUẬT HTIC · TP. HỒ CHÍ MINH
+# 
+ Phụng sự công lý —
+Bảo vệ lợi ích khách hàng
+ Đồng hành pháp lý toàn diện từ khởi nghiệp, tái cấu trúc quản trị đến bảo vệ quyền lợi hợp pháp trong các thương vụ M&A và tranh chấp thương mại phức tạp nhất.
+Đặt lịch tư vấn miễn phí
+Xem dịch vụ
+10+
+Năm kinh nghiệm
+155
+Khách hàng doanh nghiệp
+355
+Dự án và vụ việc
+Đối tác pháp lý cho doanh nghiệp
+Đồng hành cùng doanh nghiệp trong nước & nhà đầu tư quốc tế
+Luật sư Đoàn LS TP.HCM
+ "Mỗi quyết định pháp lý của chúng tôi đều nhắm tới sự an toàn, bảo vệ trọn vẹn quyền lợi và kiến tạo đà tăng trưởng bền vững cho khách hàng."
+LS. Trần Quốc Hưng · Luật sư điều hành
+GIỚI THIỆU VỀ HTIC LAW FIRM
+## 
+ Chỗ dựa pháp lý vững bền cho doanh nghiệp Việt Nam và nhà đầu tư nước ngoài
+ Với hơn 10 năm hành nghề tại TP.HCM, HTIC đã đồng hành cùng 155 khách hàng doanh nghiệp trong nước và nhà đầu tư nước ngoài. Chúng tôi cung cấp giải pháp pháp lý toàn diện, lấy đạo đức nghề nghiệp và sự an tâm của khách hàng làm kim chỉ nam.
+### Chuyên môn sâu sắc
+Đội ngũ luật sư đào tạo trong & ngoài nước, am hiểu tường tận M&A, BĐS và Tố tụng.
+### Giải pháp thực tiễn
+Giải pháp pháp lý kinh doanh có thể thi hành ngay, tối ưu chi phí và kiểm soát rủi ro.
+### Tận tâm & Bảo mật
+Liên hệ qua hotline và Zalo 0379 044 299; sẵn sàng ký thỏa thuận bảo mật (NDA) khi khách hàng yêu cầu.
+10+
+Năm hoạt động
+155
+Khách hàng doanh nghiệp
+355
+Dự án và vụ việc
+4
+Luật sư thường trực
+3
+Ngôn ngữ: Việt, Anh, Nhật
+9
+Lĩnh vực dịch vụ
+LĨNH VỰC HÀNH NGHỀ TRỌNG TÂM
+## 
+ Dịch vụ pháp lý chuyên sâu
+Xem chi tiết danh mục dịch vụ
+Trọng tâm thực chiến
+### 
+ Hồ sơ hợp đồng thương mại & Cấu trúc thương vụ M&A quốc tế
+ Kiểm soát rủi ro pháp lý cho các hợp đồng nhượng quyền, dự án FDI và giao dịch chuyển nhượng vốn quy mô nghìn tỷ.
+Yêu cầu thẩm định hợp đồng
+Doanh nghiệp & Quản trị
+ Tái cấu trúc tập đoàn, quy chế nội bộ và giám sát tuân thủ luật doanh nghiệp trọn gói.
+Chi tiết
+M&A & Đầu tư FDI
+ Thẩm định pháp lý (Due Diligence), cấu trúc vốn và bảo trợ giấy phép đầu tư FDI.
+Chi tiết
+Bất động sản & Xây dựng
+ Pháp lý dự án KCN, hợp đồng tổng thầu FIDIC và giải pháp cấp phép xây dựng.
+Chi tiết
+Tố tụng & Trọng tài
+ Đại diện tranh tụng tại Tòa án và các trung tâm trọng tài quốc tế (VIAC, SIAC).
+Chi tiết
+QUỐC TẾ
+VIỆT NAM
+KHÁCH HÀNG TRONG VÀ NGOÀI NƯỚC
+## Đồng hành cùng doanh nghiệp Việt Nam và nhà đầu tư quốc tế
+Từ doanh nghiệp Việt Nam đang mở rộng kinh doanh đến nhà đầu tư nước ngoài mới vào thị trường, HTIC xử lý thủ tục và kiểm soát rủi ro pháp lý để khách hàng tập trung vào hoạt động kinh doanh. Luật sư làm việc trực tiếp bằng tiếng Việt, tiếng Anh và tiếng Nhật.
+Doanh nghiệp trong nước: thành lập, quản trị nội bộ, hợp đồng, thuế và giải quyết tranh chấp
+Nhà đầu tư nước ngoài: hình thức đầu tư, cấu trúc vốn, IRC, ERC và giấy phép con
+Hợp đồng song ngữ, giấy phép lao động cho người nước ngoài, báo cáo định kỳ
+Tiếng Việt
+English
+日本語対応
+ĐỘI NGŨ CHUYÊN GIA
+## Luật sư & Chuyên gia của HTIC
+Xem toàn bộ đội ngũ
+Trần Quốc Hưng
+Luật sư điều hành
+Hoàng Giang Tử Lăng
+Luật sư sáng lập
+Dương Anh Khoa
+Luật sư tố tụng
+Đổng Quốc Duy
+Luật sư tư vấn
+THÀNH TÍCH THỰC CHIẾN
+## 
+ Dự án & Vụ việc tiêu biểu
+ Khẳng định năng lực bảo vệ quyền lợi trọn vẹn và giải quyết dứt điểm các bài toán pháp lý lớn.
+ Đầu tư FDI
+Hoàn thành
+### 
+ Dự án KCN Long Hậu & Nhà đầu tư Nhật Bản
+ Tư vấn pháp lý trọn gói: giấy phép đầu tư, thuê đất công nghiệp và đàm phán hợp đồng song ngữ Nhật - Việt.
+Quy mô:
+KCN Long Hậu
+ Quản trị doanh nghiệp
+Hoàn thành
+### 
+ Giám sát Đại hội đồng cổ đông PVCFC
+ Luật sư độc lập giám sát trình tự triệu tập, biểu quyết và lập biên bản đại hội theo Luật Doanh nghiệp.
+Khách hàng:
+PVCFC
+ Tư vấn thường xuyên
+Hoàn thành
+### 
+ Luật sư đồng hành thương hiệu Viva Star Coffee
+ Ký hợp đồng tư vấn pháp lý thường xuyên, đồng hành cùng doanh nghiệp trong hoạt động kinh doanh hằng ngày.
+Hình thức:
+Tư vấn theo tháng
+SỰ HÀI LÒNG CỦA KHÁCH HÀNG
+## 
+ Khách hàng nói về HTIC
+ Sự tín nhiệm lâu dài của các lãnh đạo doanh nghiệp là bảo chứng cho chất lượng dịch vụ của chúng tôi.
+ "Chuyên nghiệp – Tận tình – Hiệu quả. Đây là tất cả những gì Công ty chúng tôi cảm nhận khi hợp tác với Công ty Luật HTIC."
+Ông Hara Shinji
+Giám đốc Điều hành
+Công ty TNHH Sansetsu Việt Nam
+ "HTIC là đối tác lâu dài của Công ty kiểm toán FAC. Dịch vụ của HTIC không chỉ đáp ứng mà còn vượt xa mong đợi của chúng tôi, với những giải pháp pháp lý toàn diện và hiệu quả."
+Ông Nguyễn Văn Huy
+Phó Tổng Giám đốc
+Công ty Kiểm toán FAC
+ "Đội ngũ HTIC có kiến thức vững chắc về các quy định pháp luật đầu tư trong nhiều lĩnh vực khác nhau, giúp chúng tôi tránh được nhiều rủi ro không đáng có."
+Ông Hydeyasu
+Tổng Giám đốc
+Công ty Cổ phần Jesco Asia
+ ĐỐI TÁC VÀ KHÁCH HÀNG DOANH NGHIỆP TIÊU BIỂU
+KIẾN THỨC PHÁP LÝ
+## Cập nhật pháp luật cho doanh nghiệp
+Tất cả bài viết
+Hợp đồng
+### Hợp đồng điện tử áp dụng từ 01/07/2026: doanh nghiệp cần chuẩn bị gì?
+Điều kiện để hợp đồng điện tử có giá trị pháp lý, chữ ký số và lưu trữ chứng cứ.
+Thuế
+### Những điểm mới về quản lý thuế doanh nghiệp cần lưu ý
+Các thay đổi trong Luật Quản lý thuế ảnh hưởng tới nghĩa vụ kê khai và quyết toán.
+Doanh nghiệp
+### Nghĩa vụ kê khai chủ sở hữu hưởng lợi của doanh nghiệp
+Ai phải kê khai, thời hạn và hậu quả pháp lý theo Luật Doanh nghiệp sửa đổi 2025.
+KẾT NỐI VỚI LUẬT SƯ
+## 
+ Cần tư vấn pháp lý cho doanh nghiệp của bạn?
+ Đăng ký ngay để nhận buổi tư vấn sơ bộ 30 phút miễn phí cùng đội ngũ luật sư điều hành của HTIC.
+Hotline trực tiếp
+0379 044 299
+Email tiếp nhận
+contact@htic.com.vn
+Trụ sở văn phòng
+Phòng 16.05, Tầng 16, Tòa nhà Golden King, 15 Nguyễn Lương Bằng, P. Tân Mỹ, TP. Hồ Chí Minh
+### 
+ Gửi yêu cầu tư vấn nhanh
+ Thông tin được bảo mật theo Luật Luật sư và Quy tắc đạo đức nghề nghiệp luật sư.
+Họ và tên *
+Số điện thoại *
+Email công việc *
+Lĩnh vực tư vấn *
+Tư vấn Doanh nghiệp & Quản trị
+Mua bán & Sáp nhập (M&A) & FDI
+Bất động sản & Hợp đồng Xây dựng
+Tranh chấp & Tố tụng Trọng tài
+Bảo hộ & Xử lý Sở hữu trí tuệ
+Nội dung tóm tắt vụ việc
+Soạn email yêu cầu tư vấn
 
 =====================
 URL: https://hticlaw.vn/gioi-thieu/
 TITLE: Giới thiệu Công ty Luật HTIC | Đội ngũ luật sư tại TP.HCM
 META: Công ty Luật HTIC: nền tảng từ năm 2011, đội ngũ luật sư và chuyên gia tư vấn doanh nghiệp, đầu tư nước ngoài, hợp đồng và tranh chấp tại TP.HCM.
 ---------------------
+Hỏi: 
 Trang chủGiới thiệu
 Về Công ty Luật HTIC
 # Phụng sự công lý,bảo vệ lợi ích khách hàng
@@ -43,7 +212,7 @@ Không xung đột lợi ích, không đánh đổi quyền lợi hợp pháp c�
 C
 C
 ### Commitment · Cam kết
-Đồng hành đến cùng mỗi vụ việc, xem khách hàng là đối tác dài hạn.
+Thực hiện công việc theo phạm vi đã thống nhất, thông tin kịp thời về tiến độ và những vấn đề cần khách hàng quyết định.
 Hành trình từ 2011
 ## Lịch sử và phát triển
 Từ Công ty Tư vấn Pháp Chính đến Công ty Luật HTIC, với điểm kết nối khách hàng tại Việt Nam và Nhật Bản.
@@ -112,6 +281,7 @@ URL: https://hticlaw.vn/dich-vu/
 TITLE: Dịch vụ pháp lý cho doanh nghiệp | Công ty Luật HTIC TP.HCM
 META: Công ty Luật HTIC tư vấn 10 lĩnh vực: doanh nghiệp, hợp đồng, M&A và đầu tư FDI, bất động sản, giấy phép, tài chính, thuế, sở hữu trí tuệ, tranh chấp và lao động ngoài nước.
 ---------------------
+Hỏi: 
 Trang chủDịch vụ
 Lĩnh vực dịch vụ
 # Dịch vụ pháp lý toàn diện cho doanh nghiệp
@@ -122,10 +292,10 @@ Mười lĩnh vực chuyên sâu, một đầu mối xuyên suốt, dành cho do
 ## Chọn lĩnh vực bạn cần hỗ trợ
 01
 ### Bất động sản & Xây dựng
-Thẩm định quỹ đất, thủ tục đầu tư, cấp phép xây dựng, hợp đồng EPC và chuyển nhượng dự án.
+Thẩm định pháp lý dự án, tư vấn thủ tục đầu tư, đất đai, xây dựng, hợp đồng EPC và chuyển nhượng dự án.
 Thẩm định pháp lý dự án & quỹ đất
 Thủ tục đầu tư & đất đai
-Cấp phép xây dựng & tuân thủ thi công
+Hồ sơ xây dựng & tuân thủ thi công
 Xem chi tiết 
 02
 ### Doanh nghiệp & Quản trị
@@ -171,21 +341,21 @@ Hợp đồng song ngữ
 Xem chi tiết 
 08
 ### Sở hữu trí tuệ
-Đăng ký nhãn hiệu trong nước và Madrid, bản quyền, sáng chế, xử lý xâm phạm.
+Tư vấn bảo hộ nhãn hiệu, sáng chế, kiểu dáng công nghiệp, quyền tác giả và xử lý xâm phạm.
 Tra cứu khả năng bảo hộ
-Hồ sơ đăng ký bảo hộ
+Hồ sơ bảo hộ
 Đăng ký quốc tế
 Xem chi tiết 
 09
 ### Thuế & Kế toán
-Nghĩa vụ thuế, quyết toán, giao dịch liên kết, thanh tra và tranh chấp thuế.
+Tư vấn pháp lý về nghĩa vụ thuế, giao dịch liên kết, kiểm tra, thanh tra và tranh chấp thuế.
 Nghĩa vụ thuế
 Rà soát hồ sơ thuế
 Thanh tra, kiểm tra thuế
 Xem chi tiết 
 10
 ### Xuất khẩu lao động & Du học
-Giấy phép dịch vụ, hợp đồng cung ứng lao động, du học, thị thực và tranh chấp.
+Tư vấn pháp lý về điều kiện kinh doanh, hợp đồng và tranh chấp trong lĩnh vực đưa người lao động đi làm việc ở nước ngoài, du học và thị thực.
 Giấy phép dịch vụ
 Hợp đồng
 Tuân thủ
@@ -217,8 +387,8 @@ Rà soát hồ sơ, đối chiếu quy định hiện hành, chỉ rõ rủi ro 
 ### Triển khai
 Soạn thảo, đàm phán, đại diện làm việc với cơ quan nhà nước hoặc đối tác theo phương án đã thống nhất.
 5
-### Bàn giao & hỗ trợ sau dịch vụ
-Bàn giao kết quả, hướng dẫn thực hiện và tiếp tục hỗ trợ khi phát sinh vấn đề liên quan.
+### Bàn giao
+Bàn giao tài liệu và hướng dẫn theo phạm vi dịch vụ đã thống nhất. Yêu cầu phát sinh được trao đổi riêng về công việc, thời hạn và phí, nếu có.
 ## Cần tư vấn cho một vấn đề pháp lý cụ thể?
 Gửi thông tin cho HTIC để được luật sư liên hệ, đánh giá sơ bộ và báo giá rõ ràng trước khi triển khai.
 Gửi yêu cầu tư vấn 
@@ -229,6 +399,7 @@ URL: https://hticlaw.vn/lien-he/
 TITLE: Liên hệ Công ty Luật HTIC | Đặt lịch tư vấn luật sư TP.HCM
 META: Liên hệ Công ty Luật HTIC: hotline 0379 044 299, email contact@htic.com.vn, văn phòng tại TP.HCM. Gửi yêu cầu tư vấn trực tuyến.
 ---------------------
+Hỏi: 
 Trang chủLiên hệ
 Liên hệ HTIC
 # Trao đổi với luật sư HTIC
@@ -246,7 +417,7 @@ Văn phòng
 Tầng 16, Golden King, 15 Nguyễn Lương Bằng, P. Tân Mỹ, TP.HCM
 Thứ 2 – Thứ 6 · 08:30 – 18:00
 ## Gửi yêu cầu tư vấn
-Điền thông tin dưới đây, hệ thống sẽ mở email để quý khách gửi trực tiếp tới contact@htic.com.vn.
+Điền thông tin để soạn email gửi đến contact@htic.com.vn. Quý khách cần bấm Gửi trong ứng dụng email để hoàn tất. Nếu không mở được ứng dụng email, vui lòng liên hệ qua số điện thoại hoặc Zalo trên trang.
 Họ và tên *
 Công ty
 Số điện thoại *
@@ -254,7 +425,7 @@ Email
 Lĩnh vực cần tư vấnChọn lĩnh vựcBất động sản & Xây dựngDoanh nghiệp & Quản trịM&A & Đầu tưGiấy phép & Tuân thủTài chính – Ngân hàngTranh chấp & Tố tụngHợp đồngSở hữu trí tuệThuế & Kế toánXuất khẩu lao động & Du họcKhác / chưa rõ
 Mô tả ngắn vấn đề
 Thông tin được bảo mật theo nghĩa vụ nghề nghiệp luật sư và chỉ dùng để phản hồi yêu cầu của quý khách.
-Gửi yêu cầu tư vấn 
+Soạn email 
 ### Văn phòng HTIC
 Phòng 16.05, Tầng 16, Tòa nhà Golden King, 15 Nguyễn Lương Bằng, P. Tân Mỹ, TP. Hồ Chí Minh
 Thứ 2 – Thứ 6 · 08:30 – 18:00
@@ -270,6 +441,7 @@ URL: https://hticlaw.vn/dich-vu/luat-su-bat-dong-san-xay-dung/
 TITLE: Bất động sản & Xây dựng | Luật sư tư vấn tại TP.HCM – Công ty Luật HTIC
 META: Tư vấn pháp lý xuyên suốt vòng đời dự án bất động sản và xây dựng: từ quỹ đất, đầu tư, cấp phép đến thi công, bàn giao và tranh chấp.
 ---------------------
+Hỏi: 
 Trang chủ
 Dịch vụBất động sản & Xây dựng
 Lĩnh vực dịch vụ 01
@@ -277,7 +449,7 @@ Lĩnh vực dịch vụ 01
 Tư vấn pháp lý xuyên suốt vòng đời dự án bất động sản và xây dựng: từ quỹ đất, đầu tư, cấp phép đến thi công, bàn giao và tranh chấp.
 Đặt lịch tư vấn 
 0379 044 299
-Một luật sư phụ trách xuyên suốt
+Luật sư phụ trách được thống nhất theo vụ việc
 Báo giá rõ ràng trước khi triển khai
 Bảo mật thông tin theo Luật Luật sư
 Tổng quan
@@ -290,8 +462,8 @@ Kiểm tra nguồn gốc, tình trạng pháp lý đất đai, quy hoạch, ch�
 ### Thủ tục đầu tư & đất đai
 Chấp thuận chủ trương đầu tư, giao đất, cho thuê đất, chuyển mục đích sử dụng đất, gia hạn thời hạn sử dụng đất, điều chỉnh quy hoạch.
 03
-### Cấp phép xây dựng & tuân thủ thi công
-Thẩm định thiết kế, giấy phép xây dựng, thủ tục phòng cháy chữa cháy và môi trường; nghiệm thu, hoàn công và cấp Giấy chứng nhận.
+### Hồ sơ xây dựng & tuân thủ thi công
+Tư vấn điều kiện pháp lý, rà soát và hỗ trợ chuẩn bị hồ sơ liên quan đến thiết kế, giấy phép xây dựng, phòng cháy chữa cháy, môi trường, nghiệm thu, hoàn công và cấp giấy chứng nhận. Hoạt động chuyên môn kỹ thuật và việc cấp phép thuộc đơn vị đủ điều kiện hoặc cơ quan có thẩm quyền.
 04
 ### Soạn thảo & đàm phán hợp đồng
 Hợp đồng EPC, thi công, tư vấn giám sát, mua bán căn hộ/nền, đặt cọc, hợp tác đầu tư với điều khoản phân bổ rủi ro rõ ràng.
@@ -307,10 +479,10 @@ Luật Kinh doanh bất động sản 2023
 Luật Nhà ở 2023
 Luật Xây dựng 2025 (Luật số 135/2025/QH15, hiệu lực 01/07/2026)
 Luật Đầu tư 2025 (Luật số 143/2025/QH15)
-Mỗi tư vấn của HTIC dẫn chiếu điều khoản cụ thể và được đối chiếu với văn bản còn hiệu lực tại thời điểm tư vấn.
+Căn cứ pháp lý được xác định theo thời điểm phát sinh quan hệ, giao dịch hoặc vụ việc và các quy định chuyển tiếp có liên quan.
 ## Vì sao chọn HTIC
-### Một đầu mối xuyên suốt
-Mỗi vụ việc do một luật sư phụ trách dẫn dắt từ đầu đến cuối, khách hàng không phải trao đổi lại với nhiều người.
+### Luật sư phụ trách rõ ràng
+Luật sư phụ trách và cách phối hợp được thống nhất theo từng vụ việc; thay đổi nhân sự phụ trách được thông báo cho khách hàng.
 ### Báo giá rõ ràng trước khi làm
 Phạm vi công việc, thời gian và phí dịch vụ được thống nhất bằng văn bản trước khi triển khai.
 ### Am hiểu doanh nghiệp FDI
@@ -318,11 +490,11 @@ Kinh nghiệm làm việc với doanh nghiệp Việt Nam và nhà đầu tư n�
 ### Phòng ngừa trước, xử lý sau
 Ưu tiên nhận diện và kiểm soát rủi ro từ sớm thay vì để vấn đề phát sinh thành tranh chấp.
 ## Câu hỏi thường gặp
-Cần kiểm tra hồ sơ gì trước khi nhận chuyển nhượng dự án hoặc quỹ đất?
+Hỏi: Cần kiểm tra hồ sơ gì trước khi nhận chuyển nhượng dự án hoặc quỹ đất?
 Tối thiểu gồm nguồn gốc và tình trạng pháp lý đất, quy hoạch, chủ trương đầu tư, nghĩa vụ tài chính đã thực hiện, các biện pháp bảo đảm, kê biên và tranh chấp đang có. Phạm vi cụ thể phụ thuộc loại tài sản và cấu trúc giao dịch.
-Có Giấy chứng nhận đã đủ để kết luận giao dịch an toàn chưa?
+Hỏi: Có Giấy chứng nhận đã đủ để kết luận giao dịch an toàn chưa?
 Chưa. Giấy chứng nhận là căn cứ quan trọng nhưng cần đối chiếu thêm quy hoạch, thế chấp, nghĩa vụ tài chính, tình trạng tranh chấp và điều kiện chuyển nhượng theo quy định hiện hành.
-Hợp đồng xây dựng nên có cơ chế xử lý phát sinh nào?
+Hỏi: Hợp đồng xây dựng nên có cơ chế xử lý phát sinh nào?
 Thường cần quy định rõ điều chỉnh khối lượng, giá, tiến độ, nghiệm thu, bảo hành, phạt vi phạm, bồi thường và cách giải quyết tranh chấp để hạn chế bất đồng khi thực hiện.
 Trao đổi với luật sư
 Cần tư vấn về Bất động sản & Xây dựng?
@@ -356,8 +528,8 @@ Rà soát hồ sơ, đối chiếu quy định hiện hành, chỉ rõ rủi ro 
 ### Triển khai
 Soạn thảo, đàm phán, đại diện làm việc với cơ quan nhà nước hoặc đối tác theo phương án đã thống nhất.
 5
-### Bàn giao & hỗ trợ sau dịch vụ
-Bàn giao kết quả, hướng dẫn thực hiện và tiếp tục hỗ trợ khi phát sinh vấn đề liên quan.
+### Bàn giao
+Bàn giao tài liệu và hướng dẫn theo phạm vi dịch vụ đã thống nhất. Yêu cầu phát sinh được trao đổi riêng về công việc, thời hạn và phí, nếu có.
 Lĩnh vực liên quan
 ## Dịch vụ thường đi kèm
 02
@@ -391,6 +563,7 @@ URL: https://hticlaw.vn/dich-vu/luat-su-tranh-tung/
 TITLE: Tranh chấp & Tố tụng | Luật sư tư vấn tại TP.HCM – Công ty Luật HTIC
 META: Đại diện khách hàng giải quyết tranh chấp qua thương lượng, hoà giải, trọng tài và toà án, hướng tới kết quả thực chất.
 ---------------------
+Hỏi: 
 Trang chủ
 Dịch vụTranh chấp & Tố tụng
 Lĩnh vực dịch vụ 06
@@ -398,11 +571,11 @@ Lĩnh vực dịch vụ 06
 Đại diện khách hàng giải quyết tranh chấp qua thương lượng, hoà giải, trọng tài và toà án, hướng tới kết quả thực chất.
 Đặt lịch tư vấn 
 0379 044 299
-Một luật sư phụ trách xuyên suốt
+Luật sư phụ trách được thống nhất theo vụ việc
 Báo giá rõ ràng trước khi triển khai
 Bảo mật thông tin theo Luật Luật sư
 Tổng quan
-Đội ngũ luật sư tranh tụng của HTIC đại diện khách hàng tại Toà án các cấp và Trọng tài thương mại. Mỗi vụ việc được tiếp cận bằng chiến lược bài bản, đánh giá thực tế về rủi ro và chi phí, ưu tiên phương án hiệu quả nhất cho khách hàng.
+HTIC tư vấn phương án giải quyết tranh chấp, hỗ trợ thương lượng, hoà giải và tham gia tố tụng với tư cách phù hợp theo quy định pháp luật. Phương án được xem xét trên cơ sở hồ sơ, mục tiêu của khách hàng, rủi ro, thời gian và chi phí dự kiến.
 ## Phạm vi công việc
 01
 ### Đánh giá & chiến lược
@@ -426,10 +599,10 @@ Hỗ trợ thi hành án, thu hồi tài sản sau bản án, phán quyết.
 Bộ luật Tố tụng dân sự 2015 (sửa đổi, bổ sung bởi Luật số 85/2025/QH15)
 Luật Trọng tài thương mại 2010
 Luật Thi hành án dân sự
-Mỗi tư vấn của HTIC dẫn chiếu điều khoản cụ thể và được đối chiếu với văn bản còn hiệu lực tại thời điểm tư vấn.
+Căn cứ pháp lý được xác định theo thời điểm phát sinh quan hệ, giao dịch hoặc vụ việc và các quy định chuyển tiếp có liên quan.
 ## Vì sao chọn HTIC
-### Một đầu mối xuyên suốt
-Mỗi vụ việc do một luật sư phụ trách dẫn dắt từ đầu đến cuối, khách hàng không phải trao đổi lại với nhiều người.
+### Luật sư phụ trách rõ ràng
+Luật sư phụ trách và cách phối hợp được thống nhất theo từng vụ việc; thay đổi nhân sự phụ trách được thông báo cho khách hàng.
 ### Báo giá rõ ràng trước khi làm
 Phạm vi công việc, thời gian và phí dịch vụ được thống nhất bằng văn bản trước khi triển khai.
 ### Am hiểu doanh nghiệp FDI
@@ -437,11 +610,11 @@ Kinh nghiệm làm việc với doanh nghiệp Việt Nam và nhà đầu tư n�
 ### Phòng ngừa trước, xử lý sau
 Ưu tiên nhận diện và kiểm soát rủi ro từ sớm thay vì để vấn đề phát sinh thành tranh chấp.
 ## Câu hỏi thường gặp
-Luật sư có cam kết thắng kiện không?
+Hỏi: Luật sư có cam kết thắng kiện không?
 Không. Kết quả phụ thuộc chứng cứ, quy định pháp luật và quyết định của cơ quan tài phán. Luật sư đánh giá khách quan rủi ro và bảo vệ tốt nhất quyền lợi hợp pháp của khách hàng.
-Khi nào giải quyết tại toà án, khi nào tại trọng tài?
-Trọng tài chỉ có thẩm quyền khi các bên có thoả thuận trọng tài hợp lệ. Nếu không có thoả thuận đó, tranh chấp thường thuộc thẩm quyền của toà án.
-Cần chuẩn bị gì trước buổi làm việc với luật sư?
+Hỏi: Khi nào giải quyết tại toà án, khi nào tại trọng tài?
+Trọng tài giải quyết tranh chấp thuộc thẩm quyền luật định khi có thoả thuận trọng tài hợp lệ và có thể thực hiện. Việc xác định toà án hoặc trọng tài có thẩm quyền cần xem xét loại tranh chấp, thoả thuận của các bên và các điều kiện tố tụng liên quan.
+Hỏi: Cần chuẩn bị gì trước buổi làm việc với luật sư?
 Hợp đồng, hoá đơn, chứng từ thanh toán, thư từ, tin nhắn trao đổi, biên bản làm việc và bản tóm tắt diễn biến theo thời gian.
 Trao đổi với luật sư
 Cần tư vấn về Tranh chấp & Tố tụng?
@@ -475,8 +648,8 @@ Rà soát hồ sơ, đối chiếu quy định hiện hành, chỉ rõ rủi ro 
 ### Triển khai
 Soạn thảo, đàm phán, đại diện làm việc với cơ quan nhà nước hoặc đối tác theo phương án đã thống nhất.
 5
-### Bàn giao & hỗ trợ sau dịch vụ
-Bàn giao kết quả, hướng dẫn thực hiện và tiếp tục hỗ trợ khi phát sinh vấn đề liên quan.
+### Bàn giao
+Bàn giao tài liệu và hướng dẫn theo phạm vi dịch vụ đã thống nhất. Yêu cầu phát sinh được trao đổi riêng về công việc, thời hạn và phí, nếu có.
 Lĩnh vực liên quan
 ## Dịch vụ thường đi kèm
 07
@@ -488,14 +661,14 @@ Hợp đồng song ngữ
 Xem chi tiết 
 08
 ### Sở hữu trí tuệ
-Đăng ký nhãn hiệu trong nước và Madrid, bản quyền, sáng chế, xử lý xâm phạm.
+Tư vấn bảo hộ nhãn hiệu, sáng chế, kiểu dáng công nghiệp, quyền tác giả và xử lý xâm phạm.
 Tra cứu khả năng bảo hộ
-Hồ sơ đăng ký bảo hộ
+Hồ sơ bảo hộ
 Đăng ký quốc tế
 Xem chi tiết 
 09
 ### Thuế & Kế toán
-Nghĩa vụ thuế, quyết toán, giao dịch liên kết, thanh tra và tranh chấp thuế.
+Tư vấn pháp lý về nghĩa vụ thuế, giao dịch liên kết, kiểm tra, thanh tra và tranh chấp thuế.
 Nghĩa vụ thuế
 Rà soát hồ sơ thuế
 Thanh tra, kiểm tra thuế
@@ -508,20 +681,21 @@ Hotline 0379 044 299
 =====================
 URL: https://hticlaw.vn/dich-vu/tu-van-giay-phep-tuan-thu/
 TITLE: Giấy phép & Tuân thủ | Luật sư tư vấn tại TP.HCM – Công ty Luật HTIC
-META: Hỗ trợ doanh nghiệp xin cấp phép, đáp ứng điều kiện kinh doanh và tuân thủ pháp luật chuyên ngành, tránh bị xử phạt hoặc đình chỉ.
+META: Tư vấn điều kiện kinh doanh, hồ sơ giấy phép và nghĩa vụ tuân thủ; hỗ trợ doanh nghiệp nhận diện rủi ro vi phạm và chuẩn bị phương án xử lý.
 ---------------------
+Hỏi: 
 Trang chủ
 Dịch vụGiấy phép & Tuân thủ
 Lĩnh vực dịch vụ 04
 # Giấy phép & Tuân thủ
-Hỗ trợ doanh nghiệp xin cấp phép, đáp ứng điều kiện kinh doanh và tuân thủ pháp luật chuyên ngành, tránh bị xử phạt hoặc đình chỉ.
+Tư vấn điều kiện kinh doanh, hồ sơ giấy phép và nghĩa vụ tuân thủ; hỗ trợ doanh nghiệp nhận diện rủi ro vi phạm và chuẩn bị phương án xử lý.
 Đặt lịch tư vấn 
 0379 044 299
-Một luật sư phụ trách xuyên suốt
+Luật sư phụ trách được thống nhất theo vụ việc
 Báo giá rõ ràng trước khi triển khai
 Bảo mật thông tin theo Luật Luật sư
 Tổng quan
-Nhiều ngành nghề tại Việt Nam là kinh doanh có điều kiện, đòi hỏi giấy phép và tuân thủ chặt chẽ. HTIC đại diện khách hàng làm việc với cơ quan nhà nước để xin, gia hạn, điều chỉnh giấy phép, đồng thời xây dựng chương trình tuân thủ giúp doanh nghiệp vận hành an toàn.
+Nhiều ngành nghề tại Việt Nam là kinh doanh có điều kiện, đòi hỏi giấy phép và tuân thủ chặt chẽ. HTIC tư vấn điều kiện, hồ sơ và thủ tục xin, gia hạn, điều chỉnh giấy phép, đồng thời hỗ trợ doanh nghiệp xây dựng chương trình tuân thủ nội bộ.
 ## Phạm vi công việc
 01
 ### Giấy phép con
@@ -545,10 +719,10 @@ Cảnh báo thay đổi pháp luật liên quan đến hoạt động của doan
 Luật Đầu tư 2025 (Luật số 143/2025/QH15)
 Luật Bảo vệ dữ liệu cá nhân 2025
 Bộ luật Lao động 2019
-Mỗi tư vấn của HTIC dẫn chiếu điều khoản cụ thể và được đối chiếu với văn bản còn hiệu lực tại thời điểm tư vấn.
+Căn cứ pháp lý được xác định theo thời điểm phát sinh quan hệ, giao dịch hoặc vụ việc và các quy định chuyển tiếp có liên quan.
 ## Vì sao chọn HTIC
-### Một đầu mối xuyên suốt
-Mỗi vụ việc do một luật sư phụ trách dẫn dắt từ đầu đến cuối, khách hàng không phải trao đổi lại với nhiều người.
+### Luật sư phụ trách rõ ràng
+Luật sư phụ trách và cách phối hợp được thống nhất theo từng vụ việc; thay đổi nhân sự phụ trách được thông báo cho khách hàng.
 ### Báo giá rõ ràng trước khi làm
 Phạm vi công việc, thời gian và phí dịch vụ được thống nhất bằng văn bản trước khi triển khai.
 ### Am hiểu doanh nghiệp FDI
@@ -556,11 +730,11 @@ Kinh nghiệm làm việc với doanh nghiệp Việt Nam và nhà đầu tư n�
 ### Phòng ngừa trước, xử lý sau
 Ưu tiên nhận diện và kiểm soát rủi ro từ sớm thay vì để vấn đề phát sinh thành tranh chấp.
 ## Câu hỏi thường gặp
-Có Giấy chứng nhận đăng ký doanh nghiệp đã đủ để hoạt động chưa?
+Hỏi: Có Giấy chứng nhận đăng ký doanh nghiệp đã đủ để hoạt động chưa?
 Chưa chắc. Với ngành nghề kinh doanh có điều kiện, doanh nghiệp còn phải đáp ứng điều kiện hoặc có giấy phép chuyên ngành trước khi hoạt động.
-Thay đổi địa điểm kinh doanh có phải điều chỉnh giấy phép không?
+Hỏi: Thay đổi địa điểm kinh doanh có phải điều chỉnh giấy phép không?
 Nhiều loại giấy phép gắn với địa điểm, nên thường phải thông báo hoặc điều chỉnh. Cần kiểm tra quy định của từng loại giấy phép cụ thể.
-HTIC hỗ trợ những bước nào?
+Hỏi: HTIC hỗ trợ những bước nào?
 Xác định giấy phép cần có, kiểm tra điều kiện, chuẩn bị hồ sơ, theo dõi xử lý và giải trình với cơ quan có thẩm quyền theo phạm vi thống nhất.
 Trao đổi với luật sư
 Cần tư vấn về Giấy phép & Tuân thủ?
@@ -594,8 +768,8 @@ Rà soát hồ sơ, đối chiếu quy định hiện hành, chỉ rõ rủi ro 
 ### Triển khai
 Soạn thảo, đàm phán, đại diện làm việc với cơ quan nhà nước hoặc đối tác theo phương án đã thống nhất.
 5
-### Bàn giao & hỗ trợ sau dịch vụ
-Bàn giao kết quả, hướng dẫn thực hiện và tiếp tục hỗ trợ khi phát sinh vấn đề liên quan.
+### Bàn giao
+Bàn giao tài liệu và hướng dẫn theo phạm vi dịch vụ đã thống nhất. Yêu cầu phát sinh được trao đổi riêng về công việc, thời hạn và phí, nếu có.
 Lĩnh vực liên quan
 ## Dịch vụ thường đi kèm
 05
@@ -629,6 +803,7 @@ URL: https://hticlaw.vn/dich-vu/tu-van-hop-dong/
 TITLE: Hợp đồng | Luật sư tư vấn tại TP.HCM – Công ty Luật HTIC
 META: Soạn thảo, rà soát và đàm phán hợp đồng nhằm bảo vệ quyền lợi và giảm thiểu rủi ro pháp lý cho doanh nghiệp ngay từ khâu ký kết.
 ---------------------
+Hỏi: 
 Trang chủ
 Dịch vụHợp đồng
 Lĩnh vực dịch vụ 07
@@ -636,7 +811,7 @@ Lĩnh vực dịch vụ 07
 Soạn thảo, rà soát và đàm phán hợp đồng nhằm bảo vệ quyền lợi và giảm thiểu rủi ro pháp lý cho doanh nghiệp ngay từ khâu ký kết.
 Đặt lịch tư vấn 
 0379 044 299
-Một luật sư phụ trách xuyên suốt
+Luật sư phụ trách được thống nhất theo vụ việc
 Báo giá rõ ràng trước khi triển khai
 Bảo mật thông tin theo Luật Luật sư
 Tổng quan
@@ -664,10 +839,10 @@ Thanh toán, phạt vi phạm, bồi thường, chấm dứt, bất khả kháng
 Bộ luật Dân sự 2015
 Luật Thương mại 2005
 Bộ luật Lao động 2019
-Mỗi tư vấn của HTIC dẫn chiếu điều khoản cụ thể và được đối chiếu với văn bản còn hiệu lực tại thời điểm tư vấn.
+Căn cứ pháp lý được xác định theo thời điểm phát sinh quan hệ, giao dịch hoặc vụ việc và các quy định chuyển tiếp có liên quan.
 ## Vì sao chọn HTIC
-### Một đầu mối xuyên suốt
-Mỗi vụ việc do một luật sư phụ trách dẫn dắt từ đầu đến cuối, khách hàng không phải trao đổi lại với nhiều người.
+### Luật sư phụ trách rõ ràng
+Luật sư phụ trách và cách phối hợp được thống nhất theo từng vụ việc; thay đổi nhân sự phụ trách được thông báo cho khách hàng.
 ### Báo giá rõ ràng trước khi làm
 Phạm vi công việc, thời gian và phí dịch vụ được thống nhất bằng văn bản trước khi triển khai.
 ### Am hiểu doanh nghiệp FDI
@@ -675,11 +850,11 @@ Kinh nghiệm làm việc với doanh nghiệp Việt Nam và nhà đầu tư n�
 ### Phòng ngừa trước, xử lý sau
 Ưu tiên nhận diện và kiểm soát rủi ro từ sớm thay vì để vấn đề phát sinh thành tranh chấp.
 ## Câu hỏi thường gặp
-Những điều khoản nào cần kiểm tra trước khi ký?
+Hỏi: Những điều khoản nào cần kiểm tra trước khi ký?
 Đối tượng và chất lượng, giá và thanh toán, thời hạn, nghĩa vụ các bên, phạt vi phạm và bồi thường, chấm dứt, bất khả kháng, luật áp dụng và giải quyết tranh chấp.
-Hợp đồng song ngữ nên quy định bản ưu tiên thế nào?
+Hỏi: Hợp đồng song ngữ nên quy định bản ưu tiên thế nào?
 Nên ghi rõ bản ngôn ngữ nào được ưu tiên khi có khác biệt, đồng thời rà soát để hai bản thống nhất về nội dung ngay từ đầu.
-Có thể sửa đổi hợp đồng đã ký bằng cách nào?
+Hỏi: Có thể sửa đổi hợp đồng đã ký bằng cách nào?
 Thông thường bằng phụ lục hoặc văn bản sửa đổi được các bên ký theo đúng hình thức mà hợp đồng và pháp luật yêu cầu.
 Trao đổi với luật sư
 Cần tư vấn về Hợp đồng?
@@ -713,27 +888,27 @@ Rà soát hồ sơ, đối chiếu quy định hiện hành, chỉ rõ rủi ro 
 ### Triển khai
 Soạn thảo, đàm phán, đại diện làm việc với cơ quan nhà nước hoặc đối tác theo phương án đã thống nhất.
 5
-### Bàn giao & hỗ trợ sau dịch vụ
-Bàn giao kết quả, hướng dẫn thực hiện và tiếp tục hỗ trợ khi phát sinh vấn đề liên quan.
+### Bàn giao
+Bàn giao tài liệu và hướng dẫn theo phạm vi dịch vụ đã thống nhất. Yêu cầu phát sinh được trao đổi riêng về công việc, thời hạn và phí, nếu có.
 Lĩnh vực liên quan
 ## Dịch vụ thường đi kèm
 08
 ### Sở hữu trí tuệ
-Đăng ký nhãn hiệu trong nước và Madrid, bản quyền, sáng chế, xử lý xâm phạm.
+Tư vấn bảo hộ nhãn hiệu, sáng chế, kiểu dáng công nghiệp, quyền tác giả và xử lý xâm phạm.
 Tra cứu khả năng bảo hộ
-Hồ sơ đăng ký bảo hộ
+Hồ sơ bảo hộ
 Đăng ký quốc tế
 Xem chi tiết 
 09
 ### Thuế & Kế toán
-Nghĩa vụ thuế, quyết toán, giao dịch liên kết, thanh tra và tranh chấp thuế.
+Tư vấn pháp lý về nghĩa vụ thuế, giao dịch liên kết, kiểm tra, thanh tra và tranh chấp thuế.
 Nghĩa vụ thuế
 Rà soát hồ sơ thuế
 Thanh tra, kiểm tra thuế
 Xem chi tiết 
 10
 ### Xuất khẩu lao động & Du học
-Giấy phép dịch vụ, hợp đồng cung ứng lao động, du học, thị thực và tranh chấp.
+Tư vấn pháp lý về điều kiện kinh doanh, hợp đồng và tranh chấp trong lĩnh vực đưa người lao động đi làm việc ở nước ngoài, du học và thị thực.
 Giấy phép dịch vụ
 Hợp đồng
 Tuân thủ
@@ -748,6 +923,7 @@ URL: https://hticlaw.vn/dich-vu/tu-van-ma-dau-tu/
 TITLE: M&A & Đầu tư | Luật sư tư vấn tại TP.HCM – Công ty Luật HTIC
 META: Tư vấn trọn vẹn giao dịch mua bán – sáp nhập và đầu tư, từ thẩm định pháp lý đến cấu trúc giao dịch, đăng ký đầu tư và xử lý hậu M&A.
 ---------------------
+Hỏi: 
 Trang chủ
 Dịch vụM&A & Đầu tư
 Lĩnh vực dịch vụ 03
@@ -755,7 +931,7 @@ Lĩnh vực dịch vụ 03
 Tư vấn trọn vẹn giao dịch mua bán – sáp nhập và đầu tư, từ thẩm định pháp lý đến cấu trúc giao dịch, đăng ký đầu tư và xử lý hậu M&A.
 Đặt lịch tư vấn 
 0379 044 299
-Một luật sư phụ trách xuyên suốt
+Luật sư phụ trách được thống nhất theo vụ việc
 Báo giá rõ ràng trước khi triển khai
 Bảo mật thông tin theo Luật Luật sư
 Tổng quan
@@ -783,10 +959,10 @@ Thoái vốn, chuyển lợi nhuận ra nước ngoài, tích hợp và tuân th
 Luật Đầu tư 2025 (Luật số 143/2025/QH15, hiệu lực 01/03/2026)
 Luật Doanh nghiệp 2020, sửa đổi bởi Luật số 76/2025/QH15
 Luật Cạnh tranh 2018
-Mỗi tư vấn của HTIC dẫn chiếu điều khoản cụ thể và được đối chiếu với văn bản còn hiệu lực tại thời điểm tư vấn.
+Căn cứ pháp lý được xác định theo thời điểm phát sinh quan hệ, giao dịch hoặc vụ việc và các quy định chuyển tiếp có liên quan.
 ## Vì sao chọn HTIC
-### Một đầu mối xuyên suốt
-Mỗi vụ việc do một luật sư phụ trách dẫn dắt từ đầu đến cuối, khách hàng không phải trao đổi lại với nhiều người.
+### Luật sư phụ trách rõ ràng
+Luật sư phụ trách và cách phối hợp được thống nhất theo từng vụ việc; thay đổi nhân sự phụ trách được thông báo cho khách hàng.
 ### Báo giá rõ ràng trước khi làm
 Phạm vi công việc, thời gian và phí dịch vụ được thống nhất bằng văn bản trước khi triển khai.
 ### Am hiểu doanh nghiệp FDI
@@ -794,11 +970,11 @@ Kinh nghiệm làm việc với doanh nghiệp Việt Nam và nhà đầu tư n�
 ### Phòng ngừa trước, xử lý sau
 Ưu tiên nhận diện và kiểm soát rủi ro từ sớm thay vì để vấn đề phát sinh thành tranh chấp.
 ## Câu hỏi thường gặp
-Thẩm định pháp lý doanh nghiệp mục tiêu gồm những gì?
+Hỏi: Thẩm định pháp lý doanh nghiệp mục tiêu gồm những gì?
 Thường gồm tư cách pháp lý, cơ cấu vốn, giấy phép, tài sản, hợp đồng trọng yếu, lao động, thuế, tranh chấp và nghĩa vụ tiềm ẩn. Phạm vi được điều chỉnh theo mục tiêu giao dịch.
-Nhà đầu tư nước ngoài cần kiểm tra điều kiện nào?
+Hỏi: Nhà đầu tư nước ngoài cần kiểm tra điều kiện nào?
 Điều kiện tiếp cận thị trường của ngành nghề, tỷ lệ sở hữu, thủ tục đăng ký góp vốn, mua cổ phần hoặc đăng ký đầu tư, cùng các quy định chuyên ngành liên quan.
-Rủi ro phát hiện khi thẩm định được xử lý trong hợp đồng thế nào?
+Hỏi: Rủi ro phát hiện khi thẩm định được xử lý trong hợp đồng thế nào?
 Có thể qua điều kiện tiên quyết, cam đoan và bảo đảm, cơ chế bồi hoàn, điều chỉnh giá hoặc giữ lại một phần thanh toán, tuỳ mức độ rủi ro.
 Trao đổi với luật sư
 Cần tư vấn về M&A & Đầu tư?
@@ -832,8 +1008,8 @@ Rà soát hồ sơ, đối chiếu quy định hiện hành, chỉ rõ rủi ro 
 ### Triển khai
 Soạn thảo, đàm phán, đại diện làm việc với cơ quan nhà nước hoặc đối tác theo phương án đã thống nhất.
 5
-### Bàn giao & hỗ trợ sau dịch vụ
-Bàn giao kết quả, hướng dẫn thực hiện và tiếp tục hỗ trợ khi phát sinh vấn đề liên quan.
+### Bàn giao
+Bàn giao tài liệu và hướng dẫn theo phạm vi dịch vụ đã thống nhất. Yêu cầu phát sinh được trao đổi riêng về công việc, thời hạn và phí, nếu có.
 Lĩnh vực liên quan
 ## Dịch vụ thường đi kèm
 04
@@ -867,6 +1043,7 @@ URL: https://hticlaw.vn/dich-vu/tu-van-phap-ly-doanh-nghiep/
 TITLE: Doanh nghiệp & Quản trị | Luật sư tư vấn tại TP.HCM – Công ty Luật HTIC
 META: Đồng hành pháp lý cùng doanh nghiệp từ khi thành lập, trong suốt quá trình vận hành, tái cấu trúc và quản trị nội bộ, bao gồm mô hình Phòng Pháp chế thuê ngoài.
 ---------------------
+Hỏi: 
 Trang chủ
 Dịch vụDoanh nghiệp & Quản trị
 Lĩnh vực dịch vụ 02
@@ -874,11 +1051,11 @@ Lĩnh vực dịch vụ 02
 Đồng hành pháp lý cùng doanh nghiệp từ khi thành lập, trong suốt quá trình vận hành, tái cấu trúc và quản trị nội bộ, bao gồm mô hình Phòng Pháp chế thuê ngoài.
 Đặt lịch tư vấn 
 0379 044 299
-Một luật sư phụ trách xuyên suốt
+Luật sư phụ trách được thống nhất theo vụ việc
 Báo giá rõ ràng trước khi triển khai
 Bảo mật thông tin theo Luật Luật sư
 Tổng quan
-HTIC là đối tác pháp lý dài hạn của doanh nghiệp, đồng hành từ khi thành lập đến khi mở rộng, tái cấu trúc hoặc rút lui. Dịch vụ Phòng Pháp chế thuê ngoài mang lại cho doanh nghiệp một bộ phận pháp chế chuyên nghiệp, chủ động phòng ngừa rủi ro mà không phải gánh chi phí xây dựng đội ngũ nội bộ.
+HTIC cung cấp tư vấn pháp lý thường xuyên theo nhu cầu doanh nghiệp, từ thành lập, quản trị đến tái cấu trúc hoặc chấm dứt hoạt động. Phạm vi phối hợp với bộ phận pháp chế nội bộ được thống nhất trong hợp đồng dịch vụ.
 ## Phạm vi công việc
 01
 ### Thành lập & thay đổi đăng ký
@@ -902,10 +1079,10 @@ Xây dựng hệ thống uỷ quyền, phân cấp phê duyệt và quản lý t
 Luật Doanh nghiệp 2020, sửa đổi bởi Luật số 76/2025/QH15
 Luật Đầu tư 2025 (Luật số 143/2025/QH15)
 Văn bản hướng dẫn về đăng ký doanh nghiệp
-Mỗi tư vấn của HTIC dẫn chiếu điều khoản cụ thể và được đối chiếu với văn bản còn hiệu lực tại thời điểm tư vấn.
+Căn cứ pháp lý được xác định theo thời điểm phát sinh quan hệ, giao dịch hoặc vụ việc và các quy định chuyển tiếp có liên quan.
 ## Vì sao chọn HTIC
-### Một đầu mối xuyên suốt
-Mỗi vụ việc do một luật sư phụ trách dẫn dắt từ đầu đến cuối, khách hàng không phải trao đổi lại với nhiều người.
+### Luật sư phụ trách rõ ràng
+Luật sư phụ trách và cách phối hợp được thống nhất theo từng vụ việc; thay đổi nhân sự phụ trách được thông báo cho khách hàng.
 ### Báo giá rõ ràng trước khi làm
 Phạm vi công việc, thời gian và phí dịch vụ được thống nhất bằng văn bản trước khi triển khai.
 ### Am hiểu doanh nghiệp FDI
@@ -913,11 +1090,11 @@ Kinh nghiệm làm việc với doanh nghiệp Việt Nam và nhà đầu tư n�
 ### Phòng ngừa trước, xử lý sau
 Ưu tiên nhận diện và kiểm soát rủi ro từ sớm thay vì để vấn đề phát sinh thành tranh chấp.
 ## Câu hỏi thường gặp
-Cần chuẩn bị gì trước khi thành lập doanh nghiệp?
+Hỏi: Cần chuẩn bị gì trước khi thành lập doanh nghiệp?
 Xác định loại hình, ngành nghề (có điều kiện hay không), vốn điều lệ, cơ cấu sở hữu, người đại diện theo pháp luật và địa chỉ trụ sở. Với nhà đầu tư nước ngoài cần xem thêm thủ tục đầu tư.
-Khi nào cần sửa điều lệ và quy chế nội bộ?
+Hỏi: Khi nào cần sửa điều lệ và quy chế nội bộ?
 Khi thay đổi cơ cấu sở hữu, mô hình quản trị, quyền hạn người quản lý hoặc khi pháp luật doanh nghiệp được sửa đổi làm điều lệ hiện tại không còn phù hợp.
-Pháp chế thuê ngoài hỗ trợ những công việc nào?
+Hỏi: Pháp chế thuê ngoài hỗ trợ những công việc nào?
 Tuỳ phạm vi thống nhất, thường gồm rà soát hợp đồng, tư vấn thường xuyên, chuẩn hoá biểu mẫu, cập nhật pháp luật và hỗ trợ khi làm việc với cơ quan nhà nước.
 Trao đổi với luật sư
 Cần tư vấn về Doanh nghiệp & Quản trị?
@@ -951,8 +1128,8 @@ Rà soát hồ sơ, đối chiếu quy định hiện hành, chỉ rõ rủi ro 
 ### Triển khai
 Soạn thảo, đàm phán, đại diện làm việc với cơ quan nhà nước hoặc đối tác theo phương án đã thống nhất.
 5
-### Bàn giao & hỗ trợ sau dịch vụ
-Bàn giao kết quả, hướng dẫn thực hiện và tiếp tục hỗ trợ khi phát sinh vấn đề liên quan.
+### Bàn giao
+Bàn giao tài liệu và hướng dẫn theo phạm vi dịch vụ đã thống nhất. Yêu cầu phát sinh được trao đổi riêng về công việc, thời hạn và phí, nếu có.
 Lĩnh vực liên quan
 ## Dịch vụ thường đi kèm
 03
@@ -986,6 +1163,7 @@ URL: https://hticlaw.vn/dich-vu/tu-van-so-huu-tri-tue/
 TITLE: Sở hữu trí tuệ | Luật sư tư vấn tại TP.HCM – Công ty Luật HTIC
 META: Tư vấn xác lập, bảo hộ và khai thác tài sản trí tuệ: nhãn hiệu, bản quyền, sáng chế, kiểu dáng, cả trong nước và quốc tế.
 ---------------------
+Hỏi: 
 Trang chủ
 Dịch vụSở hữu trí tuệ
 Lĩnh vực dịch vụ 08
@@ -993,7 +1171,7 @@ Lĩnh vực dịch vụ 08
 Tư vấn xác lập, bảo hộ và khai thác tài sản trí tuệ: nhãn hiệu, bản quyền, sáng chế, kiểu dáng, cả trong nước và quốc tế.
 Đặt lịch tư vấn 
 0379 044 299
-Một luật sư phụ trách xuyên suốt
+Luật sư phụ trách được thống nhất theo vụ việc
 Báo giá rõ ràng trước khi triển khai
 Bảo mật thông tin theo Luật Luật sư
 Tổng quan
@@ -1003,11 +1181,11 @@ Tài sản trí tuệ ngày càng là giá trị cốt lõi của doanh nghiệp
 ### Tra cứu khả năng bảo hộ
 Tra cứu nhãn hiệu, kiểu dáng, sáng chế trước khi nộp đơn.
 02
-### Hồ sơ đăng ký bảo hộ
-Tư vấn, chuẩn bị hồ sơ và phối hợp nộp đơn nhãn hiệu, kiểu dáng công nghiệp, sáng chế, quyền tác giả, tên thương mại.
+### Hồ sơ bảo hộ
+Tư vấn điều kiện bảo hộ và chuẩn bị hồ sơ liên quan đến nhãn hiệu, kiểu dáng công nghiệp, sáng chế và quyền tác giả; tư vấn xác lập, sử dụng và bảo vệ tên thương mại. Hoạt động đại diện sở hữu công nghiệp được thực hiện theo điều kiện hành nghề áp dụng.
 03
 ### Đăng ký quốc tế
-Đăng ký nhãn hiệu quốc tế theo Hệ thống Madrid.
+Tư vấn phương án đăng ký nhãn hiệu qua Hệ thống Madrid, phạm vi quốc gia chỉ định và việc phối hợp với đại diện đáp ứng điều kiện khi cần thiết.
 04
 ### Theo dõi đơn
 Theo dõi đơn, xử lý phản đối, khiếu nại, yêu cầu chấm dứt hiệu lực.
@@ -1016,14 +1194,14 @@ Theo dõi đơn, xử lý phản đối, khiếu nại, yêu cầu chấm dứt 
 Biện pháp hành chính, dân sự; phản đối đơn đăng ký xấu.
 06
 ### Chuyển giao & li-xăng
-Hợp đồng chuyển giao, li-xăng và định giá tài sản trí tuệ.
+Tư vấn hợp đồng chuyển nhượng, chuyển quyền sử dụng và các vấn đề pháp lý khi khai thác tài sản trí tuệ; phối hợp với đơn vị chuyên môn khi cần xác định giá trị.
 ## Căn cứ pháp lý chính
 Luật Sở hữu trí tuệ (sửa đổi, bổ sung bởi Luật số 131/2025/QH15, hiệu lực 01/04/2026)
 Thoả ước và Nghị định thư Madrid
-Mỗi tư vấn của HTIC dẫn chiếu điều khoản cụ thể và được đối chiếu với văn bản còn hiệu lực tại thời điểm tư vấn.
+Căn cứ pháp lý được xác định theo thời điểm phát sinh quan hệ, giao dịch hoặc vụ việc và các quy định chuyển tiếp có liên quan.
 ## Vì sao chọn HTIC
-### Một đầu mối xuyên suốt
-Mỗi vụ việc do một luật sư phụ trách dẫn dắt từ đầu đến cuối, khách hàng không phải trao đổi lại với nhiều người.
+### Luật sư phụ trách rõ ràng
+Luật sư phụ trách và cách phối hợp được thống nhất theo từng vụ việc; thay đổi nhân sự phụ trách được thông báo cho khách hàng.
 ### Báo giá rõ ràng trước khi làm
 Phạm vi công việc, thời gian và phí dịch vụ được thống nhất bằng văn bản trước khi triển khai.
 ### Am hiểu doanh nghiệp FDI
@@ -1031,12 +1209,12 @@ Kinh nghiệm làm việc với doanh nghiệp Việt Nam và nhà đầu tư n�
 ### Phòng ngừa trước, xử lý sau
 Ưu tiên nhận diện và kiểm soát rủi ro từ sớm thay vì để vấn đề phát sinh thành tranh chấp.
 ## Câu hỏi thường gặp
-Đăng ký tên doanh nghiệp có thay thế bảo hộ nhãn hiệu không?
-Không. Tên doanh nghiệp và nhãn hiệu là hai đối tượng khác nhau; muốn được bảo hộ độc quyền nhãn hiệu cần nộp đơn đăng ký nhãn hiệu.
-Nộp đơn có đồng nghĩa được cấp văn bằng không?
+Hỏi: Đăng ký tên doanh nghiệp có thay thế bảo hộ nhãn hiệu không?
+Không. Đăng ký tên doanh nghiệp không thay thế việc xác lập quyền đối với nhãn hiệu. Thông thường, quyền đối với nhãn hiệu được xác lập khi được cấp văn bằng bảo hộ hoặc được công nhận đăng ký quốc tế theo điều ước áp dụng. Riêng nhãn hiệu nổi tiếng, quyền được xác lập trên cơ sở sử dụng, không phụ thuộc thủ tục đăng ký.
+Hỏi: Nộp đơn có đồng nghĩa được cấp văn bằng không?
 Không. Đơn phải qua thẩm định hình thức và nội dung; kết quả phụ thuộc khả năng phân biệt và các đối tượng đã được bảo hộ trước. Tra cứu trước khi nộp giúp đánh giá khả năng này.
-Khi nào nên bảo hộ kiểu dáng công nghiệp?
-Khi hình dáng bên ngoài của sản phẩm có tính mới và là yếu tố cạnh tranh, nên cân nhắc nộp đơn trước khi công bố hoặc đưa sản phẩm ra thị trường.
+Hỏi: Khi nào nên bảo hộ kiểu dáng công nghiệp?
+Nên đánh giá khả năng bảo hộ và thời điểm nộp đơn trước khi công bố hoặc đưa sản phẩm ra thị trường. Kiểu dáng phải đáp ứng các điều kiện luật định về tính mới, tính sáng tạo và khả năng áp dụng công nghiệp; trường hợp đã công bố cần xem xét quy định về ngoại lệ liên quan.
 Trao đổi với luật sư
 Cần tư vấn về Sở hữu trí tuệ?
 Gửi yêu cầu hoặc gọi trực tiếp, luật sư HTIC sẽ liên hệ trong giờ làm việc.
@@ -1069,30 +1247,30 @@ Rà soát hồ sơ, đối chiếu quy định hiện hành, chỉ rõ rủi ro 
 ### Triển khai
 Soạn thảo, đàm phán, đại diện làm việc với cơ quan nhà nước hoặc đối tác theo phương án đã thống nhất.
 5
-### Bàn giao & hỗ trợ sau dịch vụ
-Bàn giao kết quả, hướng dẫn thực hiện và tiếp tục hỗ trợ khi phát sinh vấn đề liên quan.
+### Bàn giao
+Bàn giao tài liệu và hướng dẫn theo phạm vi dịch vụ đã thống nhất. Yêu cầu phát sinh được trao đổi riêng về công việc, thời hạn và phí, nếu có.
 Lĩnh vực liên quan
 ## Dịch vụ thường đi kèm
 09
 ### Thuế & Kế toán
-Nghĩa vụ thuế, quyết toán, giao dịch liên kết, thanh tra và tranh chấp thuế.
+Tư vấn pháp lý về nghĩa vụ thuế, giao dịch liên kết, kiểm tra, thanh tra và tranh chấp thuế.
 Nghĩa vụ thuế
 Rà soát hồ sơ thuế
 Thanh tra, kiểm tra thuế
 Xem chi tiết 
 10
 ### Xuất khẩu lao động & Du học
-Giấy phép dịch vụ, hợp đồng cung ứng lao động, du học, thị thực và tranh chấp.
+Tư vấn pháp lý về điều kiện kinh doanh, hợp đồng và tranh chấp trong lĩnh vực đưa người lao động đi làm việc ở nước ngoài, du học và thị thực.
 Giấy phép dịch vụ
 Hợp đồng
 Tuân thủ
 Xem chi tiết 
 01
 ### Bất động sản & Xây dựng
-Thẩm định quỹ đất, thủ tục đầu tư, cấp phép xây dựng, hợp đồng EPC và chuyển nhượng dự án.
+Thẩm định pháp lý dự án, tư vấn thủ tục đầu tư, đất đai, xây dựng, hợp đồng EPC và chuyển nhượng dự án.
 Thẩm định pháp lý dự án & quỹ đất
 Thủ tục đầu tư & đất đai
-Cấp phép xây dựng & tuân thủ thi công
+Hồ sơ xây dựng & tuân thủ thi công
 Xem chi tiết 
 ## Cần tư vấn về Sở hữu trí tuệ?
 Gửi thông tin cho HTIC để được luật sư liên hệ, đánh giá sơ bộ và báo giá rõ ràng trước khi triển khai.
@@ -1104,6 +1282,7 @@ URL: https://hticlaw.vn/dich-vu/tu-van-tai-chinh-ngan-hang/
 TITLE: Tài chính – Ngân hàng | Luật sư tư vấn tại TP.HCM – Công ty Luật HTIC
 META: Tư vấn cấu trúc tín dụng, biện pháp bảo đảm, huy động vốn và xử lý tranh chấp tài chính cho doanh nghiệp.
 ---------------------
+Hỏi: 
 Trang chủ
 Dịch vụTài chính – Ngân hàng
 Lĩnh vực dịch vụ 05
@@ -1111,11 +1290,11 @@ Lĩnh vực dịch vụ 05
 Tư vấn cấu trúc tín dụng, biện pháp bảo đảm, huy động vốn và xử lý tranh chấp tài chính cho doanh nghiệp.
 Đặt lịch tư vấn 
 0379 044 299
-Một luật sư phụ trách xuyên suốt
+Luật sư phụ trách được thống nhất theo vụ việc
 Báo giá rõ ràng trước khi triển khai
 Bảo mật thông tin theo Luật Luật sư
 Tổng quan
-HTIC tư vấn cho doanh nghiệp trong các giao dịch tài chính – ngân hàng: cấu trúc tín dụng, biện pháp bảo đảm, huy động vốn và xử lý nợ. Chúng tôi giúp khách hàng tiếp cận nguồn vốn an toàn, kiểm soát nghĩa vụ bảo đảm và bảo vệ quyền lợi khi phát sinh tranh chấp.
+HTIC tư vấn các vấn đề pháp lý trong giao dịch tín dụng, bảo đảm, huy động vốn và xử lý tranh chấp; hỗ trợ khách hàng rà soát nghĩa vụ và rủi ro trước khi giao kết.
 ## Phạm vi công việc
 01
 ### Tín dụng & bảo đảm
@@ -1127,22 +1306,22 @@ Tư vấn phát hành trái phiếu doanh nghiệp và các phương án huy đ�
 ### Bảo lãnh ngân hàng
 Bảo lãnh trong giao dịch bất động sản, xây dựng, thương mại.
 04
-### Xử lý nợ
-Thu hồi nợ, xử lý tài sản bảo đảm, giải quyết tranh chấp tín dụng.
+### Thu hồi nợ & tranh chấp
+Tư vấn, thương lượng và đại diện theo phạm vi pháp luật cho phép trong việc yêu cầu thực hiện nghĩa vụ thanh toán, giải quyết tranh chấp và thi hành án.
 05
 ### Ngoại hối
 Tuân thủ quy định ngoại hối, vay và trả nợ nước ngoài.
 06
-### Giao dịch xuyên biên giới
-Thu xếp vốn, tài trợ dự án và giao dịch tài chính có yếu tố nước ngoài.
+### Huy động vốn & tài trợ dự án
+Tư vấn pháp lý đối với giao dịch huy động vốn, tài trợ dự án và cấu trúc bảo đảm.
 ## Căn cứ pháp lý chính
 Luật Các tổ chức tín dụng 2024 (lưu ý luật sửa đổi số 23/2026/QH16 có hiệu lực từ 01/12/2026)
 Pháp luật về quản lý ngoại hối
 Bộ luật Dân sự 2015
-Mỗi tư vấn của HTIC dẫn chiếu điều khoản cụ thể và được đối chiếu với văn bản còn hiệu lực tại thời điểm tư vấn.
+Căn cứ pháp lý được xác định theo thời điểm phát sinh quan hệ, giao dịch hoặc vụ việc và các quy định chuyển tiếp có liên quan.
 ## Vì sao chọn HTIC
-### Một đầu mối xuyên suốt
-Mỗi vụ việc do một luật sư phụ trách dẫn dắt từ đầu đến cuối, khách hàng không phải trao đổi lại với nhiều người.
+### Luật sư phụ trách rõ ràng
+Luật sư phụ trách và cách phối hợp được thống nhất theo từng vụ việc; thay đổi nhân sự phụ trách được thông báo cho khách hàng.
 ### Báo giá rõ ràng trước khi làm
 Phạm vi công việc, thời gian và phí dịch vụ được thống nhất bằng văn bản trước khi triển khai.
 ### Am hiểu doanh nghiệp FDI
@@ -1150,11 +1329,11 @@ Kinh nghiệm làm việc với doanh nghiệp Việt Nam và nhà đầu tư n�
 ### Phòng ngừa trước, xử lý sau
 Ưu tiên nhận diện và kiểm soát rủi ro từ sớm thay vì để vấn đề phát sinh thành tranh chấp.
 ## Câu hỏi thường gặp
-Cần rà soát gì trước khi ký hợp đồng tín dụng?
+Hỏi: Cần rà soát gì trước khi ký hợp đồng tín dụng?
 Lãi suất và cách điều chỉnh, phí, điều kiện giải ngân, nghĩa vụ cam kết, sự kiện vi phạm, quyền thu hồi nợ trước hạn và tài sản bảo đảm.
-Luật sư có bảo đảm khoản vay được phê duyệt không?
+Hỏi: Luật sư có bảo đảm khoản vay được phê duyệt không?
 Không. Quyết định cấp tín dụng thuộc tổ chức tín dụng. Luật sư hỗ trợ rà soát điều khoản, chuẩn bị hồ sơ pháp lý và đàm phán để bảo vệ quyền lợi của khách hàng.
-Khi phát sinh tranh chấp tín dụng cần chuẩn bị tài liệu nào?
+Hỏi: Khi phát sinh tranh chấp tín dụng cần chuẩn bị tài liệu nào?
 Hợp đồng tín dụng, hợp đồng bảo đảm, chứng từ giải ngân và thanh toán, thông báo nợ, thư từ trao đổi và các văn bản liên quan đến tài sản bảo đảm.
 Trao đổi với luật sư
 Cần tư vấn về Tài chính – Ngân hàng?
@@ -1188,8 +1367,8 @@ Rà soát hồ sơ, đối chiếu quy định hiện hành, chỉ rõ rủi ro 
 ### Triển khai
 Soạn thảo, đàm phán, đại diện làm việc với cơ quan nhà nước hoặc đối tác theo phương án đã thống nhất.
 5
-### Bàn giao & hỗ trợ sau dịch vụ
-Bàn giao kết quả, hướng dẫn thực hiện và tiếp tục hỗ trợ khi phát sinh vấn đề liên quan.
+### Bàn giao
+Bàn giao tài liệu và hướng dẫn theo phạm vi dịch vụ đã thống nhất. Yêu cầu phát sinh được trao đổi riêng về công việc, thời hạn và phí, nếu có.
 Lĩnh vực liên quan
 ## Dịch vụ thường đi kèm
 06
@@ -1208,9 +1387,9 @@ Hợp đồng song ngữ
 Xem chi tiết 
 08
 ### Sở hữu trí tuệ
-Đăng ký nhãn hiệu trong nước và Madrid, bản quyền, sáng chế, xử lý xâm phạm.
+Tư vấn bảo hộ nhãn hiệu, sáng chế, kiểu dáng công nghiệp, quyền tác giả và xử lý xâm phạm.
 Tra cứu khả năng bảo hộ
-Hồ sơ đăng ký bảo hộ
+Hồ sơ bảo hộ
 Đăng ký quốc tế
 Xem chi tiết 
 ## Cần tư vấn về Tài chính – Ngân hàng?
@@ -1223,6 +1402,7 @@ URL: https://hticlaw.vn/dich-vu/tu-van-thue-ke-toan/
 TITLE: Thuế & Kế toán | Luật sư tư vấn tại TP.HCM – Công ty Luật HTIC
 META: Tư vấn pháp lý về nghĩa vụ thuế, rà soát rủi ro thuế trong giao dịch và đại diện làm việc với cơ quan thuế.
 ---------------------
+Hỏi: 
 Trang chủ
 Dịch vụThuế & Kế toán
 Lĩnh vực dịch vụ 09
@@ -1230,11 +1410,11 @@ Lĩnh vực dịch vụ 09
 Tư vấn pháp lý về nghĩa vụ thuế, rà soát rủi ro thuế trong giao dịch và đại diện làm việc với cơ quan thuế.
 Đặt lịch tư vấn 
 0379 044 299
-Một luật sư phụ trách xuyên suốt
+Luật sư phụ trách được thống nhất theo vụ việc
 Báo giá rõ ràng trước khi triển khai
 Bảo mật thông tin theo Luật Luật sư
 Tổng quan
-HTIC kết hợp chuyên môn pháp lý và thuế – kế toán để giúp doanh nghiệp tuân thủ đúng nghĩa vụ thuế và nhận diện rủi ro thuế từ sớm: rà soát hồ sơ, hỗ trợ quyết toán, đại diện làm việc với cơ quan thuế và tư vấn cấu trúc giao dịch.
+HTIC tư vấn pháp lý về nghĩa vụ thuế, hồ sơ giao dịch, làm việc với cơ quan thuế và giải quyết tranh chấp thuế. Phạm vi dịch vụ được xác định theo từng yêu cầu và không bao gồm trực tiếp thực hiện nghiệp vụ kế toán hoặc đại lý thuế.
 ## Phạm vi công việc
 01
 ### Nghĩa vụ thuế
@@ -1250,7 +1430,7 @@ Rà soát hồ sơ, hoá đơn, chứng từ dưới góc độ pháp lý trư�
 Rà soát nghĩa vụ thuế và vấn đề pháp lý của cấu trúc giao dịch trong M&A, tái cấu trúc, giao dịch xuyên biên giới.
 05
 ### Giao dịch liên kết
-Chuyển giá và quy định thuế tối thiểu toàn cầu.
+Tư vấn nghĩa vụ pháp lý về giao dịch liên kết, hồ sơ xác định giá giao dịch liên kết và thuế tối thiểu toàn cầu.
 06
 ### Khiếu nại thuế
 Khiếu nại, giải quyết tranh chấp về thuế.
@@ -1258,10 +1438,10 @@ Khiếu nại, giải quyết tranh chấp về thuế.
 Luật Quản lý thuế 2025 (Luật số 108/2025/QH15, hiệu lực 01/07/2026)
 Các luật thuế chuyên ngành
 Luật Kế toán 2015
-Mỗi tư vấn của HTIC dẫn chiếu điều khoản cụ thể và được đối chiếu với văn bản còn hiệu lực tại thời điểm tư vấn.
+Căn cứ pháp lý được xác định theo thời điểm phát sinh quan hệ, giao dịch hoặc vụ việc và các quy định chuyển tiếp có liên quan.
 ## Vì sao chọn HTIC
-### Một đầu mối xuyên suốt
-Mỗi vụ việc do một luật sư phụ trách dẫn dắt từ đầu đến cuối, khách hàng không phải trao đổi lại với nhiều người.
+### Luật sư phụ trách rõ ràng
+Luật sư phụ trách và cách phối hợp được thống nhất theo từng vụ việc; thay đổi nhân sự phụ trách được thông báo cho khách hàng.
 ### Báo giá rõ ràng trước khi làm
 Phạm vi công việc, thời gian và phí dịch vụ được thống nhất bằng văn bản trước khi triển khai.
 ### Am hiểu doanh nghiệp FDI
@@ -1269,12 +1449,12 @@ Kinh nghiệm làm việc với doanh nghiệp Việt Nam và nhà đầu tư n�
 ### Phòng ngừa trước, xử lý sau
 Ưu tiên nhận diện và kiểm soát rủi ro từ sớm thay vì để vấn đề phát sinh thành tranh chấp.
 ## Câu hỏi thường gặp
-Tư vấn pháp lý thuế khác dịch vụ kế toán thế nào?
-Tư vấn pháp lý thuế tập trung vào nghĩa vụ, rủi ro và căn cứ pháp luật của giao dịch; dịch vụ kế toán là ghi sổ, lập báo cáo. Phạm vi cụ thể được thống nhất trước khi thực hiện.
-Cần chuẩn bị hồ sơ gì khi bị kiểm tra thuế?
+Hỏi: Tư vấn pháp lý thuế khác dịch vụ kế toán thế nào?
+Tư vấn pháp lý thuế tập trung vào nghĩa vụ, rủi ro và việc áp dụng pháp luật. Phạm vi HTIC giới thiệu tại trang này là tư vấn pháp lý, không bao gồm trực tiếp ghi sổ, lập báo cáo tài chính hoặc thực hiện dịch vụ đại lý thuế. Các nghiệp vụ có điều kiện cần được thực hiện bởi chủ thể đáp ứng điều kiện theo quy định.
+Hỏi: Cần chuẩn bị hồ sơ gì khi bị kiểm tra thuế?
 Hồ sơ khai thuế, sổ sách, hoá đơn, chứng từ, hợp đồng của các giao dịch được kiểm tra và văn bản giải trình trước đó nếu có.
-Phạm vi trách nhiệm của đơn vị tư vấn được xác định ra sao?
-Bằng hợp đồng dịch vụ, trong đó ghi rõ công việc, tài liệu khách hàng cung cấp, thời hạn và giới hạn trách nhiệm.
+Hỏi: Phạm vi trách nhiệm của đơn vị tư vấn được xác định ra sao?
+Hợp đồng dịch vụ cần xác định công việc, trách nhiệm cung cấp thông tin, thời hạn, phí và trách nhiệm của mỗi bên. Thoả thuận về trách nhiệm phải phù hợp với các quy định pháp luật bắt buộc áp dụng.
 Trao đổi với luật sư
 Cần tư vấn về Thuế & Kế toán?
 Gửi yêu cầu hoặc gọi trực tiếp, luật sư HTIC sẽ liên hệ trong giờ làm việc.
@@ -1307,23 +1487,23 @@ Rà soát hồ sơ, đối chiếu quy định hiện hành, chỉ rõ rủi ro 
 ### Triển khai
 Soạn thảo, đàm phán, đại diện làm việc với cơ quan nhà nước hoặc đối tác theo phương án đã thống nhất.
 5
-### Bàn giao & hỗ trợ sau dịch vụ
-Bàn giao kết quả, hướng dẫn thực hiện và tiếp tục hỗ trợ khi phát sinh vấn đề liên quan.
+### Bàn giao
+Bàn giao tài liệu và hướng dẫn theo phạm vi dịch vụ đã thống nhất. Yêu cầu phát sinh được trao đổi riêng về công việc, thời hạn và phí, nếu có.
 Lĩnh vực liên quan
 ## Dịch vụ thường đi kèm
 10
 ### Xuất khẩu lao động & Du học
-Giấy phép dịch vụ, hợp đồng cung ứng lao động, du học, thị thực và tranh chấp.
+Tư vấn pháp lý về điều kiện kinh doanh, hợp đồng và tranh chấp trong lĩnh vực đưa người lao động đi làm việc ở nước ngoài, du học và thị thực.
 Giấy phép dịch vụ
 Hợp đồng
 Tuân thủ
 Xem chi tiết 
 01
 ### Bất động sản & Xây dựng
-Thẩm định quỹ đất, thủ tục đầu tư, cấp phép xây dựng, hợp đồng EPC và chuyển nhượng dự án.
+Thẩm định pháp lý dự án, tư vấn thủ tục đầu tư, đất đai, xây dựng, hợp đồng EPC và chuyển nhượng dự án.
 Thẩm định pháp lý dự án & quỹ đất
 Thủ tục đầu tư & đất đai
-Cấp phép xây dựng & tuân thủ thi công
+Hồ sơ xây dựng & tuân thủ thi công
 Xem chi tiết 
 02
 ### Doanh nghiệp & Quản trị
@@ -1342,6 +1522,7 @@ URL: https://hticlaw.vn/dich-vu/tu-van-xuat-khau-lao-dong/
 TITLE: Xuất khẩu lao động & Du học | Luật sư tư vấn tại TP.HCM – Công ty Luật HTIC
 META: Tư vấn pháp lý lĩnh vực đưa người lao động Việt Nam đi làm việc ở nước ngoài và tư vấn du học: giấy phép, hợp đồng và bảo vệ quyền lợi.
 ---------------------
+Hỏi: 
 Trang chủ
 Dịch vụXuất khẩu lao động & Du học
 Lĩnh vực dịch vụ 10
@@ -1349,7 +1530,7 @@ Lĩnh vực dịch vụ 10
 Tư vấn pháp lý lĩnh vực đưa người lao động Việt Nam đi làm việc ở nước ngoài và tư vấn du học: giấy phép, hợp đồng và bảo vệ quyền lợi.
 Đặt lịch tư vấn 
 0379 044 299
-Một luật sư phụ trách xuyên suốt
+Luật sư phụ trách được thống nhất theo vụ việc
 Báo giá rõ ràng trước khi triển khai
 Bảo mật thông tin theo Luật Luật sư
 Tổng quan
@@ -1357,13 +1538,13 @@ Tổng quan
 ## Phạm vi công việc
 01
 ### Giấy phép dịch vụ
-Giấy phép hoạt động dịch vụ đưa người lao động đi làm việc ở nước ngoài.
+Tư vấn điều kiện, thủ tục và hồ sơ đề nghị cấp, điều chỉnh giấy phép hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng.
 02
 ### Hợp đồng
 Hợp đồng cung ứng, hợp đồng đưa người lao động đi làm việc ở nước ngoài.
 03
 ### Tuân thủ
-Ký quỹ, đào tạo định hướng, bảo vệ quyền lợi người lao động.
+Tư vấn quy định về ký quỹ, nghĩa vụ đào tạo và bảo vệ quyền, lợi ích hợp pháp của người lao động.
 04
 ### Thị thực & xuất nhập cảnh
 Thủ tục visa, giấy tờ cho người lao động và người nước ngoài.
@@ -1376,10 +1557,10 @@ Xử lý tranh chấp phát sinh trong quan hệ lao động, dịch vụ.
 ## Căn cứ pháp lý chính
 Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng 2020 (lưu ý luật sửa đổi số 22/2026/QH16 có hiệu lực từ 01/03/2027)
 Bộ luật Lao động 2019
-Mỗi tư vấn của HTIC dẫn chiếu điều khoản cụ thể và được đối chiếu với văn bản còn hiệu lực tại thời điểm tư vấn.
+Căn cứ pháp lý được xác định theo thời điểm phát sinh quan hệ, giao dịch hoặc vụ việc và các quy định chuyển tiếp có liên quan.
 ## Vì sao chọn HTIC
-### Một đầu mối xuyên suốt
-Mỗi vụ việc do một luật sư phụ trách dẫn dắt từ đầu đến cuối, khách hàng không phải trao đổi lại với nhiều người.
+### Luật sư phụ trách rõ ràng
+Luật sư phụ trách và cách phối hợp được thống nhất theo từng vụ việc; thay đổi nhân sự phụ trách được thông báo cho khách hàng.
 ### Báo giá rõ ràng trước khi làm
 Phạm vi công việc, thời gian và phí dịch vụ được thống nhất bằng văn bản trước khi triển khai.
 ### Am hiểu doanh nghiệp FDI
@@ -1387,11 +1568,11 @@ Kinh nghiệm làm việc với doanh nghiệp Việt Nam và nhà đầu tư n�
 ### Phòng ngừa trước, xử lý sau
 Ưu tiên nhận diện và kiểm soát rủi ro từ sớm thay vì để vấn đề phát sinh thành tranh chấp.
 ## Câu hỏi thường gặp
-Cần kiểm tra gì trước khi ký hợp đồng đi làm việc ở nước ngoài?
+Hỏi: Cần kiểm tra gì trước khi ký hợp đồng đi làm việc ở nước ngoài?
 Giấy phép của doanh nghiệp dịch vụ, nội dung công việc, tiền lương, thời hạn, chi phí phải nộp, điều kiện chấm dứt và cơ chế giải quyết tranh chấp.
-Làm sao kiểm tra doanh nghiệp dịch vụ có giấy phép?
+Hỏi: Làm sao kiểm tra doanh nghiệp dịch vụ có giấy phép?
 Đối chiếu danh sách doanh nghiệp được cấp phép do cơ quan quản lý lao động công bố và kiểm tra giấy phép còn hiệu lực.
-Khi phát sinh tranh chấp, người lao động cần lưu giữ tài liệu nào?
+Hỏi: Khi phát sinh tranh chấp, người lao động cần lưu giữ tài liệu nào?
 Hợp đồng, biên lai các khoản đã nộp, thư từ, tin nhắn trao đổi và giấy tờ liên quan đến công việc ở nước ngoài.
 Trao đổi với luật sư
 Cần tư vấn về Xuất khẩu lao động & Du học?
@@ -1425,16 +1606,16 @@ Rà soát hồ sơ, đối chiếu quy định hiện hành, chỉ rõ rủi ro 
 ### Triển khai
 Soạn thảo, đàm phán, đại diện làm việc với cơ quan nhà nước hoặc đối tác theo phương án đã thống nhất.
 5
-### Bàn giao & hỗ trợ sau dịch vụ
-Bàn giao kết quả, hướng dẫn thực hiện và tiếp tục hỗ trợ khi phát sinh vấn đề liên quan.
+### Bàn giao
+Bàn giao tài liệu và hướng dẫn theo phạm vi dịch vụ đã thống nhất. Yêu cầu phát sinh được trao đổi riêng về công việc, thời hạn và phí, nếu có.
 Lĩnh vực liên quan
 ## Dịch vụ thường đi kèm
 01
 ### Bất động sản & Xây dựng
-Thẩm định quỹ đất, thủ tục đầu tư, cấp phép xây dựng, hợp đồng EPC và chuyển nhượng dự án.
+Thẩm định pháp lý dự án, tư vấn thủ tục đầu tư, đất đai, xây dựng, hợp đồng EPC và chuyển nhượng dự án.
 Thẩm định pháp lý dự án & quỹ đất
 Thủ tục đầu tư & đất đai
-Cấp phép xây dựng & tuân thủ thi công
+Hồ sơ xây dựng & tuân thủ thi công
 Xem chi tiết 
 02
 ### Doanh nghiệp & Quản trị

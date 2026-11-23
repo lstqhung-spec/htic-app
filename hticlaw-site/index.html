@@ -773,7 +773,7 @@
 <textarea name="message" class="w-full p-3 rounded-lg bg-[#f2f2f3] border border-slate-200 text-text-primary font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-[#0f71b9] resize-none" placeholder="Cung cấp sơ lược tình huống, tiến độ hoặc thắc mắc pháp lý..." rows="3"></textarea>
 </div>
 <button class="mt-1 w-full py-3.5 bg-[#243e8f] hover:bg-[#0f71b9] text-white font-button-text font-bold rounded-lg shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-space-xs" type="submit">
-<span>Gửi thông tin yêu cầu tư vấn</span>
+<span>Soạn email yêu cầu tư vấn</span>
 <span class="material-symbols-outlined text-[18px]">send</span>
 </button>
 <p id="formMsg" role="status" class="hidden text-body-sm rounded-lg bg-[#e8eaf1] text-[#16285c] p-3"></p></form>
@@ -820,6 +820,6 @@ f.addEventListener('submit',function(e){e.preventDefault();var g=function(n){var
 if(!g('name')||!/^[0-9 +().-]{9,15}$/.test(g('phone'))){m.textContent='Vui lòng nhập họ tên và số điện thoại hợp lệ.';m.classList.remove('hidden');return}
 var body='Họ tên: '+g('name')+'\nĐiện thoại: '+g('phone')+'\nEmail: '+g('email')+'\nLĩnh vực: '+g('topic')+'\n\n'+g('message');
 window.location.href='mailto:contact@htic.com.vn?subject='+encodeURIComponent('Yêu cầu tư vấn từ hticlaw.vn - '+g('name'))+'&body='+encodeURIComponent(body);
-m.textContent='Đã mở ứng dụng email để gửi yêu cầu. Nếu chưa gửi được, vui lòng gọi 0379 044 299 hoặc nhắn Zalo cùng số.';m.classList.remove('hidden');});})();
+m.textContent='Đã mở bản nháp email. Quý khách cần bấm Gửi trong ứng dụng email để hoàn tất. Nếu không mở được ứng dụng email, vui lòng gọi 0379 044 299 hoặc nhắn Zalo.';m.classList.remove('hidden');});})();
 </script>
 </body></html>

@@ -117,7 +117,7 @@ f.addEventListener('submit',function(e){e.preventDefault();var g=function(n){var
 if(!g('name')||!/^[0-9 +().-]{9,15}$/.test(g('phone'))){m.textContent='Vui lòng nhập họ tên và số điện thoại hợp lệ.';m.className='text-[14px] font-semibold text-red-600';return}
 var body='Họ tên: '+g('name')+'\nCông ty: '+g('company')+'\nĐiện thoại: '+g('phone')+'\nEmail: '+g('email')+'\nLĩnh vực: '+g('topic')+'\n\n'+g('message');
 window.location.href='mailto:__EMAIL__?subject='+encodeURIComponent('Yêu cầu tư vấn từ hticlaw.vn - '+g('name'))+'&body='+encodeURIComponent(body);
-m.textContent='Đã mở ứng dụng email để gửi yêu cầu. Nếu chưa gửi được, vui lòng gọi __PHONE__ hoặc nhắn Zalo cùng số.';m.className='text-[14px] font-semibold text-emerald-700';});})();
+m.textContent='Đã mở bản nháp email. Quý khách cần bấm Gửi trong ứng dụng email để hoàn tất. Nếu không mở được ứng dụng email, vui lòng gọi __PHONE__ hoặc nhắn Zalo.';m.className='text-[14px] font-semibold text-emerald-700';});})();
 </script>'''
 
 def page(path, title, desc, body, active='', image='/anh/hero-ban-lam-viec.webp', jsonld=None, crumbs=None):
@@ -257,7 +257,7 @@ def booking_form():
 <label class="flex flex-col gap-1.5"><span class="{lab}">Lĩnh vực cần tư vấn</span><select class="{inp}" name="topic">{topic_options()}</select></label>
 <label class="flex flex-col gap-1.5"><span class="{lab}">Mô tả ngắn vấn đề</span><textarea class="{inp} min-h-[130px]" name="message" placeholder="Ví dụ: cần rà soát hợp đồng phân phối với đối tác Nhật Bản trước ngày ký…"></textarea></label>
 <p class="text-[13px] text-text-muted flex gap-2">{icon('lock','text-[16px] text-[#0f71b9]')}Thông tin được bảo mật theo nghĩa vụ nghề nghiệp luật sư và chỉ dùng để phản hồi yêu cầu của quý khách.</p>
-<button class="inline-flex justify-center items-center gap-2 bg-[#243e8f] hover:bg-[#0f71b9] text-white font-bold px-space-lg py-3.5 rounded-lg shadow-md transition-all" type="submit">Gửi yêu cầu tư vấn {icon('send','text-[18px]')}</button>
+<button class="inline-flex justify-center items-center gap-2 bg-[#243e8f] hover:bg-[#0f71b9] text-white font-bold px-space-lg py-3.5 rounded-lg shadow-md transition-all" type="submit">Soạn email {icon('send','text-[18px]')}</button>
 <p id="formMsg" class="text-[14px] font-semibold" role="status"></p>
 </form>'''
 
@@ -279,7 +279,7 @@ def build_service(i, s):
 <div><h3 class="font-bold text-[#16285c] text-[16px]">{E(t)}</h3><p class="text-[14px] text-text-secondary leading-relaxed mt-1">{E(d)}</p></div></div>''' for k, (t, d) in enumerate(s['scope']))
     laws = ''.join(f'<li class="flex gap-2 items-start">{icon("menu_book","text-[18px] text-[#0f71b9] shrink-0 mt-0.5")}<span>{E(l)}</span></li>' for l in s['laws'])
     side_nav = ''.join(f'<a class="flex items-center justify-between px-4 py-2.5 rounded-lg text-[14px] {"bg-[#243e8f] text-white font-bold" if x is s else "text-slate-700 hover:bg-[#f2f2f3] hover:text-[#243e8f]"}" href="/dich-vu/{x["slug"]}/">{E(x["name"])}{icon("chevron_right","text-[18px] opacity-60")}</a>' for x in SERVICES)
-    facts = [('person_pin', 'Một luật sư phụ trách xuyên suốt'), ('receipt_long', 'Báo giá rõ ràng trước khi triển khai'), ('lock', 'Bảo mật thông tin theo Luật Luật sư')]
+    facts = [('person_pin', 'Luật sư phụ trách được thống nhất theo vụ việc'), ('receipt_long', 'Báo giá rõ ràng trước khi triển khai'), ('lock', 'Bảo mật thông tin theo Luật Luật sư')]
     facts_html = ''.join(f'<div class="flex items-center gap-3 py-space-md">{icon(ic,"text-[24px] text-[#0f71b9]")}<span class="font-semibold text-[#16285c] text-[15px]">{E(t)}</span></div>' for ic, t in facts)
     body = hero([('Trang chủ', '/'), ('Dịch vụ', '/dich-vu/'), (s['name'], f'/dich-vu/{s["slug"]}/')],
                 f'Lĩnh vực dịch vụ {i+1:02d}', E(s['name']), s['lead'], s['img'], ctas=f'/lien-he/?dv={s["slug"]}')
@@ -292,7 +292,7 @@ def build_service(i, s):
 <div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">{scope}</div></div>
 <div class="rounded-2xl bg-[#f2f2f3] p-space-lg md:p-space-xl"><h2 class="text-[22px] font-extrabold text-[#243e8f] mb-space-md">Căn cứ pháp lý chính</h2>
 <ul class="grid grid-cols-1 md:grid-cols-2 gap-space-sm text-[15px] text-slate-700">{laws}</ul>
-<p class="mt-space-md text-[13px] text-text-muted">Mỗi tư vấn của HTIC dẫn chiếu điều khoản cụ thể và được đối chiếu với văn bản còn hiệu lực tại thời điểm tư vấn.</p></div>
+<p class="mt-space-md text-[13px] text-text-muted">Căn cứ pháp lý được xác định theo thời điểm phát sinh quan hệ, giao dịch hoặc vụ việc và các quy định chuyển tiếp có liên quan.</p></div>
 <div><h2 class="text-[26px] md:text-[30px] font-extrabold text-[#243e8f] tracking-tight mb-space-md">Vì sao chọn HTIC</h2>{why_block()}</div>
 {faq_block(s['slug'])}
 </div>
@@ -413,7 +413,7 @@ def build_contact():
 <section class="pb-space-2xl md:pb-space-3xl bg-white"><div class="max-w-7xl mx-auto px-margin grid grid-cols-1 lg:grid-cols-12 gap-space-2xl">
 <div class="lg:col-span-7 rounded-2xl border border-slate-200 p-space-lg md:p-space-xl shadow-sm">
 <h2 class="text-[26px] md:text-[30px] font-extrabold text-[#243e8f] tracking-tight">Gửi yêu cầu tư vấn</h2>
-<p class="mt-1 mb-space-lg text-text-secondary">Điền thông tin dưới đây, hệ thống sẽ mở email để quý khách gửi trực tiếp tới {S['email']}.</p>
+<p class="mt-1 mb-space-lg text-text-secondary">Điền thông tin để soạn email gửi đến {S['email']}. Quý khách cần bấm Gửi trong ứng dụng email để hoàn tất. Nếu không mở được ứng dụng email, vui lòng liên hệ qua số điện thoại hoặc Zalo trên trang.</p>
 {booking_form()}</div>
 <div class="lg:col-span-5 flex flex-col gap-space-md">
 <div class="rounded-2xl overflow-hidden border border-slate-200 h-[320px] bg-[#e8eaf1]"><iframe title="Bản đồ văn phòng HTIC" class="w-full h-full" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q={mq}&amp;z=16&amp;output=embed"></iframe></div>
