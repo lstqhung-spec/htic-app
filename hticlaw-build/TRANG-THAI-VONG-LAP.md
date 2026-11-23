@@ -9,3 +9,7 @@
   Logo: upload public_html/anh/brand/{logo.png,logo-white.png,favicon.png}; thay /wp-content/uploads/htic-brand/... trong build_pages.py + index.html (header/footer/favicon/JSON-LD). Cân nhắc cũng thay file htic-brand để WP trang tin tức dùng logo mới (sao lưu trước).
 - Chờ anh Hưng: địa chỉ/giờ (thẻ quyết định), chữ C, chức danh, số liệu & "miễn phí" trang chủ, logo khách hàng.
 - HÀNG CHỜ GỬI AN (khi An rảnh, gửi cùng báo cáo đợt 2): anh Hưng 14:10 yêu cầu "rà lại toàn bộ khách hàng mới/cũ để cập nhật số liệu khách hàng". Nhờ An rà nguồn nội bộ (TIM/SharePoint/hợp đồng) để chốt: số khách hàng doanh nghiệp, số vụ việc/dự án (định nghĩa + kỳ chốt), danh sách khách hàng được phép công bố logo/tên; trả số liệu + nguồn để cập nhật trang chủ (hiện 10+/155/355) và trang Giới thiệu. Không công bố tên/logo khách hàng chưa có đồng ý.
+
+## 23/11 15:50 ICT
+- Đã áp dụng: chân dung An (16 ảnh, /anh/chan-dung/), logo anh Hưng gửi (/anh/brand/), animation, menu Giới thiệu, /tin-tuc/ /tin-phap-ly/ /bai-viet-phap-ly/, bài viết + trang WP tiếng Việt dùng layout mới (theme inc/htic2026-shell.php).
+- Đã gửi An 15:45: báo cập nhật, nhờ kiểm lần cuối + rà số liệu khách hàng (yêu cầu anh Hưng 14:10). Chờ An trả lời.
