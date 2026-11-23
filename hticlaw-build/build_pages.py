@@ -390,7 +390,8 @@ def build_about():
 <span class="absolute left-0 top-1.5 md:top-0 md:left-0 w-3.5 h-3.5 rounded-full bg-[#0f71b9] ring-4 ring-[#0f71b9]/25"></span>
 <p class="text-[28px] font-extrabold text-white">{y}</p><h3 class="font-bold text-[#5aa8e6]">{E(t)}</h3><p class="text-[14px] text-blue-100 leading-relaxed mt-1">{E(d)}</p></li>''' for y, t, d in TIMELINE)
     law = ''.join(person(*p, big=True) for p in TEAM_LAWYERS)
-    exp = ''.join(person(*p) for p in TEAM_EXPERTS)
+    mgr = ''.join(person(*p) for p in TEAM_EXPERTS[:4])
+    stf = ''.join(person(*p) for p in TEAM_EXPERTS[4:])
     gal = ''.join(f'<figure class="relative rounded-xl overflow-hidden {"md:col-span-2 md:row-span-2" if k == 0 else ""} group"><img loading="lazy" decoding="async" alt="{E(c)}" class="w-full h-full object-cover min-h-[180px] group-hover:scale-105 transition-transform duration-500" src="{u}"/><figcaption class="absolute bottom-0 inset-x-0 p-3 text-[13px] font-semibold text-white bg-gradient-to-t from-[#16285c]/90 to-transparent">{E(c)}</figcaption></figure>' for k, (u, c) in enumerate(GALLERY))
     logos = ''.join(f'<div class="flex items-center justify-center h-24 p-space-sm rounded-xl bg-white border border-slate-200"><img loading="lazy" decoding="async" alt="{E(n)}" class="max-h-16 max-w-full object-contain grayscale hover:grayscale-0 opacity-80 hover:opacity-100 transition" src="/anh/htic/{f}"/></div>' for f, n in zip(CLIENT_FILES, CLIENTS))
     side = '''<div class="lg:col-span-4 hidden lg:block"><div class="rounded-2xl overflow-hidden border border-white/20 shadow-2xl"><img alt="Luật sư HTIC làm việc cùng khách hàng" class="w-full h-[300px] object-cover" src="/anh/htic/cong-ty-tu-van-luat-htic279274646012.jpg"/></div></div>'''
@@ -412,8 +413,10 @@ def build_about():
 <ol class="relative grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-space-lg border-l-2 md:border-l-0 md:border-t-2 border-white/15 pl-0 md:pt-0">{tl}</ol></div></section>
 <section class="py-space-2xl md:py-space-3xl bg-white" id="doi-ngu"><div class="max-w-7xl mx-auto px-margin">{section_head('Con người HTIC', 'Đội ngũ luật sư', 'Mỗi vụ việc do luật sư có chuyên môn phù hợp trực tiếp phụ trách.')}
 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-space-md">{law}</div>
-<h3 class="mt-space-2xl mb-space-lg text-[22px] font-extrabold text-[#243e8f]">Chuyên gia & chuyên viên</h3>
-<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-space-md">{exp}</div></div></section>
+<h3 class="mt-space-2xl mb-space-lg text-[22px] font-extrabold text-[#243e8f]">Chuyên gia – Quản lý</h3>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md">{mgr}</div>
+<h3 class="mt-space-2xl mb-space-lg text-[22px] font-extrabold text-[#243e8f]">Chuyên viên</h3>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md">{stf}</div></div></section>
 <section class="py-space-2xl md:py-space-3xl bg-[#f2f2f3]" id="hinh-anh"><div class="max-w-7xl mx-auto px-margin">{section_head('Hoạt động', 'HTIC cùng khách hàng và đối tác')}
 <div class="grid grid-cols-2 md:grid-cols-4 md:grid-rows-2 gap-space-sm md:h-[460px]">{gal}</div></div></section>
 <section class="py-space-2xl md:py-space-3xl bg-white" id="khach-hang"><div class="max-w-7xl mx-auto px-margin">{section_head('Khách hàng', 'Doanh nghiệp đã đồng hành cùng HTIC', center=True)}
