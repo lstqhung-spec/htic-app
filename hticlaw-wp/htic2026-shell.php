@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'HTIC26_VER', '20261123f' );
+define( 'HTIC26_VER', '20261123g' );
 
 function htic26_path() {
 	$p = isset( $_SERVER['REQUEST_URI'] ) ? (string) $_SERVER['REQUEST_URI'] : '/';
@@ -207,11 +207,33 @@ function htic26_card( $pid ) {
 		. '</div></article>';
 }
 
+function htic26_chip( $name ) {
+	$cls = 'Tin pháp lý' === $name ? 'bg-[#e6f1fa] text-[#0f71b9]' : 'bg-[#eceff7] text-[#243e8f]';
+	return '<span class="inline-flex items-center px-2 py-0.5 rounded-md ' . $cls . ' text-[12px] font-bold">' . esc_html( $name ) . '</span>';
+}
+
+function htic26_row( $pid ) {
+	$img = get_the_post_thumbnail_url( $pid, 'medium' );
+	if ( ! $img ) {
+		$img = '/anh/htic/htic-cover418503887709.jpg';
+	}
+	$sec = htic26_section( $pid );
+	$l   = get_permalink( $pid );
+	$ex  = wp_trim_words( wp_strip_all_tags( get_the_excerpt( $pid ) ), 40, '…' );
+	return '<article class="nr group relative flex gap-space-md py-space-md border-b border-slate-200 last:border-0">'
+		. '<a class="shrink-0 block w-[104px] sm:w-[168px] aspect-[4/3] rounded-lg overflow-hidden bg-[#eef2f8]" href="' . esc_url( $l ) . '" tabindex="-1" aria-hidden="true"><img loading="lazy" decoding="async" alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="' . esc_url( $img ) . '"/></a>'
+		. '<div class="min-w-0 flex flex-col gap-1.5">'
+		. '<div class="flex flex-wrap items-center gap-2 text-[13px] text-slate-500">' . htic26_chip( $sec[0] ) . '<time datetime="' . esc_attr( get_the_date( 'Y-m-d', $pid ) ) . '">' . esc_html( get_the_date( 'd/m/Y', $pid ) ) . '</time></div>'
+		. '<h3 class="text-[16px] sm:text-[18px] leading-snug font-bold text-[#16285c] group-hover:text-[#0f71b9] transition-colors line-clamp-3 sm:line-clamp-2"><a class="after:absolute after:inset-0" href="' . esc_url( $l ) . '">' . esc_html( get_the_title( $pid ) ) . '</a></h3>'
+		. '<p class="max-sm:hidden text-[14px] text-slate-600 leading-relaxed line-clamp-2">' . esc_html( $ex ) . '</p>'
+		. '</div></article>';
+}
+
 function htic26_search_form( $value = '' ) {
-	return '<form action="' . esc_url( home_url( '/index.php' ) ) . '" method="get" role="search" class="flex items-center gap-2 bg-white border border-slate-200 rounded-full pl-4 pr-1 py-1 w-full md:w-[380px] focus-within:border-[#0f71b9]">'
+	return '<form action="' . esc_url( home_url( '/index.php' ) ) . '" method="get" role="search" class="flex items-center gap-2 bg-white border border-slate-300 rounded-xl pl-4 pr-1.5 py-1.5 w-full focus-within:border-[#0f71b9] focus-within:ring-2 focus-within:ring-[#0f71b9]/15">'
 		. '<label class="sr-only" for="htic-s">Tìm bài viết</label>' . htic26_i( 'search', 'text-[20px] text-slate-400' )
 		. '<input id="htic-s" name="s" value="' . esc_attr( $value ) . '" class="flex-1 bg-transparent border-0 focus:ring-0 text-[15px] py-1.5 outline-none" placeholder="Tìm theo từ khóa, số hiệu văn bản…"/>'
-		. '<button class="bg-[#243e8f] hover:bg-[#0f71b9] text-white text-[14px] font-bold px-4 py-2 rounded-full">Tìm</button></form>'
+		. '<button class="bg-[#243e8f] hover:bg-[#0f71b9] text-white text-[14px] font-bold px-5 py-2.5 rounded-lg">Tìm</button></form>'
 		. '<script>document.currentScript.previousElementSibling.addEventListener("submit",function(e){var v=this.elements.s.value.trim();if(v){e.preventDefault();location.href="/search/"+encodeURIComponent(v).replace(/%20/g,"+")+"/"}})</script>';
 }
 

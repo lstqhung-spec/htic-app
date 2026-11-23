@@ -463,73 +463,158 @@ def build_contact():
 
 # ---------------------------------------------------------------- tin tuc / bai viet (WP REST)
 NEWS = json.load(open(os.path.join(os.path.dirname(__file__), 'news.json'), encoding='utf-8'))
-CATS = {'tin': {'id': 4, 'path': '/tin-phap-ly/', 'name': 'Tin pháp lý', 'icon': 'newspaper',
-                'lead': 'Cập nhật văn bản pháp luật mới, hiệu lực và điểm thay đổi đáng chú ý, kèm nhận định ngắn của luật sư HTIC về tác động đối với doanh nghiệp và cá nhân.'},
-        'bai': {'id': 59, 'path': '/bai-viet-phap-ly/', 'name': 'Bài viết pháp lý', 'icon': 'menu_book',
-                'lead': 'Bài phân tích chuyên sâu của luật sư HTIC về bất động sản, xây dựng, đầu tư, hợp đồng, doanh nghiệp và tranh chấp, dựa trên quy định hiện hành và thực tiễn hành nghề.'}}
+CATS = {
+    'all': {'cat': '4,59', 'path': '/tin-tuc/', 'name': 'Tất cả', 'h1': 'Tin tức &amp; Bài viết pháp lý',
+            'lead': 'Tin pháp luật mới và bài phân tích chuyên sâu do luật sư HTIC biên soạn, sắp xếp theo thời gian để Quý khách dễ theo dõi.'},
+    'tin': {'cat': '4', 'path': '/tin-phap-ly/', 'name': 'Tin pháp lý', 'h1': 'Tin pháp lý',
+            'lead': 'Văn bản pháp luật mới, thời điểm hiệu lực và điểm thay đổi đáng chú ý, kèm nhận định ngắn của luật sư HTIC về tác động đối với doanh nghiệp và cá nhân.'},
+    'bai': {'cat': '59', 'path': '/bai-viet-phap-ly/', 'name': 'Bài viết pháp lý', 'h1': 'Bài viết pháp lý',
+            'lead': 'Bài phân tích chuyên sâu về bất động sản, xây dựng, đầu tư, hợp đồng, doanh nghiệp và tranh chấp, dựa trên quy định hiện hành và thực tiễn hành nghề của HTIC.'},
+}
+TOPICS = ['Xây dựng', 'Đất đai', 'Bất động sản', 'Nhà ở', 'Hợp đồng', 'Doanh nghiệp', 'Đầu tư', 'Thuế', 'Lao động', 'Tranh chấp']
+FALLBACK_IMG = '/anh/htic/htic-cover418503887709.jpg'
 
 def fmt_date(d):
     y, m, dd = d.split('-'); return f'{dd}/{m}/{y}'
 
-def post_card(x, tag):
-    img = x.get('i') or '/anh/htic/htic-cover418503887709.jpg'
-    return f'''<article class="nc group flex flex-col bg-white rounded-2xl border border-slate-200 overflow-hidden hover:border-[#0f71b9]/40 hover:shadow-[0_16px_40px_rgba(36,62,143,0.12)] transition-all duration-300">
+def type_name(x):
+    return 'Tin pháp lý' if 4 in x.get('c', [4]) else 'Bài viết pháp lý'
+
+def type_chip(name):
+    if name == 'Tin pháp lý':
+        return f'<span class="inline-flex items-center px-2 py-0.5 rounded-md bg-[#e6f1fa] text-[#0f71b9] text-[12px] font-bold">{name}</span>'
+    return f'<span class="inline-flex items-center px-2 py-0.5 rounded-md bg-[#eceff7] text-[#243e8f] text-[12px] font-bold">{name}</span>'
+
+def post_card(x, tag=None):
+    """The dung tren trang chu."""
+    tag = tag or type_name(x)
+    img = x.get('i') or FALLBACK_IMG
+    return f'''<article class="group flex flex-col bg-white rounded-2xl border border-slate-200 overflow-hidden hover:border-[#0f71b9]/40 hover:shadow-[0_16px_40px_rgba(36,62,143,0.12)] transition-all duration-300">
 <a class="block aspect-[16/9] overflow-hidden bg-[#eef2f8]" href="{x['l']}" tabindex="-1" aria-hidden="true"><img loading="lazy" decoding="async" alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="{img}"/></a>
 <div class="flex flex-col gap-space-xs p-space-md flex-1">
-<div class="flex items-center gap-2 text-[12px] font-semibold text-slate-500"><span class="px-2 py-0.5 rounded-full bg-[#eef2f8] text-[#243e8f]">{tag}</span><time datetime="{x['d']}">{fmt_date(x['d'])}</time></div>
+<div class="flex items-center gap-2 text-[12px] font-semibold text-slate-500">{type_chip(tag)}<time datetime="{x['d']}">{fmt_date(x['d'])}</time></div>
 <h3 class="text-[17px] leading-snug font-bold text-[#16285c] group-hover:text-[#0f71b9] transition-colors"><a href="{x['l']}">{x['t']}</a></h3>
 <p class="text-[14px] text-slate-600 leading-relaxed line-clamp-3">{E(x['e'])}</p>
-<a class="mt-auto pt-space-xs inline-flex items-center gap-1 text-[14px] font-bold text-[#0f71b9]" href="{x['l']}">Đọc tiếp {icon('arrow_forward','text-[16px]')}</a>
 </div></article>'''
 
+def post_row(x):
+    img = x.get('s') or x.get('i') or FALLBACK_IMG
+    return f'''<article class="nr group relative flex gap-space-md py-space-md border-b border-slate-200">
+<a class="shrink-0 block w-[104px] sm:w-[168px] aspect-[4/3] rounded-lg overflow-hidden bg-[#eef2f8]" href="{x['l']}" tabindex="-1" aria-hidden="true"><img loading="lazy" decoding="async" alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="{img}"/></a>
+<div class="min-w-0 flex flex-col gap-1.5">
+<div class="flex flex-wrap items-center gap-2 text-[13px] text-slate-500">{type_chip(type_name(x))}<time datetime="{x['d']}">{fmt_date(x['d'])}</time></div>
+<h3 class="text-[16px] sm:text-[18px] leading-snug font-bold text-[#16285c] group-hover:text-[#0f71b9] transition-colors line-clamp-3 sm:line-clamp-2"><a class="after:absolute after:inset-0" href="{x['l']}">{x['t']}</a></h3>
+<p class="max-sm:hidden text-[14px] text-slate-600 leading-relaxed line-clamp-2">{E(x['e'])}</p>
+</div></article>'''
+
+def month_head(d):
+    y, m, _ = d.split('-')
+    return f'<h2 class="nm pt-space-lg pb-1 text-[12px] font-extrabold uppercase tracking-[0.16em] text-[#0f71b9] flex items-center gap-3">Tháng {int(m)}/{y}<span class="flex-1 h-px bg-slate-200"></span></h2>'
+
+def featured(x):
+    img = x.get('i') or FALLBACK_IMG
+    return f'''<article id="newsFeatured" class="group relative grid grid-cols-1 md:grid-cols-2 gap-space-lg items-start pb-space-lg border-b border-slate-200">
+<a class="block aspect-[16/10] rounded-2xl overflow-hidden bg-[#eef2f8]" href="{x['l']}" tabindex="-1" aria-hidden="true"><img fetchpriority="high" decoding="async" alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="{img}"/></a>
+<div class="flex flex-col gap-space-sm">
+<div class="flex flex-wrap items-center gap-2 text-[13px] text-slate-500"><span class="text-[12px] font-extrabold uppercase tracking-[0.14em] text-[#0f71b9]">Mới nhất</span>{type_chip(type_name(x))}<time datetime="{x['d']}">{fmt_date(x['d'])}</time></div>
+<h2 class="text-[20px] md:text-[22px] leading-snug font-extrabold text-[#16285c] group-hover:text-[#0f71b9] transition-colors line-clamp-4"><a class="after:absolute after:inset-0" href="{x['l']}">{x['t']}</a></h2>
+<p class="text-[15px] text-slate-600 leading-relaxed line-clamp-4">{E(x['e'])}</p>
+<span class="inline-flex items-center gap-1 text-[14px] font-bold text-[#0f71b9]">Đọc bài {icon('arrow_forward','text-[16px]')}</span>
+</div></article>'''
+
+def rows_grouped(items):
+    out, last = [], None
+    for x in items:
+        mk = x['d'][:7]
+        if mk != last:
+            out.append(month_head(x['d'])); last = mk
+        out.append(post_row(x))
+    return ''.join(out)
+
 NEWS_JS = r"""<script>
-(function(){var g=document.getElementById('newsGrid');if(!g)return;var cat=g.getAttribute('data-cat'),tag=g.getAttribute('data-tag'),page=1,q='',more=document.getElementById('newsMore'),st=document.getElementById('newsState'),f=document.getElementById('newsSearch');
+(function(){var L=document.getElementById('newsList');if(!L)return;
+var cat=L.getAttribute('data-cat'),total=+L.getAttribute('data-total'),q='',busy=false,
+last=L.getAttribute('data-last'),more=document.getElementById('newsMore'),info=document.getElementById('newsInfo'),F=document.getElementById('newsFeatured'),form=document.getElementById('newsSearch'),chips=document.querySelectorAll('[data-topic]');
 function esc(s){var d=document.createElement('div');d.textContent=s||'';return d.innerHTML}
-function card(p){var img=(p._embedded&&p._embedded['wp:featuredmedia']&&p._embedded['wp:featuredmedia'][0]);var src='/anh/htic/htic-cover418503887709.jpg';if(img&&img.media_details&&img.media_details.sizes){var z=img.media_details.sizes;src=(z.medium_large||z.large||z.full||{}).source_url||img.source_url}else if(img&&img.source_url)src=img.source_url;
-var d=p.date.slice(0,10).split('-'),ex=(p.excerpt.rendered||'').replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim().slice(0,220),l=p.link.replace(location.origin,'');
-return '<article class="nc in group flex flex-col bg-white rounded-2xl border border-slate-200 overflow-hidden hover:border-[#0f71b9]/40 hover:shadow-[0_16px_40px_rgba(36,62,143,0.12)] transition-all duration-300"><a class="block aspect-[16/9] overflow-hidden bg-[#eef2f8]" href="'+l+'" tabindex="-1" aria-hidden="true"><img loading="lazy" decoding="async" alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="'+src+'"/></a><div class="flex flex-col gap-space-xs p-space-md flex-1"><div class="flex items-center gap-2 text-[12px] font-semibold text-slate-500"><span class="px-2 py-0.5 rounded-full bg-[#eef2f8] text-[#243e8f]">'+tag+'</span><time>'+d[2]+'/'+d[1]+'/'+d[0]+'</time></div><h3 class="text-[17px] leading-snug font-bold text-[#16285c] group-hover:text-[#0f71b9] transition-colors"><a href="'+l+'">'+p.title.rendered+'</a></h3><p class="text-[14px] text-slate-600 leading-relaxed line-clamp-3">'+esc(ex)+'</p><a class="mt-auto pt-space-xs inline-flex items-center gap-1 text-[14px] font-bold text-[#0f71b9]" href="'+l+'">Đọc tiếp <span class="material-symbols-outlined text-[16px]" aria-hidden="true">arrow_forward</span></a></div></article>'}
-function load(reset){if(reset){page=1}else{page++}more.disabled=true;st.textContent='Đang tải…';
-fetch('/wp-json/wp/v2/posts?categories='+cat+'&per_page=12&page='+page+'&_embed=wp:featuredmedia'+(q?'&search='+encodeURIComponent(q):'')).then(function(r){var tp=+r.headers.get('X-WP-TotalPages')||1,tt=r.headers.get('X-WP-Total');return r.json().then(function(a){return{a:a,tp:tp,tt:tt}})}).then(function(o){if(reset)g.innerHTML='';g.insertAdjacentHTML('beforeend',o.a.map(card).join(''));st.textContent=o.a.length||!reset?'':'Không tìm thấy bài phù hợp.';more.hidden=page>=o.tp;more.disabled=false}).catch(function(){st.textContent='Không tải được danh sách. Vui lòng thử lại.';more.disabled=false})}
+function dmy(s){var d=s.slice(0,10).split('-');return d[2]+'/'+d[1]+'/'+d[0]}
+function chip(c){return c.indexOf(4)>-1?'<span class="inline-flex items-center px-2 py-0.5 rounded-md bg-[#e6f1fa] text-[#0f71b9] text-[12px] font-bold">Tin pháp lý</span>':'<span class="inline-flex items-center px-2 py-0.5 rounded-md bg-[#eceff7] text-[#243e8f] text-[12px] font-bold">Bài viết pháp lý</span>'}
+function img(p){var m=p._embedded&&p._embedded['wp:featuredmedia']&&p._embedded['wp:featuredmedia'][0];if(!m||!m.source_url)return '/anh/htic/htic-cover418503887709.jpg';var z=m.media_details&&m.media_details.sizes||{};return (z.medium||z.thumbnail||{}).source_url||m.source_url}
+function row(p){var l=p.link.replace(location.origin,''),ex=(p.excerpt.rendered||'').replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim();
+return '<article class="nr group relative flex gap-space-md py-space-md border-b border-slate-200"><a class="shrink-0 block w-[104px] sm:w-[168px] aspect-[4/3] rounded-lg overflow-hidden bg-[#eef2f8]" href="'+l+'" tabindex="-1" aria-hidden="true"><img loading="lazy" decoding="async" alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="'+img(p)+'"/></a><div class="min-w-0 flex flex-col gap-1.5"><div class="flex flex-wrap items-center gap-2 text-[13px] text-slate-500">'+chip(p.categories||[])+'<time>'+dmy(p.date)+'</time></div><h3 class="text-[16px] sm:text-[18px] leading-snug font-bold text-[#16285c] group-hover:text-[#0f71b9] transition-colors line-clamp-3 sm:line-clamp-2"><a class="after:absolute after:inset-0" href="'+l+'">'+p.title.rendered+'</a></h3><p class="max-sm:hidden text-[14px] text-slate-600 leading-relaxed line-clamp-2">'+esc(ex)+'</p></div></article>'}
+function head(s){var d=s.slice(0,10).split('-');return '<h2 class="nm pt-space-lg pb-1 text-[12px] font-extrabold uppercase tracking-[0.16em] text-[#0f71b9] flex items-center gap-3">Tháng '+(+d[1])+'/'+d[0]+'<span class="flex-1 h-px bg-slate-200"></span></h2>'}
+function base(){return F&&!q?1:0}
+function rows(){return L.querySelectorAll('article').length}
+function setInfo(){var n=base()+rows();info.textContent=q?('Tìm thấy '+total+' bài cho “'+q+'”'+(total?', mới nhất trước':'')):('Đang hiển thị '+Math.min(n,total)+' / '+total+' bài, mới nhất trước')}
+function load(reset){if(busy)return;busy=true;more.disabled=true;more.textContent='Đang tải…';
+if(reset){L.innerHTML='';last='';if(F)F.hidden=!!q}
+var u='/wp-json/wp/v2/posts?categories='+cat+'&per_page=12&offset='+(base()+rows())+'&_embed=wp:featuredmedia&_fields=id,link,title,date,excerpt,categories,_links,_embedded'+(q?'&search='+encodeURIComponent(q):'');
+fetch(u).then(function(r){var t=+r.headers.get('X-WP-Total');return r.json().then(function(a){return{a:a,t:t}})}).then(function(o){
+if(o.t||o.t===0)total=o.t;var h='';o.a.forEach(function(p){var mk=p.date.slice(0,7);if(mk!==last){h+=head(p.date);last=mk}h+=row(p)});L.insertAdjacentHTML('beforeend',h);
+if(!rows())L.innerHTML='<p class="py-space-xl text-center text-slate-600">Chưa có bài phù hợp. Thử từ khóa khác hoặc chọn “Tất cả chủ đề”.</p>';
+more.hidden=base()+rows()>=total;setInfo()}).catch(function(){info.textContent='Không tải được danh sách. Vui lòng thử lại.'}).then(function(){busy=false;more.disabled=false;more.textContent='Xem thêm bài'})}
+function search(v){q=(v||'').trim();chips.forEach(function(c){var on=(c.getAttribute('data-topic')||'')===q;c.classList.toggle('bg-[#243e8f]',on);c.classList.toggle('text-white',on);c.classList.toggle('border-[#243e8f]',on);c.classList.toggle('bg-white',!on);c.setAttribute('aria-pressed',on)});
+if(form)form.elements.q.value=q;try{var s=new URL(location.href);if(q)s.searchParams.set('q',q);else s.searchParams.delete('q');history.replaceState(null,'',s)}catch(e){}
+load(true)}
 more.addEventListener('click',function(){load(false)});
-if(f)f.addEventListener('submit',function(e){e.preventDefault();q=f.elements.q.value.trim();load(true)});})();
+if(form)form.addEventListener('submit',function(e){e.preventDefault();search(form.elements.q.value)});
+chips.forEach(function(c){c.addEventListener('click',function(){search(c.getAttribute('data-topic'))})});
+var q0=new URLSearchParams(location.search).get('q');if(q0)search(q0);else setInfo();})();
 </script>"""
 
 def build_news(key):
-    c = CATS[key]; d = NEWS[key]; other = 'bai' if key == 'tin' else 'tin'
-    cards = ''.join(post_card(x, c['name']) for x in d['items'])
-    tabs = ''.join(f'<a class="px-space-md py-2 rounded-full text-[14px] font-bold border transition-colors {"bg-[#243e8f] text-white border-[#243e8f]" if k == key else "bg-white text-[#243e8f] border-slate-200 hover:border-[#243e8f]"}" href="{CATS[k]["path"]}">{CATS[k]["name"]}</a>' for k in ('tin', 'bai'))
-    body = hero([('Trang chủ', '/'), ('Tin tức & Bài viết', '/tin-tuc/'), (c['name'], c['path'])], 'Tin tức & Bài viết', c['name'], c['lead'], '/anh/htic/htic-cover418503887709.jpg', ctas=False)
-    body += f'''<section class="py-space-2xl md:py-space-3xl bg-[#f7f8fa]"><div class="max-w-7xl mx-auto px-margin">
-<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md mb-space-xl">
-<div class="flex flex-wrap gap-2">{tabs}</div>
-<form id="newsSearch" class="flex items-center gap-2 bg-white border border-slate-200 rounded-full pl-4 pr-1 py-1 w-full md:w-[360px] focus-within:border-[#0f71b9]" role="search"><label class="sr-only" for="q">Tìm bài viết</label>{icon('search','text-[20px] text-slate-400')}<input id="q" name="q" class="flex-1 bg-transparent border-0 focus:ring-0 text-[15px] py-1.5 outline-none" placeholder="Tìm theo từ khóa, số hiệu văn bản…"/><button class="bg-[#243e8f] hover:bg-[#0f71b9] text-white text-[14px] font-bold px-4 py-2 rounded-full">Tìm</button></form>
+    c = CATS[key]; d = NEWS[key]; items = d['items']
+    feat, rest = items[0], items[1:]
+    tabs = ''.join(
+        f'<a class="px-space-md py-2 rounded-lg text-[14px] font-bold transition-colors {"bg-[#243e8f] text-white shadow-sm" if k == key else "text-[#243e8f] hover:bg-white"}" href="{CATS[k]["path"]}"{" aria-current=page" if k == key else ""}>{CATS[k]["name"]} <span class="ml-1 opacity-70 font-semibold">{NEWS[k]["total"]}</span></a>'
+        for k in ('all', 'tin', 'bai'))
+    chips = '<button type="button" data-topic="" aria-pressed="true" class="shrink-0 px-3 py-1.5 rounded-full border text-[13px] font-semibold transition-colors bg-[#243e8f] text-white border-[#243e8f]">Tất cả chủ đề</button>' + ''.join(
+        f'<button type="button" data-topic="{t}" aria-pressed="false" class="shrink-0 px-3 py-1.5 rounded-full border border-slate-200 bg-white text-[13px] font-semibold text-slate-700 hover:border-[#243e8f] hover:text-[#243e8f] transition-colors">{t}</button>' for t in TOPICS)
+    other = 'bai' if key == 'tin' else 'tin'
+    side_items = NEWS[other]['items'][:5] if key != 'all' else NEWS['bai']['items'][:5]
+    side_title = CATS[other]['name'] + ' mới' if key != 'all' else 'Bài phân tích mới'
+    side_path = CATS[other]['path'] if key != 'all' else '/bai-viet-phap-ly/'
+    side_list = ''.join(f'<li class="py-space-sm border-b border-slate-100 last:border-0"><a class="group block" href="{x["l"]}"><time class="text-[12px] font-semibold text-slate-500" datetime="{x["d"]}">{fmt_date(x["d"])}</time><span class="block text-[14px] leading-snug font-semibold text-[#16285c] group-hover:text-[#0f71b9] line-clamp-3">{x["t"]}</span></a></li>' for x in side_items)
+    crumbs = [('Trang chủ', '/'), ('Tin tức & Bài viết', '/tin-tuc/')] + ([(c['name'], c['path'])] if key != 'all' else [])
+    crumb_html = ''.join((f'<a class="hover:text-[#0f71b9]" href="{h}">{E(n)}</a>{icon("chevron_right","text-[16px] opacity-50")}' if i < len(crumbs) - 1 else f'<span class="text-slate-700" aria-current="page">{E(n)}</span>') for i, (n, h) in enumerate(crumbs))
+    body = f'''<section class="-mt-[120px] pt-[146px] pb-space-lg bg-[#f4f6fa] border-b border-slate-200">
+<div class="max-w-7xl mx-auto px-margin">
+<nav class="flex flex-wrap items-center gap-1 text-[14px] text-slate-500" aria-label="Breadcrumb">{crumb_html}</nav>
+<div class="hero-in mt-space-md flex flex-col gap-space-sm max-w-3xl">
+<h1 class="text-[32px] md:text-[42px] leading-tight font-extrabold tracking-tight text-[#16285c]">{c['h1']}</h1>
+<p class="text-[16px] md:text-[17px] text-slate-600 leading-relaxed">{E(c['lead'])}</p>
 </div>
-<p class="text-[14px] text-slate-500 mb-space-md">{d['total']} bài · cập nhật thường xuyên</p>
-<div id="newsGrid" data-cat="{c['id']}" data-tag="{c['name']}" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">{cards}</div>
-<p id="newsState" class="text-center text-[15px] text-slate-500 mt-space-lg" aria-live="polite"></p>
-<div class="text-center mt-space-lg"><button id="newsMore" class="inline-flex items-center gap-2 bg-white border border-[#243e8f] text-[#243e8f] hover:bg-[#243e8f] hover:text-white font-bold px-space-lg py-3 rounded-lg transition-colors" {'hidden' if int(d['pages']) <= 1 else ''}>Xem thêm bài {icon('expand_more','text-[18px]')}</button></div>
-<div class="mt-space-2xl p-space-lg rounded-2xl bg-white border border-slate-200 flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-md">{icon(CATS[other]['icon'],'text-[32px] text-[#0f71b9]')}<div><p class="font-bold text-[#16285c]">Xem thêm {CATS[other]['name'].lower()}</p><p class="text-[14px] text-slate-600">{CATS[other]['lead'][:110]}…</p></div></div><a class="shrink-0 inline-flex items-center gap-1 font-bold text-[#0f71b9]" href="{CATS[other]['path']}">{CATS[other]['name']} {icon('arrow_forward','text-[18px]')}</a></div>
+<nav class="mt-space-lg inline-flex flex-wrap gap-1 p-1 rounded-xl bg-[#e8ecf4]" aria-label="Loại bài">{tabs}</nav>
+</div></section>
+<section class="py-space-lg md:py-space-xl bg-white"><div class="max-w-7xl mx-auto px-margin grid grid-cols-1 lg:grid-cols-12 gap-space-2xl">
+<div class="lg:col-span-8 min-w-0">
+<form id="newsSearch" class="flex items-center gap-2 bg-white border border-slate-300 rounded-xl pl-4 pr-1.5 py-1.5 focus-within:border-[#0f71b9] focus-within:ring-2 focus-within:ring-[#0f71b9]/15" role="search"><label class="sr-only" for="q">Tìm bài</label>{icon('search','text-[22px] text-slate-400')}<input id="q" name="q" type="search" class="flex-1 min-w-0 bg-transparent border-0 focus:ring-0 text-[15px] py-2 outline-none" placeholder="Tìm theo từ khóa, số hiệu văn bản (vd: 135/2025/QH15)"/><button class="bg-[#243e8f] hover:bg-[#0f71b9] text-white text-[14px] font-bold px-5 py-2.5 rounded-lg">Tìm</button></form>
+<div class="mt-space-sm flex gap-2 overflow-x-auto pb-2 -mx-1 px-1" role="group" aria-label="Chủ đề nhanh">{chips}</div>
+<p id="newsInfo" class="mt-space-sm mb-space-md text-[14px] text-slate-500" aria-live="polite">Đang hiển thị {len(items)} / {d['total']} bài, mới nhất trước</p>
+{featured(feat)}
+<div id="newsList" data-cat="{c['cat']}" data-total="{d['total']}" data-last="{rest[-1]['d'][:7] if rest else ''}">{rows_grouped(rest)}</div>
+<button id="newsMore" class="mt-space-lg w-full inline-flex items-center justify-center gap-2 border border-[#243e8f] text-[#243e8f] hover:bg-[#243e8f] hover:text-white font-bold py-3.5 rounded-xl transition-colors" {'hidden' if int(d['total']) <= len(items) else ''}>Xem thêm bài</button>
+</div>
+<aside class="lg:col-span-4"><div class="lg:sticky lg:top-[140px] flex flex-col gap-space-lg">
+<div class="rounded-2xl border border-slate-200 p-space-lg"><div class="flex items-center justify-between gap-2 mb-1"><p class="text-[16px] font-extrabold text-[#16285c]">{side_title}</p><a class="text-[13px] font-bold text-[#0f71b9]" href="{side_path}">Xem tất cả</a></div><ul>{side_list}</ul></div>
+<div class="rounded-2xl bg-[#16285c] text-white p-space-lg flex flex-col gap-space-sm">
+<p class="text-[18px] font-extrabold">Cần áp dụng cho trường hợp cụ thể?</p>
+<p class="text-[14px] text-blue-100 leading-relaxed">Bài viết mang tính tham khảo. Gửi hồ sơ để luật sư HTIC xem xét và tư vấn đúng tình huống của Quý khách.</p>
+<a class="flex items-center gap-2 font-bold text-[16px]" href="tel:{S['phone_tel']}">{icon('call','text-[20px] text-[#5aa8e6]')}{S['phone']}</a>
+<div class="flex gap-2 pt-1"><a class="flex-1 text-center bg-[#0f71b9] hover:bg-white hover:text-[#243e8f] font-bold py-2.5 rounded-lg transition-colors" href="/lien-he/">Đặt lịch</a><a class="flex-1 text-center bg-white/10 hover:bg-white/20 font-bold py-2.5 rounded-lg border border-white/20" target="_blank" rel="noopener" href="{S['zalo']}">Zalo</a></div>
+</div>
+<div class="rounded-2xl border border-slate-200 p-space-lg"><p class="text-[15px] font-extrabold text-[#16285c]">Theo dõi tin mới từ HTIC</p><p class="text-[14px] text-slate-600 mt-1">Nhận cập nhật pháp luật qua Facebook và Zalo OA của HTIC.</p><div class="flex gap-2 mt-space-sm"><a class="flex-1 inline-flex items-center justify-center gap-1.5 bg-[#1877f2] text-white text-[14px] font-bold py-2.5 rounded-lg" target="_blank" rel="noopener" href="{FB_URL}">{fb('w-4 h-4')}Facebook</a><a class="flex-1 text-center bg-[#0f71b9] text-white text-[14px] font-bold py-2.5 rounded-lg" target="_blank" rel="noopener" href="{S['zalo']}">Zalo OA</a></div></div>
+</div></aside>
 </div></section>'''
-    body += cta_band()
-    ld = [{"@type": "CollectionPage", "name": c['name'] + ' – Công ty Luật HTIC', "url": BASE + c['path'], "inLanguage": "vi",
+    ld = [{"@type": "CollectionPage", "name": html.unescape(c['h1']) + ' – Công ty Luật HTIC', "url": BASE + c['path'], "inLanguage": "vi",
            "publisher": {"@id": BASE + "/#firm"},
-           "hasPart": [{"@type": "Article", "headline": html.unescape(x['t']), "url": BASE + x['l'], "datePublished": x['d']} for x in d['items']]}]
-    return page(c['path'], f"{c['name']} | Công ty Luật HTIC", c['lead'][:155], body + NEWS_JS, 'tin-tuc', '/anh/htic/htic-cover418503887709.jpg', ld,
-                [('Trang chủ', '/'), ('Tin tức & Bài viết', '/tin-tuc/'), (c['name'], c['path'])])
+           "hasPart": [{"@type": "Article", "headline": html.unescape(x['t']), "url": BASE + x['l'], "datePublished": x['d']} for x in items]}]
+    title = f"{c['name']} | Công ty Luật HTIC" if key != 'all' else 'Tin tức & Bài viết pháp lý | Công ty Luật HTIC'
+    c = dict(c, name=c['name'] if key != 'all' else 'Tin tức & Bài viết')
+    return page(c['path'], title, c['lead'][:155], body + NEWS_JS, 'tin-tuc', FALLBACK_IMG, ld, crumbs)
 
 def build_news_hub():
-    body = hero([('Trang chủ', '/'), ('Tin tức & Bài viết', '/tin-tuc/')], 'Kiến thức pháp lý', 'Tin tức &amp; Bài viết pháp lý',
-                'Tổng hợp tin pháp luật mới và bài phân tích chuyên sâu do luật sư HTIC biên soạn, giúp doanh nghiệp và cá nhân nắm kịp thay đổi của quy định.', '/anh/htic/htic-cover418503887709.jpg', ctas=False)
-    for key in ('tin', 'bai'):
-        c = CATS[key]; d = NEWS[key]
-        cards = ''.join(post_card(x, c['name']) for x in d['items'][:6])
-        bg = 'bg-white' if key == 'tin' else 'bg-[#f7f8fa]'
-        body += f'''<section class="py-space-2xl md:py-space-3xl {bg}"><div class="max-w-7xl mx-auto px-margin">
-<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">{section_head(f"{d['total']} bài", c['name'], c['lead'])}<a class="shrink-0 inline-flex items-center gap-1 font-bold text-[#0f71b9]" href="{c['path']}">Xem tất cả {icon('arrow_forward','text-[18px]')}</a></div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">{cards}</div></div></section>'''
-    body += cta_band()
-    return page('/tin-tuc/', 'Tin tức & Bài viết pháp lý | Công ty Luật HTIC', 'Tin pháp lý mới và bài phân tích chuyên sâu của luật sư Công ty Luật HTIC về doanh nghiệp, đầu tư, bất động sản, xây dựng, hợp đồng và tranh chấp.',
-                body, 'tin-tuc', '/anh/htic/htic-cover418503887709.jpg', None, [('Trang chủ', '/'), ('Tin tức & Bài viết', '/tin-tuc/')])
+    return build_news('all')
+
 
 def write(rel, content):
     p = os.path.join(ROOT, rel)
