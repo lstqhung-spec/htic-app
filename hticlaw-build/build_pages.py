@@ -3,7 +3,7 @@
 Chay: python3 build_pages.py  (ghi vao ../hticlaw-site/)"""
 import html, json, os, re, glob, sys
 sys.path.insert(0, os.path.dirname(__file__))
-from data import SITE, PROCESS, WHY, SERVICES, TEAM_LAWYERS, TEAM_EXPERTS, VALUES, TIMELINE, GALLERY
+from data import SITE, PROCESS, WHY, FAQ, SERVICES, TEAM_LAWYERS, TEAM_EXPERTS, VALUES, TIMELINE, GALLERY
 
 ROOT = os.path.join(os.path.dirname(__file__), '..', 'hticlaw-site')
 BASE = 'https://hticlaw.vn'
@@ -262,6 +262,14 @@ def booking_form():
 </form>'''
 
 # ---------------------------------------------------------------- pages
+def faq_block(slug):
+    items = FAQ.get(slug, [])
+    if not items: return ''
+    q = ''.join(f'''<details class="group rounded-xl border border-slate-200 bg-white open:border-[#0f71b9] open:shadow-sm">
+<summary class="list-none cursor-pointer flex items-start justify-between gap-space-md p-space-md font-bold text-[#16285c] text-[16px]">{E(a)}{icon('expand_more','text-[22px] text-[#0f71b9] shrink-0 group-open:rotate-180 transition-transform')}</summary>
+<p class="px-space-md pb-space-md -mt-1 text-[15px] text-text-secondary leading-relaxed">{E(b)}</p></details>''' for a, b in items)
+    return f'<div id="hoi-dap"><h2 class="text-[26px] md:text-[30px] font-extrabold text-[#243e8f] tracking-tight mb-space-md">Câu hỏi thường gặp</h2><div class="flex flex-col gap-space-sm">{q}</div></div>'
+
 def build_service(i, s):
     others = [x for x in SERVICES if x is not s]
     related = others[i % len(others):] + others[:i % len(others)]
@@ -271,7 +279,7 @@ def build_service(i, s):
 <div><h3 class="font-bold text-[#16285c] text-[16px]">{E(t)}</h3><p class="text-[14px] text-text-secondary leading-relaxed mt-1">{E(d)}</p></div></div>''' for k, (t, d) in enumerate(s['scope']))
     laws = ''.join(f'<li class="flex gap-2 items-start">{icon("menu_book","text-[18px] text-[#0f71b9] shrink-0 mt-0.5")}<span>{E(l)}</span></li>' for l in s['laws'])
     side_nav = ''.join(f'<a class="flex items-center justify-between px-4 py-2.5 rounded-lg text-[14px] {"bg-[#243e8f] text-white font-bold" if x is s else "text-slate-700 hover:bg-[#f2f2f3] hover:text-[#243e8f]"}" href="/dich-vu/{x["slug"]}/">{E(x["name"])}{icon("chevron_right","text-[18px] opacity-60")}</a>' for x in SERVICES)
-    facts = [('person_pin', 'Một luật sư phụ trách xuyên suốt'), ('receipt_long', 'Báo giá rõ ràng trước khi triển khai'), ('schedule', 'Phản hồi trong 24 giờ làm việc')]
+    facts = [('person_pin', 'Một luật sư phụ trách xuyên suốt'), ('receipt_long', 'Báo giá rõ ràng trước khi triển khai'), ('lock', 'Bảo mật thông tin theo Luật Luật sư')]
     facts_html = ''.join(f'<div class="flex items-center gap-3 py-space-md">{icon(ic,"text-[24px] text-[#0f71b9]")}<span class="font-semibold text-[#16285c] text-[15px]">{E(t)}</span></div>' for ic, t in facts)
     body = hero([('Trang chủ', '/'), ('Dịch vụ', '/dich-vu/'), (s['name'], f'/dich-vu/{s["slug"]}/')],
                 f'Lĩnh vực dịch vụ {i+1:02d}', E(s['name']), s['lead'], s['img'], ctas=f'/lien-he/?dv={s["slug"]}')
@@ -286,6 +294,7 @@ def build_service(i, s):
 <ul class="grid grid-cols-1 md:grid-cols-2 gap-space-sm text-[15px] text-slate-700">{laws}</ul>
 <p class="mt-space-md text-[13px] text-text-muted">Mỗi tư vấn của HTIC dẫn chiếu điều khoản cụ thể và được đối chiếu với văn bản còn hiệu lực tại thời điểm tư vấn.</p></div>
 <div><h2 class="text-[26px] md:text-[30px] font-extrabold text-[#243e8f] tracking-tight mb-space-md">Vì sao chọn HTIC</h2>{why_block()}</div>
+{faq_block(s['slug'])}
 </div>
 <aside class="lg:col-span-4"><div class="lg:sticky lg:top-[140px] flex flex-col gap-space-md">
 <div class="rounded-2xl bg-[#16285c] text-white p-space-lg flex flex-col gap-space-sm">
@@ -303,6 +312,8 @@ def build_service(i, s):
 {cta_band('Cần tư vấn về ' + s['name'] + '?', href='/lien-he/?dv=' + s['slug'])}'''
     ld = [{"@type": "Service", "name": s['name'], "serviceType": s['name'], "description": s['lead'], "url": f"{BASE}/dich-vu/{s['slug']}/",
            "areaServed": "VN", "provider": {"@id": BASE + "/#firm"}}]
+    if FAQ.get(s['slug']):
+        ld.append({"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": a, "acceptedAnswer": {"@type": "Answer", "text": b}} for a, b in FAQ[s['slug']]]})
     return page(f'/dich-vu/{s["slug"]}/', f'{s["name"]} | Luật sư tư vấn tại TP.HCM – Công ty Luật HTIC', s['lead'], body, 'dich-vu', s['img'], ld,
                 [('Trang chủ', '/'), ('Dịch vụ', '/dich-vu/'), (s['name'], f'/dich-vu/{s["slug"]}/')])
 
@@ -336,7 +347,7 @@ def person(n, r, img, big=False):
 <figcaption class="pt-space-sm"><p class="font-bold text-[#16285c] {"text-[17px]" if big else "text-[15px]"}">{E(n)}</p><p class="text-[13px] text-text-secondary">{E(r)}</p></figcaption></figure>'''
 
 def build_about():
-    stats = [('2011', 'Năm khởi đầu (tiền thân Pháp Chính)'), ('155', 'Khách hàng doanh nghiệp'), ('355', 'Dự án và vụ việc'), ('12', 'Luật sư & chuyên gia')]
+    stats = [('2011', 'Năm khởi đầu (tiền thân Pháp Chính)'), ('10', 'Lĩnh vực hành nghề'), ('12', 'Luật sư & chuyên gia'), ('VI · EN · JA', 'Ngôn ngữ làm việc')]
     st = ''.join(f'<div class="py-space-md"><div class="text-[34px] md:text-[40px] font-extrabold text-[#243e8f] tracking-tight">{a}</div><div class="text-[13px] uppercase tracking-wider font-semibold text-text-secondary mt-1">{E(b)}</div></div>' for a, b in stats)
     vals = ''.join(f'''<div class="relative p-space-lg rounded-2xl bg-white border border-slate-200 overflow-hidden">
 <span class="absolute -right-2 -top-6 text-[120px] font-extrabold text-[#243e8f]/[0.06] leading-none select-none">{k}</span>
@@ -352,7 +363,7 @@ def build_about():
     side = '''<div class="lg:col-span-4 hidden lg:block"><div class="rounded-2xl overflow-hidden border border-white/20 shadow-2xl"><img alt="Luật sư HTIC làm việc cùng khách hàng" class="w-full h-[300px] object-cover" src="/anh/htic/cong-ty-tu-van-luat-htic279274646012.jpg"/></div></div>'''
     body = hero([('Trang chủ', '/'), ('Giới thiệu', '/gioi-thieu/')], 'Về Công ty Luật HTIC', 'Phụng sự công lý,<br/>bảo vệ lợi ích khách hàng',
                 'HTIC đồng hành pháp lý cùng doanh nghiệp Việt Nam, nhà đầu tư nước ngoài và khách hàng cá nhân, với nền tảng từ năm 2011 và đội ngũ luật sư, chuyên gia nhiều lĩnh vực.',
-                '/anh/hero-ban-lam-viec.webp', side=side)
+                '/anh/dv/gioi-thieu.webp', side=side)
     body += f'''<div class="bg-white border-b border-slate-200"><div class="max-w-7xl mx-auto px-margin grid grid-cols-2 md:grid-cols-4 gap-space-md text-center md:text-left">{st}</div></div>
 <section class="py-space-2xl md:py-space-3xl bg-white" id="loi-chao"><div class="max-w-7xl mx-auto px-margin grid grid-cols-1 lg:grid-cols-12 gap-space-2xl items-center">
 <div class="lg:col-span-5"><div class="relative max-w-sm mx-auto"><div class="absolute -inset-3 rounded-3xl bg-[#243e8f]/10 rotate-2"></div>
@@ -386,7 +397,7 @@ def build_about():
 
 def build_contact():
     cards = [('call', 'Hotline / Zalo', S['phone'], f'tel:{S["phone_tel"]}', 'Gọi hoặc nhắn Zalo trong giờ làm việc'),
-             ('mail', 'Email', S['email'], f'mailto:{S["email"]}', 'Phản hồi trong 24 giờ làm việc'),
+             ('mail', 'Email', S['email'], f'mailto:{S["email"]}', 'Gửi tài liệu và yêu cầu tư vấn'),
              ('fb', 'Facebook', 'facebook.com/hticlawfirm', FB_URL, 'Cập nhật pháp lý và hoạt động của HTIC'),
              ('location_on', 'Văn phòng', S['address_short'], f'https://www.google.com/maps/search/?api=1&query={S["map_q"].replace(" ", "+")}', S['hours'])]
     c = ''.join(f'''<a class="group flex gap-space-md p-space-lg rounded-2xl bg-white border border-slate-200 hover:border-[#0f71b9] hover:shadow-lg transition-all" href="{h}" {'target="_blank" rel="noopener"' if h.startswith('http') else ''}>
@@ -396,8 +407,8 @@ def build_contact():
     pr = ''.join(f'<li class="flex gap-2">{icon("task_alt","text-[18px] text-[#0f71b9] shrink-0")}<span>{E(p)}</span></li>' for p in prep)
     mq = S['map_q'].replace(' ', '+')
     body = hero([('Trang chủ', '/'), ('Liên hệ', '/lien-he/')], 'Liên hệ HTIC', 'Trao đổi với luật sư HTIC',
-                'Gửi yêu cầu tư vấn, gọi hotline hoặc ghé văn phòng. Luật sư HTIC phản hồi trong 24 giờ làm việc và tư vấn sơ bộ ban đầu miễn phí.',
-                '/anh/htic/banner-lien-he-law993993344719.jpg', ctas=False)
+                'Gửi yêu cầu để HTIC liên hệ trao đổi và thống nhất lịch tư vấn. Phạm vi công việc và phí dịch vụ được trao đổi rõ trước khi thực hiện.',
+                '/anh/dv/lien-he.webp', ctas=False)
     body += f'''<section class="relative -mt-space-xl md:-mt-space-2xl pb-space-xl"><div class="max-w-7xl mx-auto px-margin grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">{c}</div></section>
 <section class="pb-space-2xl md:pb-space-3xl bg-white"><div class="max-w-7xl mx-auto px-margin grid grid-cols-1 lg:grid-cols-12 gap-space-2xl">
 <div class="lg:col-span-7 rounded-2xl border border-slate-200 p-space-lg md:p-space-xl shadow-sm">
@@ -414,7 +425,7 @@ def build_contact():
           {"@type": "LegalService", "@id": BASE + "/#firm", "name": "Công ty Luật HTIC", "telephone": S['phone_tel'], "email": S['email'],
            "address": {"@type": "PostalAddress", "streetAddress": S['address'], "addressLocality": "TP. Hồ Chí Minh", "addressCountry": "VN"}}]
     return page('/lien-he/', 'Liên hệ Công ty Luật HTIC | Đặt lịch tư vấn luật sư TP.HCM',
-                f'Liên hệ Công ty Luật HTIC: hotline {S["phone"]}, email {S["email"]}, văn phòng tại TP.HCM. Gửi yêu cầu tư vấn, phản hồi trong 24 giờ làm việc.',
+                f'Liên hệ Công ty Luật HTIC: hotline {S["phone"]}, email {S["email"]}, văn phòng tại TP.HCM. Gửi yêu cầu tư vấn trực tuyến.',
                 body, 'lien-he', '/anh/htic/banner-lien-he-law993993344719.jpg', ld, [('Trang chủ', '/'), ('Liên hệ', '/lien-he/')])
 
 def write(rel, content):
