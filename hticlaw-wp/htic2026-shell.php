@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'HTIC26_VER', '20261123c' );
+define( 'HTIC26_VER', '20261123d' );
 
 function htic26_path() {
 	$p = isset( $_SERVER['REQUEST_URI'] ) ? (string) $_SERVER['REQUEST_URI'] : '/';
@@ -44,8 +44,8 @@ add_action( 'init', function () {
 } );
 
 /* Chuyen huong 301 cac trang WordPress cu da co trang moi thay the. */
-add_action( 'template_redirect', function () {
-	if ( is_admin() ) {
+add_action( 'init', function () {
+	if ( is_admin() || wp_doing_ajax() || ( defined( 'REST_REQUEST' ) && REST_REQUEST ) || 'GET' !== ( isset( $_SERVER['REQUEST_METHOD'] ) ? $_SERVER['REQUEST_METHOD'] : 'GET' ) ) {
 		return;
 	}
 	$map = array(
@@ -68,7 +68,7 @@ add_action( 'template_redirect', function () {
 		wp_safe_redirect( home_url( $map[ $k ] ), 301 );
 		exit;
 	}
-}, 1 );
+}, 0 );
 
 /* Chon template moi cho trang tieng Viet. */
 add_filter( 'template_include', function ( $t ) {
