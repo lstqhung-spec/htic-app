@@ -105,7 +105,7 @@ def footer():
 <div class="flex items-center gap-space-xs">{icon('schedule','text-[18px] text-[#5aa8e6]')}<span>{S['hours']}</span></div>
 </div>
 </div>
-<div class="lg:col-span-5"><h4 class="text-base font-bold mb-space-md">Lĩnh vực hành nghề</h4><ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-space-md gap-y-2 text-[14px]">{svc}</ul></div>
+<div class="lg:col-span-5"><h4 class="text-base font-bold mb-space-md">Lĩnh vực tư vấn</h4><ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-space-md gap-y-2 text-[14px]">{svc}</ul></div>
 <div class="lg:col-span-3"><h4 class="text-base font-bold mb-space-md">Về HTIC</h4><ul class="flex flex-col gap-2 text-[14px]">
 <li><a class="text-blue-100 hover:text-white" href="/gioi-thieu/">Giới thiệu</a></li>
 <li><a class="text-blue-100 hover:text-white" href="/gioi-thieu/#doi-ngu">Đội ngũ luật sư</a></li>
@@ -360,7 +360,7 @@ def build_services_index():
     body = hero([('Trang chủ', '/'), ('Dịch vụ', '/dich-vu/')], 'Lĩnh vực dịch vụ', 'Dịch vụ pháp lý toàn diện cho doanh nghiệp',
                 'Mười lĩnh vực chuyên sâu, một đầu mối xuyên suốt, dành cho doanh nghiệp Việt Nam và nhà đầu tư nước ngoài. Chọn một lĩnh vực để xem phạm vi công việc chi tiết.',
                 '/anh/htic/cong-ty-tu-van-luat-htic279274646012.jpg')
-    body += f'''<section class="py-space-2xl md:py-space-3xl bg-white"><div class="max-w-7xl mx-auto px-margin">{section_head('10 lĩnh vực hành nghề', 'Chọn lĩnh vực bạn cần hỗ trợ')}
+    body += f'''<section class="py-space-2xl md:py-space-3xl bg-white"><div class="max-w-7xl mx-auto px-margin">{section_head('10 lĩnh vực tư vấn', 'Chọn lĩnh vực bạn cần hỗ trợ')}
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-md">{cards}
 <div class="flex flex-col justify-between gap-space-md p-space-lg rounded-2xl bg-[#243e8f] text-white sm:col-span-2 lg:col-span-2">
 <div><h3 class="text-[22px] font-extrabold">Chưa rõ vấn đề thuộc lĩnh vực nào?</h3><p class="mt-2 text-blue-100">Mô tả ngắn tình huống, luật sư HTIC sẽ xác định vấn đề pháp lý và hướng xử lý phù hợp.</p></div>
@@ -380,7 +380,7 @@ def person(n, r, img, big=False):
 <figcaption class="pt-space-sm"><p class="font-bold text-[#16285c] {"text-[17px]" if big else "text-[15px]"}">{E(n)}</p><p class="text-[13px] text-text-secondary">{E(r)}</p></figcaption></figure>'''
 
 def build_about():
-    stats = [('2011', 'Năm khởi đầu (tiền thân Pháp Chính)'), ('10', 'Lĩnh vực hành nghề'), ('12', 'Luật sư & chuyên gia'), ('VI · EN · JA', 'Ngôn ngữ làm việc')]
+    stats = [('2011', 'Năm khởi đầu (tiền thân Pháp Chính)'), ('10', 'Lĩnh vực tư vấn'), ('12', 'Luật sư & chuyên gia'), ('VI · EN · JA', 'Ngôn ngữ làm việc')]
     st = ''.join(f'<div class="py-space-md"><div class="text-[34px] md:text-[40px] font-extrabold text-[#243e8f] tracking-tight">{a}</div><div class="text-[13px] uppercase tracking-wider font-semibold text-text-secondary mt-1">{E(b)}</div></div>' for a, b in stats)
     vals = ''.join(f'''<div class="relative p-space-lg rounded-2xl bg-white border border-slate-200 overflow-hidden">
 <span class="absolute -right-2 -top-6 text-[120px] font-extrabold text-[#243e8f]/[0.06] leading-none select-none">{k}</span>
