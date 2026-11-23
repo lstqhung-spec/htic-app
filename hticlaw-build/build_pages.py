@@ -15,6 +15,11 @@ CLIENTS = ["Unimates", "KCN Long Hậu", "Đối tác", "Tulip", "HDBank", "Hite
            "BB Decor", "Cao đẳng Lý Tự Trọng", "Cao đẳng Bách khoa Sài Gòn", "Kizuna", "Kiến Thạch", "HRC Education"]
 CLIENT_FILES = sorted(os.path.basename(p) for p in glob.glob(os.path.join(ROOT, 'anh/htic/z680*')))
 
+FB_URL = 'https://www.facebook.com/hticlawfirm'
+FB_SVG = '<svg aria-hidden="true" viewBox="0 0 24 24" class="{c}" fill="currentColor"><path d="M24 12.07C24 5.41 18.63 0 12 0S0 5.41 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z"/></svg>'
+def fb(c='w-4 h-4'):
+    return FB_SVG.replace('{c}', c)
+
 def icon(name, cls='text-[20px]'):
     return f'<span class="material-symbols-outlined {cls}" aria-hidden="true">{name}</span>'
 
@@ -38,7 +43,7 @@ def header(active=''):
 <a class="hidden sm:flex items-center gap-space-xs text-blue-100/90 hover:text-white" href="mailto:{S['email']}">{icon('mail','text-[16px] text-[#5aa8e6]')}<span>{S['email']}</span></a>
 <div class="hidden lg:flex items-center gap-space-xs text-blue-100/80">{icon('schedule','text-[16px] text-[#5aa8e6]')}<span>{S['hours_short']}</span></div>
 </div>
-<div class="flex items-center gap-3 text-[12px] font-semibold text-blue-100/80"><a class="text-white" href="/">VI</a><span class="opacity-40">·</span><a class="hover:text-white" href="/en/home-en/">EN</a><span class="opacity-40">·</span><a class="hover:text-white" href="/ja/">JA</a></div>
+<div class="flex items-center gap-3 text-[12px] font-semibold text-blue-100/80"><a class="flex items-center gap-1.5 text-white hover:text-[#5aa8e6]" href="{FB_URL}" target="_blank" rel="noopener" aria-label="Facebook Công ty Luật HTIC">{fb('w-4 h-4')}<span class="hidden md:inline">Facebook</span></a><span class="opacity-40">|</span><a class="text-white" href="/">VI</a><span class="opacity-40">·</span><a class="hover:text-white" href="/en/home-en/">EN</a><span class="opacity-40">·</span><a class="hover:text-white" href="/ja/">JA</a></div>
 </div>
 </div>
 <div class="bg-white/95 backdrop-blur-xl border-b border-slate-200">
@@ -94,7 +99,7 @@ def footer():
 <li><a class="text-blue-100 hover:text-white" href="/tin-tuc/">Tin pháp lý</a></li>
 <li><a class="text-blue-100 hover:text-white" href="/lien-he/">Liên hệ</a></li></ul>
 <p class="mt-space-md text-[13px] text-blue-100/80 leading-relaxed">Thành viên Đoàn Luật sư TP.HCM. Thông tin khách hàng được bảo mật theo Luật Luật sư.</p>
-<div class="flex gap-3 mt-space-md text-[13px] font-semibold"><a class="px-3 py-1.5 rounded-md bg-white/10 hover:bg-white/20" href="https://www.facebook.com/hticlawfirm" rel="noopener" target="_blank">Facebook</a><a class="px-3 py-1.5 rounded-md bg-white/10 hover:bg-white/20" href="https://www.linkedin.com/company/htic-law" rel="noopener" target="_blank">LinkedIn</a><a class="px-3 py-1.5 rounded-md bg-white/10 hover:bg-white/20" href="{S['zalo']}" rel="noopener" target="_blank">Zalo</a></div>
+<div class="flex gap-3 mt-space-md text-[13px] font-semibold"><a class="flex items-center gap-2 px-3 py-1.5 rounded-md bg-[#1877f2] hover:bg-[#0f5fd0]" href="{FB_URL}" rel="noopener" target="_blank">{fb('w-4 h-4')}Facebook</a><a class="px-3 py-1.5 rounded-md bg-white/10 hover:bg-white/20" href="https://www.linkedin.com/company/htic-law" rel="noopener" target="_blank">LinkedIn</a><a class="px-3 py-1.5 rounded-md bg-white/10 hover:bg-white/20" href="{S['zalo']}" rel="noopener" target="_blank">Zalo</a></div>
 </div>
 </div>
 <div class="mt-space-2xl pt-space-lg border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-space-md text-[13px] text-blue-200">
@@ -382,9 +387,10 @@ def build_about():
 def build_contact():
     cards = [('call', 'Hotline / Zalo', S['phone'], f'tel:{S["phone_tel"]}', 'Gọi hoặc nhắn Zalo trong giờ làm việc'),
              ('mail', 'Email', S['email'], f'mailto:{S["email"]}', 'Phản hồi trong 24 giờ làm việc'),
+             ('fb', 'Facebook', 'facebook.com/hticlawfirm', FB_URL, 'Cập nhật pháp lý và hoạt động của HTIC'),
              ('location_on', 'Văn phòng', S['address_short'], f'https://www.google.com/maps/search/?api=1&query={S["map_q"].replace(" ", "+")}', S['hours'])]
     c = ''.join(f'''<a class="group flex gap-space-md p-space-lg rounded-2xl bg-white border border-slate-200 hover:border-[#0f71b9] hover:shadow-lg transition-all" href="{h}" {'target="_blank" rel="noopener"' if h.startswith('http') else ''}>
-<span class="w-12 h-12 shrink-0 rounded-xl bg-[#243e8f] text-white flex items-center justify-center group-hover:bg-[#0f71b9] transition-colors">{icon(ic,'text-[24px]')}</span>
+<span class="w-12 h-12 shrink-0 rounded-xl {'bg-[#1877f2]' if ic=='fb' else 'bg-[#243e8f] group-hover:bg-[#0f71b9]'} text-white flex items-center justify-center transition-colors">{fb('w-6 h-6') if ic=='fb' else icon(ic,'text-[24px]')}</span>
 <div><p class="text-[12px] uppercase tracking-wider font-bold text-text-muted">{E(t)}</p><p class="font-extrabold text-[#16285c] text-[17px] mt-0.5 break-words">{E(v)}</p><p class="text-[13px] text-text-secondary mt-1">{E(n)}</p></div></a>''' for ic, t, v, h, n in cards)
     prep = ['Giấy tờ pháp lý của doanh nghiệp hoặc cá nhân liên quan', 'Hợp đồng, thư từ, tài liệu trao đổi với đối tác', 'Mốc thời gian quan trọng (hạn ký, hạn nộp, ngày xảy ra sự việc)', 'Kết quả mong muốn và các phương án đã cân nhắc']
     pr = ''.join(f'<li class="flex gap-2">{icon("task_alt","text-[18px] text-[#0f71b9] shrink-0")}<span>{E(p)}</span></li>' for p in prep)
@@ -392,7 +398,7 @@ def build_contact():
     body = hero([('Trang chủ', '/'), ('Liên hệ', '/lien-he/')], 'Liên hệ HTIC', 'Trao đổi với luật sư HTIC',
                 'Gửi yêu cầu tư vấn, gọi hotline hoặc ghé văn phòng. Luật sư HTIC phản hồi trong 24 giờ làm việc và tư vấn sơ bộ ban đầu miễn phí.',
                 '/anh/htic/banner-lien-he-law993993344719.jpg', ctas=False)
-    body += f'''<section class="relative -mt-space-xl md:-mt-space-2xl pb-space-xl"><div class="max-w-7xl mx-auto px-margin grid grid-cols-1 md:grid-cols-3 gap-space-md">{c}</div></section>
+    body += f'''<section class="relative -mt-space-xl md:-mt-space-2xl pb-space-xl"><div class="max-w-7xl mx-auto px-margin grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">{c}</div></section>
 <section class="pb-space-2xl md:pb-space-3xl bg-white"><div class="max-w-7xl mx-auto px-margin grid grid-cols-1 lg:grid-cols-12 gap-space-2xl">
 <div class="lg:col-span-7 rounded-2xl border border-slate-200 p-space-lg md:p-space-xl shadow-sm">
 <h2 class="text-[26px] md:text-[30px] font-extrabold text-[#243e8f] tracking-tight">Gửi yêu cầu tư vấn</h2>
