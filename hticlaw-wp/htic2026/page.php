@@ -22,7 +22,7 @@ while ( have_posts() ) :
 	<?php if ( has_post_thumbnail() ) : ?>
 <figure class="mb-space-xl rounded-2xl overflow-hidden"><?php the_post_thumbnail( 'large', array( 'class' => 'w-full h-auto' ) ); ?></figure>
 	<?php endif; ?>
-<div class="htic-prose"><?php the_content(); ?></div>
+<div class="htic-prose"><?php echo force_balance_tags( apply_filters( 'the_content', get_the_content() ) ); // phpcs:ignore ?></div>
 	<?php wp_link_pages(); ?>
 </div></section>
 	<?php

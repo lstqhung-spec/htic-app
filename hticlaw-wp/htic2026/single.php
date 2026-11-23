@@ -26,6 +26,7 @@ while ( have_posts() ) :
 		},
 		$content
 	);
+	$content = force_balance_tags( $content );
 	$words   = count( preg_split( '/\s+/u', trim( wp_strip_all_tags( $content ) ) ) );
 	$minutes = max( 1, (int) round( $words / 230 ) );
 	$url     = get_permalink();

@@ -53,3 +53,5 @@ a,button{-webkit-tap-highlight-color:transparent}
 .htic-pages .page-numbers{min-width:44px;height:44px;padding:0 .9em;display:inline-flex;align-items:center;justify-content:center;border-radius:10px;border:1px solid #e2e8f0;background:#fff;font-weight:700;color:#243e8f}
 .htic-pages .page-numbers.current{background:#243e8f;color:#fff;border-color:#243e8f}
 .htic-pages a.page-numbers:hover{border-color:#243e8f}
+html body .material-symbols-outlined{font-family:'Material Symbols Outlined'!important;font-weight:normal;font-style:normal;line-height:1;letter-spacing:normal;text-transform:none;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-smoothing:antialiased}
+.htic-prose .htic-end-cta{display:none}

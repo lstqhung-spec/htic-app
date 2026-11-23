@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'HTIC26_VER', '20261123b' );
+define( 'HTIC26_VER', '20261123c' );
 
 function htic26_path() {
 	$p = isset( $_SERVER['REQUEST_URI'] ) ? (string) $_SERVER['REQUEST_URI'] : '/';
@@ -208,10 +208,11 @@ function htic26_card( $pid ) {
 }
 
 function htic26_search_form( $value = '' ) {
-	return '<form action="' . esc_url( home_url( '/' ) ) . '" method="get" role="search" class="flex items-center gap-2 bg-white border border-slate-200 rounded-full pl-4 pr-1 py-1 w-full md:w-[380px] focus-within:border-[#0f71b9]">'
+	return '<form action="' . esc_url( home_url( '/index.php' ) ) . '" method="get" role="search" class="flex items-center gap-2 bg-white border border-slate-200 rounded-full pl-4 pr-1 py-1 w-full md:w-[380px] focus-within:border-[#0f71b9]">'
 		. '<label class="sr-only" for="htic-s">Tìm bài viết</label>' . htic26_i( 'search', 'text-[20px] text-slate-400' )
 		. '<input id="htic-s" name="s" value="' . esc_attr( $value ) . '" class="flex-1 bg-transparent border-0 focus:ring-0 text-[15px] py-1.5 outline-none" placeholder="Tìm theo từ khóa, số hiệu văn bản…"/>'
-		. '<button class="bg-[#243e8f] hover:bg-[#0f71b9] text-white text-[14px] font-bold px-4 py-2 rounded-full">Tìm</button></form>';
+		. '<button class="bg-[#243e8f] hover:bg-[#0f71b9] text-white text-[14px] font-bold px-4 py-2 rounded-full">Tìm</button></form>'
+		. '<script>document.currentScript.previousElementSibling.addEventListener("submit",function(e){var v=this.elements.s.value.trim();if(v){e.preventDefault();location.href="/search/"+encodeURIComponent(v).replace(/%20/g,"+")+"/"}})</script>';
 }
 
 function htic26_cta() {

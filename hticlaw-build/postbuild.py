@@ -25,6 +25,13 @@ def fix_ld(m):
             g['openingHoursSpecification'] = [{"@type": "OpeningHoursSpecification", "dayOfWeek": S['days'], "opens": S['opens'], "closes": S['closes']}]
     return '<script type="application/ld+json">' + json.dumps(j, ensure_ascii=False) + '</script>'
 h = re.sub(r'<script type="application/ld\+json">(.*?)</script>', fix_ld, h, count=1, flags=re.S)
+# tin moi nhat that tu WordPress cho trang chu
+import build_pages as BP
+_all = [(x, 'Tin pháp lý') for x in BP.NEWS['tin']['items']] + [(x, 'Bài viết pháp lý') for x in BP.NEWS['bai']['items']]
+_all.sort(key=lambda t: t[0]['d'], reverse=True)
+_grid = '<div id="home-news" class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">' + ''.join(BP.post_card(x, tg) for x, tg in _all[:3]) + '</div>'
+h = re.sub(r'(<section class="py-space-3xl bg-\[#f2f2f3\]" id="tin-phap-ly">.*?)<div (?:id="home-news" )?class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">.*?</div>\s*</div>\s*</section>',
+           lambda m: m.group(1) + _grid + '\n</div>\n</section>', h, count=1, flags=re.S)
 mot = open(os.path.join(B, '_motion.html'), encoding='utf-8').read()
 mh, mj = mot.split('\n', 1)
 h = re.sub(r'<script id="htic-motion-head">.*?</script>\n?', '', h, flags=re.S)
