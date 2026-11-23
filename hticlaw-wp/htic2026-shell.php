@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'HTIC26_VER', '20261123e' );
+define( 'HTIC26_VER', '20261123f' );
 
 function htic26_path() {
 	$p = isset( $_SERVER['REQUEST_URI'] ) ? (string) $_SERVER['REQUEST_URI'] : '/';
