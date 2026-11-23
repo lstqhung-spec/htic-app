@@ -55,3 +55,4 @@ a,button{-webkit-tap-highlight-color:transparent}
 .htic-pages a.page-numbers:hover{border-color:#243e8f}
 html body .material-symbols-outlined{font-family:'Material Symbols Outlined'!important;font-weight:normal;font-style:normal;line-height:1;letter-spacing:normal;text-transform:none;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-smoothing:antialiased}
 .htic-prose .htic-end-cta{display:none}
+html body .htic-prose aside.htic-end-cta,html body .htic-prose .htic-end-cta{display:none!important}
