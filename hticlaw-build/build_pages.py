@@ -97,7 +97,7 @@ def footer():
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl">
 <div class="lg:col-span-4 flex flex-col gap-space-md">
 <img loading="lazy" decoding="async" alt="Công ty Luật HTIC" class="h-14 w-auto object-contain self-start" width="140" height="56" src="/anh/brand/logo-white.png"/>
-<p class="text-[14px] text-blue-100 leading-relaxed">Công ty luật đồng hành cùng doanh nghiệp trong nước, nhà đầu tư nước ngoài và khách hàng cá nhân tại Việt Nam.</p>
+<p class="text-[14px] text-blue-100 leading-relaxed">Công ty luật đồng hành cùng cá nhân, doanh nghiệp trong nước và nhà đầu tư nước ngoài.</p>
 <div class="flex flex-col gap-space-xs text-[14px] text-blue-100">
 <div class="flex items-start gap-space-xs">{icon('location_on','text-[18px] text-[#5aa8e6] mt-0.5')}<span>{E(S['address'])}</span></div>
 <a class="flex items-center gap-space-xs hover:text-white" href="tel:{S['phone_tel']}">{icon('call','text-[18px] text-[#5aa8e6]')}<span>{S['phone']}</span></a>
