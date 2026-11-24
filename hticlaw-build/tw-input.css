@@ -56,3 +56,9 @@ a,button{-webkit-tap-highlight-color:transparent}
 html body .material-symbols-outlined{font-family:'Material Symbols Outlined'!important;font-weight:normal;font-style:normal;line-height:1;letter-spacing:normal;text-transform:none;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-smoothing:antialiased}
 .htic-prose .htic-end-cta{display:none}
 html body .htic-prose aside.htic-end-cta,html body .htic-prose .htic-end-cta{display:none!important}
+.fab-btn{position:relative;width:52px;height:52px;border-radius:9999px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(22,40,92,.28);transition:transform .2s}
+.htic-fab .group:hover .fab-btn{transform:scale(1.08)}
+.fab-tip{position:absolute;right:62px;white-space:nowrap;background:#16285c;color:#fff;font-size:13px;font-weight:600;padding:6px 10px;border-radius:8px;opacity:0;transform:translateX(6px);transition:opacity .2s,transform .2s;pointer-events:none}
+.htic-fab .group:hover .fab-tip,.htic-fab .group:focus-visible .fab-tip{opacity:1;transform:none}
+@media (hover:none){.fab-tip{display:none}}
+@media (prefers-reduced-motion:reduce){.htic-fab .animate-ping{display:none}}

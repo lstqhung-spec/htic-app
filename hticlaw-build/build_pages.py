@@ -122,7 +122,11 @@ def footer():
 </div>
 </div>
 </footer>
-<a href="{S['zalo']}" target="_blank" rel="noopener" class="fixed right-4 bottom-4 z-40 flex items-center gap-2 bg-[#0f71b9] hover:bg-[#243e8f] text-white font-bold text-[14px] pl-3 pr-4 py-3 rounded-full shadow-xl" aria-label="Nhắn Zalo cho HTIC">{icon('chat','text-[20px]')}Zalo</a>'''
+<div class="htic-fab fixed right-4 bottom-4 z-40 flex flex-col items-end gap-3" aria-label="Liên hệ nhanh">
+<a href="{S['zalo']}" target="_blank" rel="noopener" class="group relative flex items-center" aria-label="Chat Zalo với HTIC"><span class="fab-tip">Chat Zalo</span><span class="fab-btn bg-[#0068ff]"><span class="absolute inset-0 rounded-full bg-[#0068ff] animate-ping opacity-25"></span><span class="relative text-white font-extrabold text-[13px] tracking-tight">Zalo</span></span></a>
+<a href="https://m.me/hticlawfirm" target="_blank" rel="noopener" class="group relative flex items-center" aria-label="Nhắn Messenger cho HTIC"><span class="fab-tip">Nhắn Messenger</span><span class="fab-btn bg-gradient-to-br from-[#00b2ff] to-[#006aff]"><svg aria-hidden="true" viewBox="0 0 24 24" class="w-7 h-7 text-white" fill="currentColor"><path d="M12 2C6.36 2 2 6.13 2 11.7c0 2.91 1.19 5.44 3.14 7.17.16.14.26.35.27.57l.05 1.78c.02.57.6.94 1.12.71l1.99-.88c.17-.07.36-.09.53-.04.91.25 1.88.39 2.9.39 5.64 0 10-4.13 10-9.7S17.64 2 12 2zm6 7.46l-2.93 4.67c-.47.73-1.47.92-2.17.4l-2.33-1.75a.6.6 0 0 0-.72 0l-3.15 2.4c-.42.32-.97-.18-.69-.63l2.93-4.67c.47-.73 1.47-.92 2.17-.4l2.33 1.75a.6.6 0 0 0 .72 0l3.15-2.4c.42-.32.97.18.69.63z"/></svg></span></a>
+<a href="tel:{S['phone_tel']}" class="group relative flex items-center" aria-label="Gọi {S['phone']}"><span class="fab-tip">{S['phone']}</span><span class="fab-btn bg-[#243e8f]">{icon('call','text-[24px] text-white')}</span></a>
+</div>'''
 
 FORM_JS = r'''<script>
 (function(){var f=document.getElementById('bookingForm');if(!f)return;var m=document.getElementById('formMsg');
