@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'HTIC26_VER', '20261123g' );
+define( 'HTIC26_VER', '20261124a' );
 
 function htic26_path() {
 	$p = isset( $_SERVER['REQUEST_URI'] ) ? (string) $_SERVER['REQUEST_URI'] : '/';
@@ -200,7 +200,7 @@ function htic26_card( $pid ) {
 	return '<article class="group flex flex-col bg-white rounded-2xl border border-slate-200 overflow-hidden hover:border-[#0f71b9]/40 hover:shadow-[0_16px_40px_rgba(36,62,143,0.12)] transition-all duration-300">'
 		. '<a class="block aspect-[16/9] overflow-hidden bg-[#eef2f8]" href="' . esc_url( $l ) . '" tabindex="-1" aria-hidden="true"><img loading="lazy" decoding="async" alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="' . esc_url( $img ) . '"/></a>'
 		. '<div class="flex flex-col gap-space-xs p-space-md flex-1">'
-		. '<div class="flex items-center gap-2 text-[12px] font-semibold text-slate-500"><span class="px-2 py-0.5 rounded-full bg-[#eef2f8] text-[#243e8f]">' . esc_html( $sec[0] ) . '</span><time datetime="' . esc_attr( get_the_date( 'Y-m-d', $pid ) ) . '">' . esc_html( get_the_date( 'd/m/Y', $pid ) ) . '</time></div>'
+		. '<div class="flex items-center gap-2 text-[12px] font-semibold text-slate-600"><span class="px-2 py-0.5 rounded-full bg-[#eef2f8] text-[#243e8f]">' . esc_html( $sec[0] ) . '</span><time datetime="' . esc_attr( get_the_date( 'Y-m-d', $pid ) ) . '">' . esc_html( get_the_date( 'd/m/Y', $pid ) ) . '</time></div>'
 		. '<h3 class="text-[17px] leading-snug font-bold text-[#16285c] group-hover:text-[#0f71b9] transition-colors"><a href="' . esc_url( $l ) . '">' . esc_html( get_the_title( $pid ) ) . '</a></h3>'
 		. '<p class="text-[14px] text-slate-600 leading-relaxed line-clamp-3">' . esc_html( $ex ) . '</p>'
 		. '<a class="mt-auto pt-space-xs inline-flex items-center gap-1 text-[14px] font-bold text-[#0f71b9]" href="' . esc_url( $l ) . '">Đọc tiếp ' . htic26_i( 'arrow_forward', 'text-[16px]' ) . '</a>'
@@ -208,7 +208,7 @@ function htic26_card( $pid ) {
 }
 
 function htic26_chip( $name ) {
-	$cls = 'Tin pháp lý' === $name ? 'bg-[#e6f1fa] text-[#0f71b9]' : 'bg-[#eceff7] text-[#243e8f]';
+	$cls = 'Tin pháp lý' === $name ? 'bg-[#e6f1fa] text-[#0b5f9e]' : 'bg-[#eceff7] text-[#243e8f]';
 	return '<span class="inline-flex items-center px-2 py-0.5 rounded-md ' . $cls . ' text-[12px] font-bold">' . esc_html( $name ) . '</span>';
 }
 
@@ -223,7 +223,7 @@ function htic26_row( $pid ) {
 	return '<article class="nr group relative flex gap-space-md py-space-md border-b border-slate-200 last:border-0">'
 		. '<a class="shrink-0 block w-[104px] sm:w-[168px] aspect-[4/3] rounded-lg overflow-hidden bg-[#eef2f8]" href="' . esc_url( $l ) . '" tabindex="-1" aria-hidden="true"><img loading="lazy" decoding="async" alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="' . esc_url( $img ) . '"/></a>'
 		. '<div class="min-w-0 flex flex-col gap-1.5">'
-		. '<div class="flex flex-wrap items-center gap-2 text-[13px] text-slate-500">' . htic26_chip( $sec[0] ) . '<time datetime="' . esc_attr( get_the_date( 'Y-m-d', $pid ) ) . '">' . esc_html( get_the_date( 'd/m/Y', $pid ) ) . '</time></div>'
+		. '<div class="flex flex-wrap items-center gap-2 text-[13px] text-slate-600">' . htic26_chip( $sec[0] ) . '<time datetime="' . esc_attr( get_the_date( 'Y-m-d', $pid ) ) . '">' . esc_html( get_the_date( 'd/m/Y', $pid ) ) . '</time></div>'
 		. '<h3 class="text-[16px] sm:text-[18px] leading-snug font-bold text-[#16285c] group-hover:text-[#0f71b9] transition-colors line-clamp-3 sm:line-clamp-2"><a class="after:absolute after:inset-0" href="' . esc_url( $l ) . '">' . esc_html( get_the_title( $pid ) ) . '</a></h3>'
 		. '<p class="max-sm:hidden text-[14px] text-slate-600 leading-relaxed line-clamp-2">' . esc_html( $ex ) . '</p>'
 		. '</div></article>';

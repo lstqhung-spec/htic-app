@@ -58,15 +58,15 @@ def header(active=''):
 <a class="flex items-center" href="/" aria-label="Công ty Luật HTIC – Trang chủ"><img alt="Công ty Luật HTIC" class="h-12 w-auto object-contain" width="120" height="48" fetchpriority="high" src="/anh/brand/logo.png"/></a>
 <nav class="hidden xl:flex items-center gap-space-lg text-[15px]" aria-label="Điều hướng chính">
 <div class="relative group py-space-sm">
-<a class="flex items-center gap-1 {cls('gioi-thieu')} hover:text-[#243e8f] font-semibold py-2" href="/gioi-thieu/">Giới thiệu {icon('expand_more','text-[16px] text-slate-500 group-hover:rotate-180 transition-transform')}</a>
+<a class="flex items-center gap-1 {cls('gioi-thieu')} hover:text-[#243e8f] font-semibold py-2" href="/gioi-thieu/">Giới thiệu {icon('expand_more','text-[16px] text-slate-600 group-hover:rotate-180 transition-transform')}</a>
 <div class="dd absolute left-0 top-full hidden group-hover:flex flex-col gap-0.5 bg-white rounded-xl shadow-[0_12px_40px_rgba(36,62,143,0.16)] border border-slate-100 p-space-sm w-[260px]">{about_items}</div>
 </div>
 <div class="relative group py-space-sm">
-<a class="flex items-center gap-1 {cls('dich-vu')} hover:text-[#243e8f] font-semibold py-2" href="/dich-vu/">Lĩnh vực dịch vụ {icon('expand_more','text-[16px] text-slate-500 group-hover:rotate-180 transition-transform')}</a>
+<a class="flex items-center gap-1 {cls('dich-vu')} hover:text-[#243e8f] font-semibold py-2" href="/dich-vu/">Lĩnh vực dịch vụ {icon('expand_more','text-[16px] text-slate-600 group-hover:rotate-180 transition-transform')}</a>
 <div class="dd absolute left-1/2 -translate-x-1/2 top-full hidden group-hover:grid grid-cols-2 gap-1 bg-white rounded-xl shadow-[0_12px_40px_rgba(36,62,143,0.16)] border border-slate-100 p-space-sm w-[520px]">{svc_items}<a class="col-span-2 mt-1 px-space-md py-2 text-[14px] font-bold text-[#0f71b9] border-t border-slate-100" href="/dich-vu/">Xem tất cả lĩnh vực →</a></div>
 </div>
 <div class="relative group py-space-sm">
-<a class="flex items-center gap-1 {cls('tin-tuc')} hover:text-[#243e8f] font-semibold py-2" href="/tin-tuc/">Tin tức &amp; Bài viết {icon('expand_more','text-[16px] text-slate-500 group-hover:rotate-180 transition-transform')}</a>
+<a class="flex items-center gap-1 {cls('tin-tuc')} hover:text-[#243e8f] font-semibold py-2" href="/tin-tuc/">Tin tức &amp; Bài viết {icon('expand_more','text-[16px] text-slate-600 group-hover:rotate-180 transition-transform')}</a>
 <div class="dd absolute left-0 top-full hidden group-hover:flex flex-col gap-0.5 bg-white rounded-xl shadow-[0_12px_40px_rgba(36,62,143,0.16)] border border-slate-100 p-space-sm w-[240px]">{news_items}</div>
 </div>
 <a class="{cls('lien-he')} hover:text-[#243e8f] font-semibold py-2" href="/lien-he/">Liên hệ</a>
@@ -113,7 +113,7 @@ def footer():
 <li><a class="text-blue-100 hover:text-white" href="/bai-viet-phap-ly/">Bài viết pháp lý</a></li>
 <li><a class="text-blue-100 hover:text-white" href="/lien-he/">Liên hệ</a></li></ul>
 <p class="mt-space-md text-[13px] text-blue-100/80 leading-relaxed">Thành viên Đoàn Luật sư TP.HCM. Thông tin khách hàng được bảo mật theo Luật Luật sư.</p>
-<div class="flex gap-3 mt-space-md text-[13px] font-semibold"><a class="flex items-center gap-2 px-3 py-1.5 rounded-md bg-[#1877f2] hover:bg-[#0f5fd0]" href="{FB_URL}" rel="noopener" target="_blank">{fb('w-4 h-4')}Facebook</a><a class="px-3 py-1.5 rounded-md bg-white/10 hover:bg-white/20" href="https://www.linkedin.com/company/htic-law" rel="noopener" target="_blank">LinkedIn</a><a class="px-3 py-1.5 rounded-md bg-white/10 hover:bg-white/20" href="{S['zalo']}" rel="noopener" target="_blank">Zalo</a></div>
+<div class="flex gap-3 mt-space-md text-[13px] font-semibold"><a class="flex items-center gap-2 px-3 py-1.5 rounded-md bg-[#1466d6] hover:bg-[#0f55b8]" href="{FB_URL}" rel="noopener" target="_blank">{fb('w-4 h-4')}Facebook</a><a class="px-3 py-1.5 rounded-md bg-white/10 hover:bg-white/20" href="https://www.linkedin.com/company/htic-law" rel="noopener" target="_blank">LinkedIn</a><a class="px-3 py-1.5 rounded-md bg-white/10 hover:bg-white/20" href="{S['zalo']}" rel="noopener" target="_blank">Zalo</a></div>
 </div>
 </div>
 <div class="mt-space-2xl pt-space-lg border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-space-md text-[13px] text-blue-200">
@@ -240,7 +240,7 @@ def section_head(eyebrow, title, sub='', center=False, dark=False):
     tc = 'text-white' if dark else 'text-[#243e8f]'
     sc = 'text-blue-100' if dark else 'text-text-secondary'
     s = f'<p class="text-[16px] {sc} leading-relaxed max-w-2xl">{E(sub)}</p>' if sub else ''
-    return f'''<div class="flex flex-col gap-2 mb-space-xl max-w-3xl {al}"><span class="text-[12px] uppercase tracking-[0.18em] font-bold text-[#0f71b9]">{E(eyebrow)}</span>
+    return f'''<div class="flex flex-col gap-2 mb-space-xl max-w-3xl {al}"><span class="text-[12px] uppercase tracking-[0.18em] font-bold {'text-[#9fd3ff]' if dark else 'text-[#0f71b9]'}">{E(eyebrow)}</span>
 <h2 class="text-[28px] md:text-[36px] leading-tight font-extrabold tracking-tight {tc}">{title}</h2>{s}</div>'''
 
 def cta_band(title='Cần tư vấn cho một vấn đề pháp lý cụ thể?', text='Gửi thông tin cho HTIC để được luật sư liên hệ, đánh giá sơ bộ và báo giá rõ ràng trước khi triển khai.', href='/lien-he/'):
@@ -312,7 +312,7 @@ def build_service(i, s):
     related = others[i % len(others):] + others[:i % len(others)]
     rel = ''.join(svc_card(r, SERVICES.index(r)) for r in related[:3])
     scope = ''.join(f'''<div class="flex gap-space-md p-space-md rounded-xl border border-slate-200 bg-white hover:border-[#0f71b9] transition-colors">
-<span class="text-[22px] font-extrabold text-[#0f71b9]/40 leading-none w-8 shrink-0">{k+1:02d}</span>
+<span class="text-[22px] font-extrabold text-[#0f71b9] leading-none w-8 shrink-0">{k+1:02d}</span>
 <div><h3 class="font-bold text-[#16285c] text-[16px]">{E(t)}</h3><p class="text-[14px] text-text-secondary leading-relaxed mt-1">{E(d)}</p></div></div>''' for k, (t, d) in enumerate(s['scope']))
     laws = ''.join(f'<li class="flex gap-2 items-start">{icon("menu_book","text-[18px] text-[#0f71b9] shrink-0 mt-0.5")}<span>{E(l)}</span></li>' for l in s['laws'])
     side_nav = ''.join(f'<a class="flex items-center justify-between px-4 py-2.5 rounded-lg text-[14px] {"bg-[#243e8f] text-white font-bold" if x is s else "text-slate-700 hover:bg-[#f2f2f3] hover:text-[#243e8f]"}" href="/dich-vu/{x["slug"]}/">{E(x["name"])}{icon("chevron_right","text-[18px] opacity-60")}</a>' for x in SERVICES)
@@ -441,7 +441,7 @@ def build_contact():
              ('fb', 'Facebook', 'facebook.com/hticlawfirm', FB_URL, 'Cập nhật pháp lý và hoạt động của HTIC'),
              ('location_on', 'Văn phòng', S['address_short'], f'https://www.google.com/maps/search/?api=1&query={S["map_q"].replace(" ", "+")}', S['hours'])]
     c = ''.join(f'''<a class="group flex gap-space-md p-space-lg rounded-2xl bg-white border border-slate-200 hover:border-[#0f71b9] hover:shadow-lg transition-all" href="{h}" {'target="_blank" rel="noopener"' if h.startswith('http') else ''}>
-<span class="w-12 h-12 shrink-0 rounded-xl {'bg-[#1877f2]' if ic=='fb' else 'bg-[#243e8f] group-hover:bg-[#0f71b9]'} text-white flex items-center justify-center transition-colors">{fb('w-6 h-6') if ic=='fb' else icon(ic,'text-[24px]')}</span>
+<span class="w-12 h-12 shrink-0 rounded-xl {'bg-[#1466d6]' if ic=='fb' else 'bg-[#243e8f] group-hover:bg-[#0f71b9]'} text-white flex items-center justify-center transition-colors">{fb('w-6 h-6') if ic=='fb' else icon(ic,'text-[24px]')}</span>
 <div><p class="text-[12px] uppercase tracking-wider font-bold text-text-muted">{E(t)}</p><p class="font-extrabold text-[#16285c] text-[17px] mt-0.5 break-words">{E(v)}</p><p class="text-[13px] text-text-secondary mt-1">{E(n)}</p></div></a>''' for ic, t, v, h, n in cards)
     prep = ['Giấy tờ pháp lý của doanh nghiệp hoặc cá nhân liên quan', 'Hợp đồng, thư từ, tài liệu trao đổi với đối tác', 'Mốc thời gian quan trọng (hạn ký, hạn nộp, ngày xảy ra sự việc)', 'Kết quả mong muốn và các phương án đã cân nhắc']
     pr = ''.join(f'<li class="flex gap-2">{icon("task_alt","text-[18px] text-[#0f71b9] shrink-0")}<span>{E(p)}</span></li>' for p in prep)
@@ -489,7 +489,7 @@ def type_name(x):
 
 def type_chip(name):
     if name == 'Tin pháp lý':
-        return f'<span class="inline-flex items-center px-2 py-0.5 rounded-md bg-[#e6f1fa] text-[#0f71b9] text-[12px] font-bold">{name}</span>'
+        return f'<span class="inline-flex items-center px-2 py-0.5 rounded-md bg-[#e6f1fa] text-[#0b5f9e] text-[12px] font-bold">{name}</span>'
     return f'<span class="inline-flex items-center px-2 py-0.5 rounded-md bg-[#eceff7] text-[#243e8f] text-[12px] font-bold">{name}</span>'
 
 def post_card(x, tag=None):
@@ -499,7 +499,7 @@ def post_card(x, tag=None):
     return f'''<article class="group flex flex-col bg-white rounded-2xl border border-slate-200 overflow-hidden hover:border-[#0f71b9]/40 hover:shadow-[0_16px_40px_rgba(36,62,143,0.12)] transition-all duration-300">
 <a class="block aspect-[16/9] overflow-hidden bg-[#eef2f8]" href="{x['l']}" tabindex="-1" aria-hidden="true"><img loading="lazy" decoding="async" alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="{img}"/></a>
 <div class="flex flex-col gap-space-xs p-space-md flex-1">
-<div class="flex items-center gap-2 text-[12px] font-semibold text-slate-500">{type_chip(tag)}<time datetime="{x['d']}">{fmt_date(x['d'])}</time></div>
+<div class="flex items-center gap-2 text-[12px] font-semibold text-slate-600">{type_chip(tag)}<time datetime="{x['d']}">{fmt_date(x['d'])}</time></div>
 <h3 class="text-[17px] leading-snug font-bold text-[#16285c] group-hover:text-[#0f71b9] transition-colors"><a href="{x['l']}">{x['t']}</a></h3>
 <p class="text-[14px] text-slate-600 leading-relaxed line-clamp-3">{E(x['e'])}</p>
 </div></article>'''
@@ -509,7 +509,7 @@ def post_row(x):
     return f'''<article class="nr group relative flex gap-space-md py-space-md border-b border-slate-200">
 <a class="shrink-0 block w-[104px] sm:w-[168px] aspect-[4/3] rounded-lg overflow-hidden bg-[#eef2f8]" href="{x['l']}" tabindex="-1" aria-hidden="true"><img loading="lazy" decoding="async" alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="{img}"/></a>
 <div class="min-w-0 flex flex-col gap-1.5">
-<div class="flex flex-wrap items-center gap-2 text-[13px] text-slate-500">{type_chip(type_name(x))}<time datetime="{x['d']}">{fmt_date(x['d'])}</time></div>
+<div class="flex flex-wrap items-center gap-2 text-[13px] text-slate-600">{type_chip(type_name(x))}<time datetime="{x['d']}">{fmt_date(x['d'])}</time></div>
 <h3 class="text-[16px] sm:text-[18px] leading-snug font-bold text-[#16285c] group-hover:text-[#0f71b9] transition-colors line-clamp-3 sm:line-clamp-2"><a class="after:absolute after:inset-0" href="{x['l']}">{x['t']}</a></h3>
 <p class="max-sm:hidden text-[14px] text-slate-600 leading-relaxed line-clamp-2">{E(x['e'])}</p>
 </div></article>'''
@@ -523,7 +523,7 @@ def featured(x):
     return f'''<article id="newsFeatured" class="group relative grid grid-cols-1 md:grid-cols-2 gap-space-lg items-start pb-space-lg border-b border-slate-200">
 <a class="block aspect-[16/10] rounded-2xl overflow-hidden bg-[#eef2f8]" href="{x['l']}" tabindex="-1" aria-hidden="true"><img fetchpriority="high" decoding="async" alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="{img}"/></a>
 <div class="flex flex-col gap-space-sm">
-<div class="flex flex-wrap items-center gap-2 text-[13px] text-slate-500"><span class="text-[12px] font-extrabold uppercase tracking-[0.14em] text-[#0f71b9]">Mới nhất</span>{type_chip(type_name(x))}<time datetime="{x['d']}">{fmt_date(x['d'])}</time></div>
+<div class="flex flex-wrap items-center gap-2 text-[13px] text-slate-600"><span class="text-[12px] font-extrabold uppercase tracking-[0.14em] text-[#0f71b9]">Mới nhất</span>{type_chip(type_name(x))}<time datetime="{x['d']}">{fmt_date(x['d'])}</time></div>
 <h2 class="text-[20px] md:text-[22px] leading-snug font-extrabold text-[#16285c] group-hover:text-[#0f71b9] transition-colors line-clamp-4"><a class="after:absolute after:inset-0" href="{x['l']}">{x['t']}</a></h2>
 <p class="text-[15px] text-slate-600 leading-relaxed line-clamp-4">{E(x['e'])}</p>
 <span class="inline-flex items-center gap-1 text-[14px] font-bold text-[#0f71b9]">Đọc bài {icon('arrow_forward','text-[16px]')}</span>
@@ -544,10 +544,10 @@ var cat=L.getAttribute('data-cat'),total=+L.getAttribute('data-total'),q='',busy
 last=L.getAttribute('data-last'),more=document.getElementById('newsMore'),info=document.getElementById('newsInfo'),F=document.getElementById('newsFeatured'),form=document.getElementById('newsSearch'),chips=document.querySelectorAll('[data-topic]');
 function esc(s){var d=document.createElement('div');d.textContent=s||'';return d.innerHTML}
 function dmy(s){var d=s.slice(0,10).split('-');return d[2]+'/'+d[1]+'/'+d[0]}
-function chip(c){return c.indexOf(4)>-1?'<span class="inline-flex items-center px-2 py-0.5 rounded-md bg-[#e6f1fa] text-[#0f71b9] text-[12px] font-bold">Tin pháp lý</span>':'<span class="inline-flex items-center px-2 py-0.5 rounded-md bg-[#eceff7] text-[#243e8f] text-[12px] font-bold">Bài viết pháp lý</span>'}
+function chip(c){return c.indexOf(4)>-1?'<span class="inline-flex items-center px-2 py-0.5 rounded-md bg-[#e6f1fa] text-[#0b5f9e] text-[12px] font-bold">Tin pháp lý</span>':'<span class="inline-flex items-center px-2 py-0.5 rounded-md bg-[#eceff7] text-[#243e8f] text-[12px] font-bold">Bài viết pháp lý</span>'}
 function img(p){var m=p._embedded&&p._embedded['wp:featuredmedia']&&p._embedded['wp:featuredmedia'][0];if(!m||!m.source_url)return '/anh/htic/htic-cover418503887709.jpg';var z=m.media_details&&m.media_details.sizes||{};return (z.medium||z.thumbnail||{}).source_url||m.source_url}
 function row(p){var l=p.link.replace(location.origin,''),ex=(p.excerpt.rendered||'').replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim();
-return '<article class="nr group relative flex gap-space-md py-space-md border-b border-slate-200"><a class="shrink-0 block w-[104px] sm:w-[168px] aspect-[4/3] rounded-lg overflow-hidden bg-[#eef2f8]" href="'+l+'" tabindex="-1" aria-hidden="true"><img loading="lazy" decoding="async" alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="'+img(p)+'"/></a><div class="min-w-0 flex flex-col gap-1.5"><div class="flex flex-wrap items-center gap-2 text-[13px] text-slate-500">'+chip(p.categories||[])+'<time>'+dmy(p.date)+'</time></div><h3 class="text-[16px] sm:text-[18px] leading-snug font-bold text-[#16285c] group-hover:text-[#0f71b9] transition-colors line-clamp-3 sm:line-clamp-2"><a class="after:absolute after:inset-0" href="'+l+'">'+p.title.rendered+'</a></h3><p class="max-sm:hidden text-[14px] text-slate-600 leading-relaxed line-clamp-2">'+esc(ex)+'</p></div></article>'}
+return '<article class="nr group relative flex gap-space-md py-space-md border-b border-slate-200"><a class="shrink-0 block w-[104px] sm:w-[168px] aspect-[4/3] rounded-lg overflow-hidden bg-[#eef2f8]" href="'+l+'" tabindex="-1" aria-hidden="true"><img loading="lazy" decoding="async" alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="'+img(p)+'"/></a><div class="min-w-0 flex flex-col gap-1.5"><div class="flex flex-wrap items-center gap-2 text-[13px] text-slate-600">'+chip(p.categories||[])+'<time>'+dmy(p.date)+'</time></div><h3 class="text-[16px] sm:text-[18px] leading-snug font-bold text-[#16285c] group-hover:text-[#0f71b9] transition-colors line-clamp-3 sm:line-clamp-2"><a class="after:absolute after:inset-0" href="'+l+'">'+p.title.rendered+'</a></h3><p class="max-sm:hidden text-[14px] text-slate-600 leading-relaxed line-clamp-2">'+esc(ex)+'</p></div></article>'}
 function head(s){var d=s.slice(0,10).split('-');return '<h2 class="nm pt-space-lg pb-1 text-[12px] font-extrabold uppercase tracking-[0.16em] text-[#0f71b9] flex items-center gap-3">Tháng '+(+d[1])+'/'+d[0]+'<span class="flex-1 h-px bg-slate-200"></span></h2>'}
 function base(){return F&&!q?1:0}
 function rows(){return L.querySelectorAll('article').length}
@@ -580,12 +580,12 @@ def build_news(key):
     side_items = NEWS[other]['items'][:5] if key != 'all' else NEWS['bai']['items'][:5]
     side_title = CATS[other]['name'] + ' mới' if key != 'all' else 'Bài phân tích mới'
     side_path = CATS[other]['path'] if key != 'all' else '/bai-viet-phap-ly/'
-    side_list = ''.join(f'<li class="py-space-sm border-b border-slate-100 last:border-0"><a class="group block" href="{x["l"]}"><time class="text-[12px] font-semibold text-slate-500" datetime="{x["d"]}">{fmt_date(x["d"])}</time><span class="block text-[14px] leading-snug font-semibold text-[#16285c] group-hover:text-[#0f71b9] line-clamp-3">{x["t"]}</span></a></li>' for x in side_items)
+    side_list = ''.join(f'<li class="py-space-sm border-b border-slate-100 last:border-0"><a class="group block" href="{x["l"]}"><time class="text-[12px] font-semibold text-slate-600" datetime="{x["d"]}">{fmt_date(x["d"])}</time><span class="block text-[14px] leading-snug font-semibold text-[#16285c] group-hover:text-[#0f71b9] line-clamp-3">{x["t"]}</span></a></li>' for x in side_items)
     crumbs = [('Trang chủ', '/'), ('Tin tức & Bài viết', '/tin-tuc/')] + ([(c['name'], c['path'])] if key != 'all' else [])
     crumb_html = ''.join((f'<a class="hover:text-[#0f71b9]" href="{h}">{E(n)}</a>{icon("chevron_right","text-[16px] opacity-50")}' if i < len(crumbs) - 1 else f'<span class="text-slate-700" aria-current="page">{E(n)}</span>') for i, (n, h) in enumerate(crumbs))
     body = f'''<section class="-mt-[120px] pt-[146px] pb-space-lg bg-[#f4f6fa] border-b border-slate-200">
 <div class="max-w-7xl mx-auto px-margin">
-<nav class="flex flex-wrap items-center gap-1 text-[14px] text-slate-500" aria-label="Breadcrumb">{crumb_html}</nav>
+<nav class="flex flex-wrap items-center gap-1 text-[14px] text-slate-600" aria-label="Breadcrumb">{crumb_html}</nav>
 <div class="hero-in mt-space-md flex flex-col gap-space-sm max-w-3xl">
 <h1 class="text-[32px] md:text-[42px] leading-tight font-extrabold tracking-tight text-[#16285c]">{c['h1']}</h1>
 <p class="text-[16px] md:text-[17px] text-slate-600 leading-relaxed">{E(c['lead'])}</p>
@@ -596,7 +596,7 @@ def build_news(key):
 <div class="lg:col-span-8 min-w-0">
 <form id="newsSearch" class="flex items-center gap-2 bg-white border border-slate-300 rounded-xl pl-4 pr-1.5 py-1.5 focus-within:border-[#0f71b9] focus-within:ring-2 focus-within:ring-[#0f71b9]/15" role="search"><label class="sr-only" for="q">Tìm bài</label>{icon('search','text-[22px] text-slate-400')}<input id="q" name="q" type="search" class="flex-1 min-w-0 bg-transparent border-0 focus:ring-0 text-[15px] py-2 outline-none" placeholder="Tìm theo từ khóa, số hiệu văn bản (vd: 135/2025/QH15)"/><button class="bg-[#243e8f] hover:bg-[#0f71b9] text-white text-[14px] font-bold px-5 py-2.5 rounded-lg">Tìm</button></form>
 <div class="mt-space-sm flex gap-2 overflow-x-auto pb-2 -mx-1 px-1" role="group" aria-label="Chủ đề nhanh">{chips}</div>
-<p id="newsInfo" class="mt-space-sm mb-space-md text-[14px] text-slate-500" aria-live="polite">Đang hiển thị {len(items)} / {d['total']} bài, mới nhất trước</p>
+<p id="newsInfo" class="mt-space-sm mb-space-md text-[14px] text-slate-600" aria-live="polite">Đang hiển thị {len(items)} / {d['total']} bài, mới nhất trước</p>
 {featured(feat)}
 <div id="newsList" data-cat="{c['cat']}" data-total="{d['total']}" data-last="{rest[-1]['d'][:7] if rest else ''}">{rows_grouped(rest)}</div>
 <button id="newsMore" class="mt-space-lg w-full inline-flex items-center justify-center gap-2 border border-[#243e8f] text-[#243e8f] hover:bg-[#243e8f] hover:text-white font-bold py-3.5 rounded-xl transition-colors" {'hidden' if int(d['total']) <= len(items) else ''}>Xem thêm bài</button>
@@ -609,7 +609,7 @@ def build_news(key):
 <a class="flex items-center gap-2 font-bold text-[16px]" href="tel:{S['phone_tel']}">{icon('call','text-[20px] text-[#5aa8e6]')}{S['phone']}</a>
 <div class="flex gap-2 pt-1"><a class="flex-1 text-center bg-[#0f71b9] hover:bg-white hover:text-[#243e8f] font-bold py-2.5 rounded-lg transition-colors" href="/lien-he/">Đặt lịch</a><a class="flex-1 text-center bg-white/10 hover:bg-white/20 font-bold py-2.5 rounded-lg border border-white/20" target="_blank" rel="noopener" href="{S['zalo']}">Zalo</a></div>
 </div>
-<div class="rounded-2xl border border-slate-200 p-space-lg"><p class="text-[15px] font-extrabold text-[#16285c]">Theo dõi tin mới từ HTIC</p><p class="text-[14px] text-slate-600 mt-1">Nhận cập nhật pháp luật qua Facebook và Zalo OA của HTIC.</p><div class="flex gap-2 mt-space-sm"><a class="flex-1 inline-flex items-center justify-center gap-1.5 bg-[#1877f2] text-white text-[14px] font-bold py-2.5 rounded-lg" target="_blank" rel="noopener" href="{FB_URL}">{fb('w-4 h-4')}Facebook</a><a class="flex-1 text-center bg-[#0f71b9] text-white text-[14px] font-bold py-2.5 rounded-lg" target="_blank" rel="noopener" href="{S['zalo']}">Zalo OA</a></div></div>
+<div class="rounded-2xl border border-slate-200 p-space-lg"><p class="text-[15px] font-extrabold text-[#16285c]">Theo dõi tin mới từ HTIC</p><p class="text-[14px] text-slate-600 mt-1">Nhận cập nhật pháp luật qua Facebook và Zalo OA của HTIC.</p><div class="flex gap-2 mt-space-sm"><a class="flex-1 inline-flex items-center justify-center gap-1.5 bg-[#1466d6] text-white text-[14px] font-bold py-2.5 rounded-lg" target="_blank" rel="noopener" href="{FB_URL}">{fb('w-4 h-4')}Facebook</a><a class="flex-1 text-center bg-[#0f71b9] text-white text-[14px] font-bold py-2.5 rounded-lg" target="_blank" rel="noopener" href="{S['zalo']}">Zalo OA</a></div></div>
 </div></aside>
 </div></section>'''
     ld = [{"@type": "CollectionPage", "name": html.unescape(c['h1']) + ' – Công ty Luật HTIC', "url": BASE + c['path'], "inLanguage": "vi",

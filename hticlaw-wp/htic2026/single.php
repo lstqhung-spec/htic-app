@@ -36,14 +36,14 @@ while ( have_posts() ) :
 <div id="readbar" class="fixed left-0 top-0 z-[60] h-[3px] w-full origin-left scale-x-0 bg-[#0f71b9]" aria-hidden="true"></div>
 <header class="-mt-[120px] pt-[146px] pb-space-xl bg-[#f4f6fa] border-b border-slate-200">
 <div class="max-w-7xl mx-auto px-margin">
-<nav class="flex flex-wrap items-center gap-1 text-[14px] text-slate-500" aria-label="Breadcrumb">
+<nav class="flex flex-wrap items-center gap-1 text-[14px] text-slate-600" aria-label="Breadcrumb">
 <a class="hover:text-[#0f71b9]" href="/">Trang chủ</a><?php echo htic26_i( 'chevron_right', 'text-[16px] opacity-50' ); // phpcs:ignore ?>
 <a class="hover:text-[#0f71b9]" href="/tin-tuc/">Tin tức &amp; Bài viết</a><?php echo htic26_i( 'chevron_right', 'text-[16px] opacity-50' ); // phpcs:ignore ?>
 <a class="hover:text-[#0f71b9]" href="<?php echo esc_url( $sec[1] ); ?>"><?php echo esc_html( $sec[0] ); ?></a>
 </nav>
 <div class="hero-in max-w-4xl mt-space-md flex flex-col gap-space-md">
 <div class="flex flex-wrap items-center gap-2">
-<a class="inline-flex items-center px-2.5 py-1 rounded-md text-[13px] font-bold <?php echo $is_tin ? 'bg-[#e6f1fa] text-[#0f71b9]' : 'bg-[#eceff7] text-[#243e8f]'; ?>" href="<?php echo esc_url( $sec[1] ); ?>"><?php echo esc_html( $sec[0] ); ?></a>
+<a class="inline-flex items-center px-2.5 py-1 rounded-md text-[13px] font-bold <?php echo $is_tin ? 'bg-[#e6f1fa] text-[#0b5f9e]' : 'bg-[#eceff7] text-[#243e8f]'; ?>" href="<?php echo esc_url( $sec[1] ); ?>"><?php echo esc_html( $sec[0] ); ?></a>
 </div>
 <h1 class="text-[28px] md:text-[40px] leading-[1.22] font-extrabold tracking-tight text-[#16285c]"><?php the_title(); ?></h1>
 	<?php if ( has_excerpt() ) : ?>
@@ -80,7 +80,7 @@ while ( have_posts() ) :
 <article class="min-w-0 max-w-[760px] w-full mx-auto lg:mx-0">
 	<?php if ( count( $toc ) > 1 ) : ?>
 <details class="lg:hidden mb-space-lg rounded-xl border border-slate-200 bg-[#f7f8fa]">
-<summary class="list-none cursor-pointer flex items-center justify-between px-space-md py-3 font-bold text-[#16285c]"><span class="flex items-center gap-2"><?php echo htic26_i( 'list', 'text-[20px] text-[#0f71b9]' ); // phpcs:ignore ?>Nội dung bài (<?php echo count( $toc ); ?> mục)</span><?php echo htic26_i( 'expand_more', 'text-[20px] text-slate-500' ); // phpcs:ignore ?></summary>
+<summary class="list-none cursor-pointer flex items-center justify-between px-space-md py-3 font-bold text-[#16285c]"><span class="flex items-center gap-2"><?php echo htic26_i( 'list', 'text-[20px] text-[#0f71b9]' ); // phpcs:ignore ?>Nội dung bài (<?php echo count( $toc ); ?> mục)</span><?php echo htic26_i( 'expand_more', 'text-[20px] text-slate-600' ); // phpcs:ignore ?></summary>
 <ol class="px-space-md pb-space-md flex flex-col gap-1 text-[15px]">
 		<?php foreach ( $toc as $i => $t ) : ?>
 <li><a class="flex gap-2 py-1.5 text-slate-700" href="#<?php echo esc_attr( $t[0] ); ?>"><span class="text-[#0f71b9] font-bold tabular-nums"><?php echo (int) $i + 1; ?>.</span><span><?php echo esc_html( $t[1] ); ?></span></a></li>
@@ -108,7 +108,7 @@ while ( have_posts() ) :
 	<?php endif; ?>
 <div class="mt-space-lg pt-space-lg border-t border-slate-200 flex flex-wrap items-center gap-space-sm">
 <span class="text-[14px] font-bold text-[#16285c]">Chia sẻ:</span>
-<a class="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-[#1877f2] text-white text-[13px] font-semibold hover:opacity-90" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo rawurlencode( $url ); ?>">Facebook</a>
+<a class="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-[#1466d6] text-white text-[13px] font-semibold hover:opacity-90" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo rawurlencode( $url ); ?>">Facebook</a>
 <a class="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-[#0a66c2] text-white text-[13px] font-semibold hover:opacity-90" target="_blank" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo rawurlencode( $url ); ?>">LinkedIn</a>
 <button type="button" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg border border-slate-200 text-[13px] font-semibold text-[#243e8f] hover:border-[#243e8f]" onclick="var b=this;navigator.clipboard&&navigator.clipboard.writeText(location.href).then(function(){b.lastChild.textContent='Đã sao chép'})"><?php echo htic26_i( 'link', 'text-[18px]' ); // phpcs:ignore ?><span>Sao chép liên kết</span></button>
 </div>
@@ -135,7 +135,7 @@ while ( have_posts() ) :
 		while ( $latest->have_posts() ) :
 			$latest->the_post();
 			?>
-<li class="py-space-sm border-b border-slate-100 last:border-0"><a class="group block" href="<?php the_permalink(); ?>"><time class="text-[12px] font-semibold text-slate-500"><?php echo esc_html( get_the_date( 'd/m/Y' ) ); ?></time><span class="block text-[14px] leading-snug font-semibold text-[#16285c] group-hover:text-[#0f71b9] line-clamp-3"><?php the_title(); ?></span></a></li>
+<li class="py-space-sm border-b border-slate-100 last:border-0"><a class="group block" href="<?php the_permalink(); ?>"><time class="text-[12px] font-semibold text-slate-600"><?php echo esc_html( get_the_date( 'd/m/Y' ) ); ?></time><span class="block text-[14px] leading-snug font-semibold text-[#16285c] group-hover:text-[#0f71b9] line-clamp-3"><?php the_title(); ?></span></a></li>
 			<?php
 		endwhile;
 		wp_reset_postdata();

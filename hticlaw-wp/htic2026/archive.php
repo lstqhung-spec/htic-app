@@ -30,7 +30,7 @@ if ( is_search() ) {
 ?>
 <header class="-mt-[120px] pt-[146px] pb-space-lg bg-[#f4f6fa] border-b border-slate-200">
 <div class="max-w-7xl mx-auto px-margin">
-<nav class="flex flex-wrap items-center gap-1 text-[14px] text-slate-500" aria-label="Breadcrumb"><a class="hover:text-[#0f71b9]" href="/">Trang chủ</a><?php echo htic26_i( 'chevron_right', 'text-[16px] opacity-50' ); // phpcs:ignore ?><a class="hover:text-[#0f71b9]" href="/tin-tuc/">Tin tức &amp; Bài viết</a><?php echo htic26_i( 'chevron_right', 'text-[16px] opacity-50' ); // phpcs:ignore ?><span class="text-slate-700"><?php echo esc_html( $crumb ); ?></span></nav>
+<nav class="flex flex-wrap items-center gap-1 text-[14px] text-slate-600" aria-label="Breadcrumb"><a class="hover:text-[#0f71b9]" href="/">Trang chủ</a><?php echo htic26_i( 'chevron_right', 'text-[16px] opacity-50' ); // phpcs:ignore ?><a class="hover:text-[#0f71b9]" href="/tin-tuc/">Tin tức &amp; Bài viết</a><?php echo htic26_i( 'chevron_right', 'text-[16px] opacity-50' ); // phpcs:ignore ?><span class="text-slate-700"><?php echo esc_html( $crumb ); ?></span></nav>
 <div class="hero-in mt-space-md flex flex-col gap-space-sm max-w-3xl">
 <h1 class="text-[30px] md:text-[40px] leading-tight font-extrabold tracking-tight text-[#16285c]"><?php echo $title; // phpcs:ignore ?></h1>
 <p class="text-[16px] md:text-[17px] text-slate-600 leading-relaxed"><?php echo esc_html( $lead ); ?></p>
