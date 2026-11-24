@@ -60,7 +60,7 @@ for p in pages:
     t = re.sub(r'<link href="https://fonts.googleapis.com/css2\?family=Material\+Symbols[^>]*>', lambda m: link, t)
     t = t.replace('<!--ICONS-->', link).replace('__VER__', VER)
     if p == idx:
-        t = re.sub(r'<style>\*,::backdrop.*?</style>', lambda m: '<style>' + c + '</style>', t, count=1, flags=re.S)
+        t = re.sub(r'<style>\*,(?::after|::backdrop).*?</style>', lambda m: '<style>' + c + '</style>', t, count=1, flags=re.S)
     open(p, 'w', encoding='utf-8').write(t)
 print(len(pages), 'pages;', len(icons), 'icons;', len(c), 'css bytes')
 # head dung chung cho trang WordPress
