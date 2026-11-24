@@ -1,0 +1,34 @@
+An ơi, anh Hưng đã chốt layout hticlaw.vn. Giờ tới phần nội dung. Yêu cầu của anh Hưng: An kiểm tra từng câu, từng chữ, từng phần; sửa, viết lại hoặc bổ sung chỗ nào viết chưa hay. Sản phẩm cuối là một website có nội dung KHÔNG mang giọng AI.
+
+Toàn bộ chữ đang hiển thị trên site được trích ra 15 tệp (đã bỏ header/menu; chân trang là một tệp riêng):
+https://raw.githubusercontent.com/lstqhung-spec/htic-app/72ed0d45bcc4a16469decc4f0f935871ad774eb6/hticlaw-build/noi-dung-2026-11-24/chan-trang.md
+https://raw.githubusercontent.com/lstqhung-spec/htic-app/72ed0d45bcc4a16469decc4f0f935871ad774eb6/hticlaw-build/noi-dung-2026-11-24/dich-vu.md
+https://raw.githubusercontent.com/lstqhung-spec/htic-app/72ed0d45bcc4a16469decc4f0f935871ad774eb6/hticlaw-build/noi-dung-2026-11-24/dv-luat-su-bat-dong-san-xay-dung.md
+https://raw.githubusercontent.com/lstqhung-spec/htic-app/72ed0d45bcc4a16469decc4f0f935871ad774eb6/hticlaw-build/noi-dung-2026-11-24/dv-luat-su-tranh-tung.md
+https://raw.githubusercontent.com/lstqhung-spec/htic-app/72ed0d45bcc4a16469decc4f0f935871ad774eb6/hticlaw-build/noi-dung-2026-11-24/dv-tu-van-giay-phep-tuan-thu.md
+https://raw.githubusercontent.com/lstqhung-spec/htic-app/72ed0d45bcc4a16469decc4f0f935871ad774eb6/hticlaw-build/noi-dung-2026-11-24/dv-tu-van-hop-dong.md
+https://raw.githubusercontent.com/lstqhung-spec/htic-app/72ed0d45bcc4a16469decc4f0f935871ad774eb6/hticlaw-build/noi-dung-2026-11-24/dv-tu-van-ma-dau-tu.md
+https://raw.githubusercontent.com/lstqhung-spec/htic-app/72ed0d45bcc4a16469decc4f0f935871ad774eb6/hticlaw-build/noi-dung-2026-11-24/dv-tu-van-phap-ly-doanh-nghiep.md
+https://raw.githubusercontent.com/lstqhung-spec/htic-app/72ed0d45bcc4a16469decc4f0f935871ad774eb6/hticlaw-build/noi-dung-2026-11-24/dv-tu-van-so-huu-tri-tue.md
+https://raw.githubusercontent.com/lstqhung-spec/htic-app/72ed0d45bcc4a16469decc4f0f935871ad774eb6/hticlaw-build/noi-dung-2026-11-24/dv-tu-van-tai-chinh-ngan-hang.md
+https://raw.githubusercontent.com/lstqhung-spec/htic-app/72ed0d45bcc4a16469decc4f0f935871ad774eb6/hticlaw-build/noi-dung-2026-11-24/dv-tu-van-thue-ke-toan.md
+https://raw.githubusercontent.com/lstqhung-spec/htic-app/72ed0d45bcc4a16469decc4f0f935871ad774eb6/hticlaw-build/noi-dung-2026-11-24/dv-tu-van-xuat-khau-lao-dong.md
+https://raw.githubusercontent.com/lstqhung-spec/htic-app/72ed0d45bcc4a16469decc4f0f935871ad774eb6/hticlaw-build/noi-dung-2026-11-24/gioi-thieu.md
+https://raw.githubusercontent.com/lstqhung-spec/htic-app/72ed0d45bcc4a16469decc4f0f935871ad774eb6/hticlaw-build/noi-dung-2026-11-24/lien-he.md
+https://raw.githubusercontent.com/lstqhung-spec/htic-app/72ed0d45bcc4a16469decc4f0f935871ad774eb6/hticlaw-build/noi-dung-2026-11-24/trang-chu.md
+
+Tiêu chí:
+1. Đúng pháp luật hiện hành tại 24/11/2026: số hiệu luật, hiệu lực, tên cơ quan, thuật ngữ.
+2. Tuân thủ quy định về quảng cáo dịch vụ pháp lý: Luật Luật sư và Bộ Quy tắc đạo đức, ứng xử nghề nghiệp luật sư. Không so sánh, không tuyệt đối hóa, không cam kết kết quả, không số liệu chưa kiểm chứng. "Miễn phí", "155 khách hàng", "355 vụ việc", "10+ năm", "luật sư thường trực 4" do An quyết định giữ, sửa hay bỏ.
+3. Giọng văn của một công ty luật Việt Nam thật: câu ngắn, cụ thể, xưng hô nhất quán (HTIC / chúng tôi – Quý khách).
+   - Bỏ giọng AI: sáo ngữ ("toàn diện", "kiến tạo", "trọn vẹn", "thực chiến", "giải quyết dứt điểm", "bảo chứng", "đồng hành" lặp lại), bộ ba tính từ, gạch ngang dài, câu khẩu hiệu rỗng.
+   - Giữ hoặc tăng thông tin cụ thể: thủ tục, hồ sơ, thời hạn, cơ quan.
+4. Không bịa dữ kiện. Chỗ cần thông tin thật mà chưa có thì ghi [CẦN XÁC NHẬN: ...].
+5. Ý kiến khách hàng là trích nguyên văn từ htic.com.vn: chỉ sửa chính tả, không sửa ý.
+
+Cách trả lời, mỗi lượt một trang, bắt đầu từ trang-chu.md:
+- Bảng có 4 cột: Mục/vị trí | Câu hiện tại (chép nguyên văn để tôi tìm và thay) | Câu sửa | Lý do ngắn.
+- Câu giữ nguyên thì không cần liệt kê.
+- Phần bổ sung mới ghi Câu hiện tại = "THÊM" và nói rõ đặt sau đoạn nào.
+
+Tôi cập nhật lên site sau mỗi trang rồi gửi An trang tiếp theo. Khi đã duyệt xong toàn bộ bản đã đăng, An ghi "AN XÁC NHẬN HOÀN TẤT NỘI DUNG". Mời An bắt đầu với trang-chu.md.
